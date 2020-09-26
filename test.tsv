@@ -1,0 +1,6660 @@
+file_id	en_txt	ja_txt
+arxiv	"Article
+Off-Axis Characterisation of the CERN T10 Beam for
+low Momentum Proton Measurements with a High
+Pressure Gas Time Projection Chamber
+
+, T.S. Nonnenmacher 2,*, E. Atkin 2, G.J. Barker 3, A. Basharina-Freshville 1,
+
+S.B. Jones 1,*
+C. Betancourt 4, S.B. Boyd 3, D. Brailsford 5, Z. Chen-Wishart 6, L. Cremonesi 1, A. Deisting 6, A. Dias
+6, P. Dunne 2, J. Haigh 3, P. Hamacher-Baumann 7, A. Kaboth 6, A. Korzenev 8, W. Ma 7, P. Mermod 8,
+M. Mironova 2,9, J. Monroe 6, R. Nichol 1, J. Nowak 5, W. Parker 6, H. Ritchie-Yates 6, S. Roth 7,
+R. Saakyan 1, N. Serra 4, Y. Shitov 2,10, J. Steinmann 7, A. Tarrant 6, M.A. Uchida 2,11, S. Valder 3,
+A.V. Waldron 2, M. Ward 6,12 and M.O. Wascko 2
+
+2
+
+4
+
+7
+
+1 Department of Physics and Astronomy, University College London, Gower St, Kings Cross, London WC1E 6BT,
+
+UK; anastasia.freshville@ucl.ac.uk (A.B.-F.); l.cremonesi@ucl.ac.uk (L.C.); r.nichol@ucl.ac.uk (R.N.);
+r.saakyan@ucl.ac.uk (R.S.)
+The Blackett Laboratory, Imperial College London, London SW7 2BW, UK; e.atkin17@imperial.ac.uk (E.A.);
+p.dunne12@imperial.ac.uk (P.D.); maria.mironova@physics.ox.ac.uk (M.M.); Shitov@JINR.ru (Y.S.);
+m.a.uchida@imperial.ac.uk (M.A.U.); a.waldron@imperial.ac.uk (A.V.W.); m.wascko@imperial.ac.uk (M.O.W.)
+
+3 Department of Physics, University of Warwick, Coventry CV4 7AL, UK; g.j.barker@warwick.ac.uk (G.J.B.);
+
+S.B.Boyd@warwick.ac.uk (S.B.B.); J.Haigh.2@warwick.ac.uk (J.H.); s.valder@warwick.ac.uk (S.V.)
+Physik-Institut, Universität Züriche, Rämistrasse 71, 8006 Zürich, Switzerland; christopher.betancourt@cern.ch
+(C.B.); nicola.serra@cern.ch (N.S.)
+
+5 Department of Physics, Lancaster University, Bailrigg, Lancaster LA1 4YW, UK;
+
+d.brailsford@lancaster.ac.uk (D.B.); j.nowak@lancaster.ac.uk (J.N.)
+
+6 Department of Physics, Royal Holloway, University of London, Egham Hill, Egham TW20 0EX, UK;
+
+Zachary.Chen-Wishart.2016@live.rhul.ac.uk (Z.C.-W.); Alexander.Deisting@cern.ch (A.D.);
+Adriana.Dias.2011@live.rhul.ac.uk (A.D.); Asher.Kaboth@rhul.ac.uk (A.K.); jocelyn.monroe@rhul.ac.uk (J.M.);
+William.Parker.2016@live.rhul.ac.uk (W.P.); Harrison.Ritchie-Yates.2013@live.rhul.ac.uk (H.R.-Y.);
+Adam.Tarrant.2015@live.rhul.ac.uk (A.T.); mark.ward@snolab.ca (M.W.)
+III. Physikalisches Institut, RWTH Aachen University, 52056 Aachen, Germany;
+hamacher.baumann@physik.rwth-aachen.de (P.H.-B.); ma@physik.rwth-aachen.de (W.M.);
+stefan.roth@physik.rwth-aachen.de (S.R.); jochen.steinmann@physik.rwth-aachen.de (J.S.)
+
+8 DPNC Université de Genève, 1205 Genf, Switzerland; korzenev@mail.cern.ch (A.K.); Philippe.Mermod@cern.ch
+
+(P.M.)
+
+JINR, 141980 Dubna, Russia
+
+9 Department of Physics, Oxford University, Oxford OX1 3PU, UK
+10
+11 Cavendish Laboratory, Cambridge CB3 0HE, UK
+12 Department of Physics, Queen’s University, Kingston, ON K7L 3N6, Canada
+* Correspondence: sebastian.jones.17@ucl.ac.uk (S.B.J.); toby.nonnenmacher14@imperial.ac.uk (T.S.N.)
+
+Received: 29 June 2020; Accepted: 24 July 2020; Published: 28 July 2020
+
+Abstract: We present studies of proton ﬂuxes in the T10 beamline at CERN. A prototype high pressure
+gas time projection chamber (TPC) was exposed to the beam of protons and other particles, using
+the 0.8 GeV/c momentum setting in T10, in order to make cross section measurements of low energy
+protons in argon. To explore the energy region comparable to hadrons produced by GeV-scale neutrino
+interactions at oscillation experiments, i.e., near 0.1 GeV of kinetic energy, methods of moderating the
+T10 beam were employed: the dual technique of moderating the beam with acrylic blocks and measuring
+scattered protons off the beam axis was used to decrease the kinetic energy of incident protons, as well as
+
+Instruments 2020, 4, 21; doi:10.3390/instruments4030021
+
+www.mdpi.com/journal/instruments
+
+arXiv:2007.15609v1  [physics.ins-det]  30 Jul 2020
+
+instrumentsInstruments 2020, 4, 21
+
+2 of 28
+
+change the proton/minimum ionising particle (MIP) composition of the incident ﬂux. Measurements of
+the beam properties were made using time of ﬂight systems upstream and downstream of the TPC. The
+kinetic energy of protons reaching the TPC was successfully changed from ∼0.3 GeV without moderator
+blocks to less than 0.1 GeV with four moderator blocks (40 cm path length). The ﬂux of both protons
+and MIPs off the beam axis was increased. The ratio of protons to MIPs vary as a function of the
+off-axis angle allowing for possible optimisation of the detector to select the type of required particles.
+Simulation informed by the time of ﬂight measurements show that with four moderator blocks placed in
+the beamline, (5.6 ± 0.1) protons with energies below 0.1 GeV per spill traversed the active TPC region.
+Measurements of the beam composition and energy are presented.
+
+Keywords: neutrino physics; time projection chamber; high pressure; CERN; beam test; time of ﬂight; off
+axis
+
+1. Introduction
+
+One of the major goals of the global neutrino physics programme is to explore fundamental
+symmetries of nature linked to why we live in a matter-dominated universe. Charge-parity symmetry
+violation (CPV) in the neutrino sector is one possibility remaining to be explored further experimentally,
+and neutrino experiments strive to improve current measurements of CPV in the leptonic sector [1]. CPV
+is obtained from the simultaneous ﬁt of the νµ disappearance and νe appearance oscillation channels
+separately for neutrinos and anti-neutrinos. In the absence of CPV and accounting for matter effects, the
+rates of νµ → νe and νµ → νe oscillations should be equal. To convert the measured rate of interactions to a
+level of CPV, experiments must accurately know the cross section for the interactions of neutrinos and
+anti-neutrinos with detector materials, which are most commonly hydrogen, carbon, oxygen, argon and
+iron. Therefore, systematic uncertainties on neutrino–nucleus interaction cross sections are a key input
+to such CPV searches. These interaction cross sections are dependent on modelling neutrino-nucleon
+interactions occurring within nuclei.
+
+The nuclear models informed by these cross sections have substantial effects on the measured
+
+ﬁnal-state particle kinematic distributions [2].
+
+The long baseline neutrino experiments that are currently searching for CPV are the Tokai to Kamioka
+experiment (T2K) [1] and the NuMI Off-Axis νe Appearance experiment (NOvA) [3]. The T2K experiment,
+which currently reports the strongest constraint on CPV in neutrinos [1], has systematic uncertainties
+of 7–9% after near-detector constraint on the prediction of the rate of far detector electron-like events,
+with cross section uncertainties being the largest contribution. The future Deep Underground Neutrino
+Experiment (DUNE) [4] and Hyper-Kamiokande [5] projects will seek to reach 1–3% on that same rate
+of far detector electron-like events [6], with improved systematic errors providing better precision on
+the CP violating phase. The key to reducing these uncertainties is to precisely measure the multiplicity
+and momentum distribution of ﬁnal-state particles. However, these distributions are modiﬁed by ﬁnal
+state interactions (FSI) of the recoiling secondary particles as they traverse the target nucleus. The most
+commonly used neutrino generator Monte Carlos (GENIE [7], NEUT [8] and NuWro [9]), simulate FSI
+with cascade models that are tuned with external hadron–nucleus scattering measurements. The generator
+GiBUU [10] models FSI by solving the semi-classical Boltzmann–Uehling–Uhlenbeck equation.
+
+However, as shown in Figure 1, proton–nucleus scattering measurements are extremely sparse
+and in many cases do not exist in the relevant energy region and/or on the relevant nuclei.
+Therefore semi-empirical parametrisations are used to extrapolate in momentum and atomic mass [11].
+The parametrisations are different between the three generators, and yield order-of-magnitude scale
+
+Instruments 2020, 4, 21
+
+3 of 28
+
+differences in the predicted multiplicity and kinematics of ﬁnal state protons [12]. The proton ﬁnal state
+modelling is a key ingredient for neutrino oscillation measurements because it affects the event selection
+and neutrino energy reconstruction in charged-current (CC) interactions, which is the channel used to
+measure oscillation parameters and is therefore central to the search for CPV [13]. For these reasons, FSI
+contribute substantially to the total neutrino interaction systematic uncertainty [1].
+
+Figure 1. Total reaction cross sections for protons on argon, neon, ﬂuorine, oxygen, carbon and helium-4.
+Data [14] are compared to a semi-empirical model [11]. Figure from [15].
+
+Moreover, FSI models are in tension with data. Recent neutrino scattering measurements have shown
+that the most-used models of neutrino-nucleus interactions (employed by NEUT and GENIE) differ
+from nature in both cross section and kinematics of ﬁnal state particles by as much as 30% [16]. These
+uncertainties cannot be fully mitigated with near/far detector combinations because they come from
+theoretical model deﬁciencies that are not cancelled in the near–far extrapolation [17].
+
+The key proton kinetic energy range in which to distinguish interaction models is the region below
+0.1 GeV. Figure 2 shows the proton multiplicity and kinetic energy distributions for νµ CC interactions on
+argon calculated by the GENIE, NEUT and NuWro neutrino generators for the DUNE experiment. These
+distributions are highly discrepant at low proton kinetic energy as shown in the right hand panel. The
+generators are not designed to handle the low energy region consistently, due to the lack of available data.
+This is predominantly below the proton detection threshold in liquid Argon TPCs (0.04 GeV), such as
+those that will be used by DUNE, and in water Cherenkov detectors (0.5 GeV). The lower threshold in
+high pressure gas provides a unique opportunity to distinguish between neutrino interaction models for
+the same nuclear target.
+
+Proton Kinetic Energy (MeV)50100150200250Reaction Cross Section (mb)02004006008001000ArgonNeonFluorineOxygenCarbonHelium-4ArgonNeonFluorineOxygenCarbonHelium-4Instruments 2020, 4, 21
+
+4 of 28
+
+Figure 2. Predicted proton kinetic energy (KE) spectra from GENIE, NEUT and NuWro [18]. Energy spectra
+up to 1 GeV are shown on the left, and zoomed in to lower energies on the right. The ﬁgure uses the
+Long Baseline Neutrino Facility (LBNF) simulation for DUNE’s beam energy and ﬂux. The LBNF beam
+has a mean energy of approximately 2.5 GeV [4]. The dashed vertical line indicates the expected proton
+automated-reconstruction/identiﬁcation threshold in liquid argon, and the solid vertical line shows the
+same for gaseous argon at 10 atm [12].
+
+We have built a High Pressure gas Time Projection Chamber (HPTPC) prototype and exposed it to a
+charged particle beam in the T10 beamline at CERN in August and September 2018 [15]. The momentum
+proﬁle of the T10 beam can be tuned within the range 0.8–6.5 GeV/c (kinetic energy range 0.3–5.6 GeV).
+Figure 3 left, shows the time of ﬂight (ToF) spectrum for the T10 beamline tuned to a momentum of
+0.8 GeV/c; this measurement was made with our upstream ToF system (see Section 2 for details of the
+ToF systems). The kinetic energy of the protons calculated from the upstream ToF measurements in this
+sample is shown in Figure 3 right. As shown, the ﬂux of protons with kinetic energy less than 200 MeV is
+negligible. The physics objective of the HPTPC beam test was to make measurements of protons on argon
+at kinetic energies below 200 MeV, i.e., below what was available with the T10 beam. Furthermore, the
+readout speed of the charge-coupled device cameras (CCD) employed in the HPTPC prototype motivates
+a limit on the total particle multiplicity in the TPC active volume.
+
+To enhance the low energy proton ﬂux, a novel technique was employed: we placed acrylic moderator
+blocks directly in the beamline, which spread and slowed the beam particles via multiple Coulomb
+scattering. By placing the TPC in an off-axis position with respect to the beam direction, we observed
+a beam composition with lower-energy protons than would otherwise have been possible in the T10
+beamline. These techniques were designed to increase the ratio of protons to MIPs in the TPC, and to
+decrease the proton momentum and multiplicity in the active region of the TPC.
+
+The ﬂux and composition of beam particles were measured with two ToF systems, placed upstream
+and downstream of the TPC. Measurements of protons and MIPs are presented as a function of the off-axis
+angle and thickness of the moderator. This paper provides a detailed description of the time of ﬂight
+systems employed in the beamline in Section 2, the analysis methodology of the ToF data in Section 3,
+presentation of the ToF system results in Section 4 and additional conclusions in Section 5.
+
+Instruments 2020, 4, 21
+
+5 of 28
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+tS3 − tS1 [ns]
+
+0
+150
+
+200
+
+250
+
+300
+Proton kinetic energy [MeV]
+
+350
+
+Figure 3. Measurements of the unmoderated and unbent T10 beam over a baseline of 10.8 m for a selected
+beam momentum of 0.8 GeV/c. Measurements are made in the S3 detector. The peak between 50 ns and
+60 ns is produced by protons. (Left) Time of ﬂight spectrum. (Right) Measured kinetic energy of protons.
+
+2. Beam Line and Detectors
+
+2.1. Beam Test Overview
+
+The beam test took place in the T10 beam line, in the East Area at the Proton Synchrotron (PS)
+at CERN. The T10 beamline at CERN is a secondary beam derived from the PS beam which consists
+primarily of protons, electrons and charged pions [19]. The theoretical beam composition as a function of
+beam momentum is shown in Figure 4. The primary components of the experimental setup are shown
+schematically in Figure 5.
+
+2200
+
+2000
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+Protons/2.9MeV
+
+105
+
+104
+
+103
+
+102
+
+10
+
+1
+
+Events/0.4ns
+
+Figure 4. Calculated intensity of the T10 beam as a function of selected beam momentum, separated by
+particle type [19].
+
+Instruments 2020, 4, 21
+
+6 of 28
+
+Figure 5. Schematic diagram (plan view) of the High Pressure gas Time Projection Chamber (HPTPC) beam test
+conﬁguration in the T10 area at CERN.
+
+A beam position monitor (BPM) was situated at the beam entrance into the test area, upstream of
+all the ToF constituents and the TPC. The TPC was placed 13 m downstream of the BPM. From initial
+GEANT4 [20] beam simulations, the optimal TPC position to reduce the momentum of particles reaching
+the detector, without excessively reducing particle ﬂux, was determined to be between 2◦ and 3◦ off the
+beam axis, but space constraints meant the TPC could not be placed that far away from the nominal beam
+centre. Therefore, the beam was steered approximately 1◦ away from its nominal position, and the TPC
+placed 1.5◦ away from the nominal beam centre so that the TPC active region subtended an off-axis angular
+range of 1.4–3.8◦.
+
+There were four ToF constituents:
+
+•
+•
+•
+•
+
+S1, a small-area beam trigger, see Section 2.3;
+S2, a coincidence measurement with S1, see Section 2.3;
+S3, a panel of plastic scintillator bars placed directly upstream of the TPC vessel, see Section 2.4;
+S4, a panel of plastic scintillator bars placed directly downstream of the TPC vessel, see Section 2.5.
+
+A series of acrylic (polymethyl methacrylate) blocks was placed between the S1 and S2 counters. Up
+to four 10 × 10 × 10 cm3 acrylic blocks could be placed contiguously on a tripod stand. Figure 6 shows the
+stand with four blocks installed. The moderator blocks have the effect of both reducing the energies of
+incoming particles as well as changing their directions. This tends to increase the proton-to-MIP ratio at
+low off-axis angles from the beam, while decreasing the total number of protons and MIPs traversing the
+TPC. Data were collected with the T10 beam momentum setting at 0.8 GeV/c, and with each conﬁguration
+of 0 to 4 moderator blocks.
+
+10 m1 mẑx̂High pressure vesselTPC field cageS2 (ToF trigger 2)line to TPC centrenominal beam centreS3 (Upstream ToF)S1 (ToF trigger 1)Beam position monitorAcrylic moderator blocksS4 (Downstream ToF)steered beam centreInstruments 2020, 4, 21
+
+7 of 28
+
+Figure 6. Photos illustrating the time of ﬂight (ToF) constituents. (Left) the downstream part of the setup
+which shows the S3, S4 detectors and HPTPC. (Right) S1 and S2 counters and the stand with four acrylic
+moderator blocks.
+
+The data acquisition (DAQ) systems of the S3 (upstream) and S4 (downstream) ToF systems were
+completely independent. Synchronization between ToF DAQ systems was performed ofﬂine using the
+reference signal from the PS at the beginning of every spill. T10 received 1–3 spills from the PS during each
+supercycle, which has a typical duration of 33 s. The spill duration is 400 ms. The minimum separation in
+time between two spills is 1 s, so the start-of-spill signal frequency is less than or equal to 1 Hz. As a result
+of the low frequency of start-of-spill signal, it is possible to use it, along with the DAQ ﬁle timestamps, to
+ensure that all spills are matched in both DAQs. The trigger condition of the upstream ToF was based on
+the coincidence between S1 and S3 constituents. S2 signals were also recorded by the upstream ToF DAQ
+but were not used in the trigger. The DAQ of the downstream ToF was run in self-triggering mode with a
+gate open during the spill. Coincidence signals between S1 and S2 counters were also recorded by the
+downstream ToF DAQ and were used in the particle identiﬁcation (PID) analysis, described in Section 4.
+
+2.2. Survey and Coordinate System
+
+The T10 beamline area was surveyed, and the distances to speciﬁc components measured
+with a precision of 0.5 mm by the CERN Survey, Mechatronics and Measurements (SMM) group.
+Multiple points on each of S1, S2, S3, S4 and the TPC frame have had their positions measured.
+
+The axes of a right-handed coordinate system are deﬁned as follows:
+
+x refers to the non-beam
+ˆ
+horizontal direction, ˆy to the vertical direction, and ˆz the beam direction, as shown in Figure 5. We show
+results in terms of two off-axis angles: θ, which is measured in the ˆx − ˆz plane with positive angles
+measured in the + ˆx direction, and φ, which is measured in the ˆy − ˆz plane with positive angles measured
+in the + ˆy direction. The origin is taken to be at S1.
+
+Figure 7 shows the angular extent of objects within the beamline using the coordinate system deﬁned
+above. Table 1 shows the calculated angular extent of the various beamline components as measured from
+S1. Table 2 shows the distances between the centres of various objects in the T10 beamline. These distances
+were calculated using the data gathered by the survey team.
+
+Instruments 2020, 4, 21
+
+8 of 28
+
+Positions of objects in beamline (S1 origin)
+
+-6
+
+-4
+
+-2
+
+0
+
+2
+
+θ [degrees]
+
+Figure 7. Angular position of various objects within the T10 beamline. The origin in this view is at the
+centre of S1; the true centre of the steered beam is at +1◦ in θ and 0◦ in φ.
+
+Table 1. Angular extents of objects within the T10 beamline as measured from S1.
+
+Object
+
+Minimum φ
+Maximum θ
+Minimum θ
+0.36◦ ± 0.03◦
+−2.01◦ ± 0.03◦
+−3.96◦ ± 0.03◦
+−5.923◦ ± 0.004◦
+3.040◦ ± 0.004◦ −3.215◦ ± 0.004◦
+−6.083◦ ± 0.003◦ −0.401◦ ± 0.003◦ −1.426◦ ± 0.003◦
+−2.66◦ ± 0.01◦
+−1.44◦ ± 0.01◦
+−3.59◦ ± 0.01◦
+TPC downstream face −3.778◦ ± 0.009◦ −1.806◦ ± 0.009◦ −2.440◦ ± 0.009◦
+
+S2
+S3
+S4
+TPC upstream face
+
+Maximum φ
+2.94◦ ± 0.03◦
+3.344◦ ± 0.004◦
+1.771◦ ± 0.003◦
+2.58◦ ± 0.01◦
+2.361◦ ± 0.009◦
+
+Table 2. Distances between objects in the T10 beamline. US and DS refer to the upstream and downstream
+edges of the TPC, respectively.
+
+Points
+
+Distance between Centres/m
+
+Beam monitor – S1
+S1 − S2
+S1 − S3
+S3 – TPC US side
+TPC DS side – S4
+S2 − S4
+
+0.288 ± 0.001
+1.419 ± 0.001
+10.756 ± 0.001
+1.323 ± 0.002
+0.918 ± 0.002
+12.651 ± 0.001
+
+2.3. Upstream Beam Counters (S1 and S2)
+
+The beam counters S1 and S2 are shown in Figure 8. The S1 counter is a 40 × 40 × 5 mm3 plastic
+scintillator cross which is attached to four 1” Hamamatsu Photonics R4998 photomultiplier tubes (PMTs)
+at each end for the light readout. The time resolution of the counter, as measured by the DAQ system of
+the upstream ToF, was about 30 ps. This is estimated with the distribution of the average PMT hit times;
+the quantity tave = 1
+4 ((tPMT0 + tPMT1) − (tPMT2 + tPMT3)) has the same spread as the simple average but
+is conveniently centred at zero. An example of the tave distribution for one run of S1 data is shown in
+Figure 9. The full width at half maximum (FWHM) of the distribution is 62 ps.
+
+S2
+
+S3
+
+S4
+
+TPC
+
+0123
+
+-1
+
+-2
+
+-3
+
+φ[degrees]
+
+Instruments 2020, 4, 21
+
+9 of 28
+
+Figure 8. The S1 and S2 beam counters. Together the coincidence of signals in the beam counters were
+recorded by the data acquisition (DAQ) systems.
+
+FWHM = 0.062 ns
+
+×103
+
+2200
+
+2000
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+S1triggers/8.9×10−3ns
+
+0
+-0.2
+
+-0.15
+
+-0.1
+
+-0.05
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+tave for S1 PMTs [ns]
+
+Figure 9. Example of the timing spread of S1 hits. The time is calculated as an average of the hit time as
+measured in each of the four photomultiplier tubes (PMTs).
+
+The S2 counter is a scintillator tile of size 120 × 120 × 5 mm3, coupled to a 2” Hamamatsu Photonics
+R1309 PMT [21], via a long light-guide as shown in Figure 6. The S2 counter was placed (1.419 ± 0.001) m
+downstream of S1. The transverse position of S2 was adjusted to account for the beam divergence in the
+moderator blocks.
+
+The analog signals from one of the S1 PMTs and the S2 PMT were fed into LeCroy 620AL NIM
+discriminator units with a threshold of 30 mV. Subsequently, the discriminated signals were fed into a
+NIM coincidence unit, whose output was recorded by the DAQ systems of the downstream ToF (S4) panel.
+This information was further used for the time of ﬂight analysis of S4.
+
+Instruments 2020, 4, 21
+
+10 of 28
+
+2.4. Upstream Time of Flight Instrumentation (S3)
+
+The S3 ‘upstream’ ToF constituent was placed (1.323 ± 0.001) m upstream of the upstream side of the
+HPTPC drift volume in the beamline. A schematic drawing of the S3 ToF panel is shown in Figure 10 left.
+The detector comprises 22 staggered scintillator bars: 20 bars with dimensions 168 × 6.0 × 1.0 cm3 and 2
+bars of 150 × 6.0 × 1.0 cm3 placed on top and bottom [22]. The overlap between bars was set to 5 mm, thus
+the active area of the detector was 2.0214 cm2.
+
+Figure 10. View of the time of ﬂight panels. (Left) The S3 panel [22] upstream of the TPC. (Right) The S4
+panel downstream of the TPC.
+
+The bars are made from EJ-200 [23] plastic scintillator, which provides a brightness of
+10,000 photons/MeV deposited. It also has a suitable optical attenuation length of 4 m and fast timing,
+with a rise time of 0.9 ns and decay time constant of 2.1 ns. The scintillation emission spectrum of EJ-200
+peaks in the violet region of the visible spectrum (435 nm) [24]. The bars were wrapped in an aluminium
+foil (60% reﬂectivity) to increase the collected light.
+
+Arrays of eight 6 × 6 mm2 area silicon photomultipliers (SiPMs) S13360-6050PE from Hamamatsu
+Photonics [21] were coupled to each end of the bar to collect scintillation photons. The photon detection
+efﬁciency at the peak sensitivity wavelength (450 nm) is 40% [21]. The anode signals of the SiPMs are read
+out, summed and shaped by a dedicated circuit as described in Ref. [25].
+
+S3 uses a 64 channel data acquisition system based on the SAMPIC chip. A SAMPIC chip is
+a waveform and time to digital converter (WTDC) 16-channel ASIC which provides a raw time with
+ultrafast analog memory allowing ﬁne timing extraction as well as other parameters of the pulse [26]. Each
+channel contains a discriminator that can trigger itself independently or participate in a more complex
+combined trigger. Three ASIC modules (16 × 3 = 48 channels) were connected to the 44 channels of S3
+and were operated in self-triggering mode.
+
+The trigger conditions are as follows: at least three out of the four S1 PMTs must have a signal above
+a 30 mV threshold. Additionally, there must be at least one signal in S3 above 30 mV. These S1 and S3
+signals must be coincident within a gate of 70 ns. A fourth ASIC was used to acquire data from S1, the
+
+168 cm150 cm121.5 cm132 cm168 cm150 cm121.5 cm132 cmInstruments 2020, 4, 21
+
+11 of 28
+
+coincidence signal S1 ∩ S2 and the start-of-spill signal from the PS. The mean time of light signals detected
+at both ends of a single bar provides a time reference with a resolution of about 100 ps, while the difference
+between the time of the light signals gives the position of the interaction along the bar, with a resolution of
+1.6 cm.
+
+Examples of reconstructed S3 spatial distributions are shown in Figure 11. Figure 11 left, shows
+the spatial distribution of hits in S3 thought to be produced by MIPs when 4 moderator blocks were in
+the beamline. Figure 11 right, shows the spatial distribution of hits identiﬁed in S3 as protons when 4
+moderator blocks were in the beamline. The pattern of hits is more diffuse, illustrating the scattering effect
+of the moderator blocks. When in this position, the measured horizontal FWHM of the unmoderated beam
+is 16.8 cm while the vertical FWHM is 11.0 cm. With 4 moderator blocks in the beamline, the measured
+horizontal FWHM of the beam is 63.8 cm while the vertical FWHM is 60.0 cm.
+
+Events/spill/8.7cm2
+
+0.24
+
+0.22
+
+0.2
+
+0.18
+
+0.16
+
+0.14
+
+0.12
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+.02
+
+00
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+120
+
+100
+
+y[cm]
+
+Events/spill/8.7cm2
+
+20
+
+18
+
+16
+
+14
+
+12
+
+0
+
+24681
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+120
+
+100
+
+y[cm]
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+160
+x [cm]
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+160
+x [cm]
+
+Figure 11. Reconstructed positions of hits observed in S3. (Left) Minimum ionizing particles with four
+moderator blocks placed in the beamline. (Right) Protons detected with four moderator blocks placed in
+the beamline. This ﬁgure uses local S3 coordinates in which y, x = 0 cm is the bottom right corner of the
+active area when viewed from S1.
+
+Figure 12 shows the required trigger logic for the detection of a beam particle in the upstream ToF
+instrumentation. The signal thresholds and timing cuts used for the coincidences are those detailed in this
+section.
+
+Figure 12. Simpliﬁed trigger logic diagram for the upstream ToF detection of a beam particle, showing the
+required coincidences. Left and right refer to the silicon photomultipliers (SiPMs) on the opposite ends of
+the same bar.
+
+2.5. Downstream Time of Flight Instrumentation (S4)
+
+The S4 ‘downstream’ ToF constituent sat (0.918 ± 0.001) m downstream of the downstream edge
+of the drift volume of the HPTPC prototype in the beamline. It consists of 10 bars of Nuvia NuDET
+plastic scintillator which has a wavelength of maximum emission of 425 nm and a decay time constant of
+
+Instruments 2020, 4, 21
+
+12 of 28
+
+2.5 ns [27]. Each of these bars measure 10 × 1 × 140 cm3. Attached to each end of these scintillator bars is a
+5"" Hamamatsu Photonics R6594 PMT [21]. The bars are arranged in two rows of ﬁve, such that there is
+complete coverage for any beam particles incident upon the detector. The bars are wrapped individually
+in reﬂective milar sheets to increase the light yield. The total active area of the S4 panel is 1.40 × 0.78 m2.
+A diagram of S4 along with its dimensions is presented in Figure 10 right.
+
+The time resolution of the bars and PMTs is measured to be 0.8 ns using a 90Sr source placed at
+measured distances along the bar. Figure 13 is the measured time difference for signals coming from the
+PMTs at either end of a bar caused by the 90Sr at a given position. Figure 13 shows an example of the
+distribution from which the time resolution was derived. The corresponding spatial resolution of the bars
+and PMTs was measured to be 7 cm.
+
+χ2/nd f
+χ2 / ndf
+
+Constant
+Constant
+
+280.1 / 8
+280.1 / 8
+
+4282 ± 62.3
+4282 ± 62.3
+
+Mean
+Mean
+
+7.555 × 10−2 ± 7.161 × 10−3
+7.555e − 11 ± 7.161e − 12
+
+Sigma
+Sigma
+
+6.874 × 10−1 ± 6.979 × 10−3
+6.874e − 10 ± 6.979e − 12
+
+4000
+
+3500
+
+3000
+
+2500
+
+2000
+
+1500
+
+1000
+
+500
+
+Bartriggers/0.8ns
+
+0
+-20
+
+-15
+
+-10
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+∆t [ns]
+
+Figure 13. Difference in signal arrival time for PMTs at each end of a bar as measured using a 90Sr source
+placed 64 cm from one end of the bar.
+
+The anode signals of all 20 of the PMTs are discriminated using LeCroy 620AL NIM discriminators,
+at a threshold of 20 mV. The discriminated signals are then fed into a time-to-digital converter (TDC). A
+signal in S4 is deemed to have occurred if a signal is seen in both PMTs, above the discriminator threshold,
+on the same bar within 20 ns of each other. This timing window is determined through testing performed
+with a 90Sr source at known positions on the bar.
+
+The S1 − S2 coincidence signal is digitized by the same TDC. This signal is used to calculate the
+
+particle time of ﬂight from S2 to S4.
+
+2.6. The HPTPC Prototype
+
+For the characterisation of the beam using the ToF systems described in this paper, the relevant
+characteristics of the HPTPC prototype are the location and thickness of the steel vessel walls.
+The cylindrical steel vessel has a 142 cm outer diameter; the main body is 60 cm in length and the
+rounded end caps protrude an additional 37 cm on each end. With 1 cm thick walls it is rated to 6 bar of
+absolute pressure. The vessel wall thickness is equivalent to the range of a proton with a kinetic energy of
+approximately 80 MeV [28]. For the unmoderated beam, the typical energy loss of a proton which does
+not stop in the vessel is 50 MeV. This is determined from the Monte Carlo studies detailed in Section 4.3.
+The angular position of the centre of the TPC is approximately θ = −2.5◦. More details of the position and
+extent of the TPC are given in Tables 1 and 2.
+
+Instruments 2020, 4, 21
+
+13 of 28
+
+The active TPC is a cylinder, 111 cm in diameter and 48 cm in length; the TPC comprised thin steel
+mesh electrodes (one cathode with 118 cm diameter and three anodes with 121 cm diameter), and 12 copper
+rings to create the uniform drift ﬁeld. The anodes were supported by a hexagonal aluminium stiffener
+on the side facing away from the camera. Data taking with the TPC made use of both optical and charge
+readout. The vessel, electrodes and drift region of the TPC are shown in Figure 14.
+
+Figure 14. Cross-sectional view of the TPC; the thin mesh electrodes and copper ring drift volume can be
+seen inside the steel vessel. The walls of the vessel shown are 1 cm thick with a vessel outer diameter of
+142 cm. At the point of hitting the vessel, the beam centre was 1 cm below the centre of the vessel vertically,
+where the distance from the inside of the vessel wall to the drift region was 15 cm.
+
+Throughout the run, the TPC was ﬁlled with either pure argon, or a combination of argon and a small
+
+percentage of quencher. The performance of this TPC is the subject of a forthcoming publication [29].
+
+3. Analysis
+
+3.1. Analysis Goals
+
+The primary aims of this analysis are to assess the feasibility of using the combination of off-axis
+positioning and a moderated beam to produce particles with momenta covering the range of momenta of
+particles produced in GeV-scale neutrino interactions and to characterize the incident ﬂux on the TPC and
+exiting the TPC, for the TPC data analysis.
+
+The numbers of spills recorded for each number of moderator blocks are shown in Table 3. More data
+
+were collected for 4 blocks as that was the conﬁguration used for the majority of the beam test.
+
+BeamInstruments 2020, 4, 21
+
+14 of 28
+
+Table 3. Total number of spills recorded for each moderator block conﬁguration included in this paper.
+
+Number of Moderator Blocks Recorded Spills
+
+0
+1
+2
+3
+4
+
+257
+254
+267
+220
+3884
+
+3.2. Time of Flight Analysis
+
+A charged pion with a momentum of 0.8 GeV/c will have a time of ﬂight from S1 to S3 (a distance of
+10.8 m) of 37 ns, while a proton with the same momentum will have a time of ﬂight of 55 ns. For the same
+two particles travelling between S2 and S4 (a distance of 12.7 m), the charged pion would have a time
+of ﬂight of 43 ns and the proton would have a time of ﬂight of 65 ns. Figure 15 left and right, shows the
+predicted time of ﬂight for various particle species across the S1 − S3 distance and the S2 − S4 distance,
+respectively.
+
+Predicted time of ﬂight from S1 to S3
+
+Predicted time of ﬂight from S2 to S4
+
+Pion
+
+Muon
+
+Kaon
+
+Proton
+
+Deuteron
+
+200
+
+180
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+Timeofﬂight[ns]
+
+Pion
+
+Muon
+
+Kaon
+
+Proton
+
+Deuteron
+
+200
+
+180
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+Timeofﬂight[ns]
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.7
+
+0.6
+Particle momentum [GeV c−1]
+
+0.8
+
+0.9
+
+1
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.7
+
+0.6
+Particle momentum [GeV c−1]
+
+0.9
+
+0.8
+
+1
+
+Figure 15. Calculated time of ﬂight for a number of different particle species as a function of particle
+momentum. (Left) ToF between S1 and S3. (Right) ToF between S2 and S4.
+
+Figure 16 shows the time of ﬂight spectrum recorded in the S3 timing point for varying numbers of
+moderator blocks. The quicker peak is formed by minimum ionizing particles, while the peak at higher
+values of tS3 − tS1 corresponds to protons. The proton peaks show a double peak feature, with a smaller
+delayed peak closely following the main proton peak; this feature appeared after the beam was steered
+so that the full 2.5◦ off-axis angle could be achieved and is due to a portion of beam scattering in the
+steering magnets, leading to the slower peak. The part of the beam which does not impinge on the steering
+magnets produces the quicker proton peak in the spectrum. Figure 3 left and right, shows the proton peak
+for unsteered beam and the double peak structure is gone. In the black curve, which shows the 0 block
+data, a deuteron peak can be seen centred at 95 ns. The timing ranges for particle species selection are
+chosen using the analytic expectations shown in Figure 15.
+
+Instruments 2020, 4, 21
+
+15 of 28
+
+0 blocks
+
+1 block
+
+2 blocks
+
+3 blocks
+
+4 blocks
+
+104
+
+103
+
+102
+
+10
+
+1
+
+10−1
+
+Events/spill/0.4ns
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+tS3 − tS1 [ns]
+
+Figure 16. S3 time of ﬂight spectra for varying numbers of moderator blocks.
+
+To calculate the correct time of ﬂight, timing delays caused by cabling and equipment are taken into
+account. The same method is used to correct the measurements of the time of ﬂight between S1 and S3,
+and S2 and S4. The initial recorded time, ti, is either tS1 or tS2 while the ﬁnal recorded time, t f is then tS3
+or tS4, respectively.
+
+Timing offsets are measured in the beamline by assuming that the fastest peak in the t f − ti spectrum
+for the unmoderated data is produced by charged MIPs with a momentum of 0.8 GeV/c. The required
+timing shift is then the shift required to move the fastest peak to its expected position, given this
+assumption. This shift is then applied to all measured times of ﬂight. This correction is peformed
+separately for both the measurement of tS3 − tS1 and for the measurement of tS4 − tS2. The required timing
+shift for the tS4 − tS2 measurement is 43.7 ns. For the tS3 − tS1 measurement, the required timing shift is
+65.0 ns.
+
+The mass distribution calculated for the dataset without moderator blocks is shown in Figure 17. The
+time difference between S3 and S1 counters corresponding to a single particle (tS3 − tS1) is converted to the
+mass of the particle, m, using Equation (1), where the equation is in natural units. The particle momentum,
+p, is assumed to be 0.8 GeV/c.
+
+m2 = p2
+
+(cid:32)(cid:18) tS3 − tS1
+xS3 − xS1
+
+(cid:19)2
+
+(cid:33)
+
+− 1
+
+,
+
+(1)
+
+The proton and pion mass positions in Figure 17 are indicated by vertical arrows. One can clearly
+observe distinct peaks corresponding to protons and deuterons. The insert in the ﬁgure shows a zoomed
+region corresponding to the MIPs.
+
+Instruments 2020, 4, 21
+
+16 of 28
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+
+3.5
+
+4
+
+4.5
+
+m2 [GeV2 c−4]
+
+Figure 17. Reconstructed mass spectrum for the data taken without moderator blocks. The spectrum was
+calculated using the time difference between S3 and S1. Vertical arrows show predicted position of particles
+given a momentum of 0.8 GeV/c. Insert: Zoomed view of MIP region of the same spectrum.
+
+For the data collected in S3, both timing and signal amplitude cuts were used to select protons and
+MIPs. Figure 18 shows an example of the signal size recorded in one of the SiPMs on one of the scintillator
+bars against the measured value of tS3 − tS1. At the beam energies used, due to their higher mass, the
+protons typically deposit more energy in the detector, resulting in the observation of greater amplitudes.
+Therefore, to reduce the number of background events in the proton sample, a minimum signal amplitude
+is required. This cut varies, depending on the SiPM in question and is determined from distributions such
+as those shown in Figure 18. The cut values vary in the range 0.125 V to 0.3 V.
+
+Particles for which 35.75 ns < tS3 − tS1 < 37.75 ns are identiﬁed as MIPs. Particles which pass the
+amplitude cut and for which 53 ns < tS3 − tS1 < 115 ns are identiﬁed as protons. The upper bound of this
+timing cut is reduced to 80 ns for the unmoderated sample in order to exclude deuterons.
+
+A correction must be applied to the upstream ToF DAQ (S1, S2 and S3) to account for its large dead
+time. The S1 ∩ S2 signal is digitised by both the upstream and downstream ToF DAQ. The dead time of the
+downstream ToF DAQ is found to be negligible. A linear relationship between the number of S1 ∩ S2 signals
+measured in each DAQ is determined for each moderator block sample. Therefore, events measured in
+the upstream ToF DAQ are weighted, such that the number of S1 ∩ S2 signals measured in the upstream
+and downstream ToF DAQs are approximately equal.
+
+Figure 19 shows the variation in the time of ﬂight spectrum as recorded by S4 with a changing number
+of moderator blocks. This spectrum is given by the difference in time between observation of a coincidence
+in the S1 and S2 timing points and a signal being recorded in S4 (the deﬁnition of an S4 signal is given
+above).
+
+pionpionpionpionpionpionpion
+
+deuteron
+deuteron
+deuteron
+deuteron
+deuteron
+
+positron
+positron
+positron
+positron
+positron
+positron
+
+0
+-0.02
+
+-0.01
+
+0
+
+0.01
+
+0.02
+
+0.03
+
+0.04
+m2 [GeV2 c−4]
+
+0.05
+
+350
+
+300
+
+250
+
+200
+
+150
+
+100
+
+50
+
+Events/spill/5×10−4GeV2c−4
+
+proton
+proton
+proton
+proton
+
+104
+
+103
+
+102
+
+10
+
+1
+
+Events/spill/0.016GeV2c−4
+
+Instruments 2020, 4, 21
+
+17 of 28
+
+Figure 18. Examples of SiPM signal amplitude plotted against S1 to S3 time of ﬂight for different numbers
+of moderator blocks. Clockwise from top left 0, 1, 3 and 2 moderator blocks are shown. A1 is the voltage
+recorded in the SiPM at the end of the bar. The red horizontal dashed line shows the amplitude cut used for
+this particular SiPM. Events in the area enclosed by the red dashed lines are selected as protons. Events
+enclosed by the green dashed lines are selected as MIPs.
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+
+tS4 − tS2 [ns]
+
+Figure 19. S4 time of ﬂight spectra for varying numbers of moderator blocks. For all conﬁgurations, a ﬂat
+background has been ﬁtted and subtracted from the data. Additionally, the plot has also been corrected
+for the differing efﬁciencies of the various bars and for the variation in efﬁciency as a function of position
+along the bar, as described in Section 3.2.
+
+Additionally, the reconstructed mass distribution for particles travelling from S2 to S4 is shown in
+Figure 20, produced using Equation (1). Unlike the same distribution produced for particles travelling
+
+0 blocks
+
+1 block
+
+2 blocks
+
+3 blocks
+
+4 blocks
+
+102
+
+10
+
+1
+
+Events/spill/ns
+
+10−1
+
+10−2
+
+30
+
+2030405060708090100110120 [ns]S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V]110210310Events / ns / 0.0045 V0 blocks2030405060708090100110120 [ns]S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V]110210310Events / ns / 0.0045 V1 block2030405060708090100110120 [ns]S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V]110210310Events / ns / 0.0045 V2 blocks2030405060708090100110120 [ns]S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V]110210Events / ns / 0.0045 V3 blocksInstruments 2020, 4, 21
+
+18 of 28
+
+from S1 to S3 (see Figure 17), no deuteron peak is visible. This is thought to be due to the attenuation of
+deuterons within the walls of the TPC. Additionally, the predicted proton position does not line up with
+the measured proton position. This is again thought to be caused by the positioning of the TPC in front of
+S4. Protons passing through the TPC lose energy, resulting in them having less than the original 0.8 GeV/c
+beam momentum. In turn, this leads to protons having a larger reconstructed mass than predicted. The
+displacement of the proton mass peak in Figure 20 is consistent with the expected energy loss in the vessel
+walls. This consistency is shown with Monte Carlo studies in Section 4.3. These Monte Carlo studies also
+show that, at the energies used in this study, approximately 40% of protons which impinge on the vessel
+stop within it.
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+
+3.5
+
+4
+
+4.5
+
+m2 [GeV2 c−4]
+
+Figure 20. Reconstructed mass spectrum for the data taken without moderator blocks. The spectrum
+was calculated using the time difference between S4 and S2. Vertical arrows show predicted position of
+particles.
+
+A correction is made for the variation in particle detection efﬁciency between the bars and for the
+variation in this efﬁciency as a function of the position along each bar. This correction is performed using
+the cosmic ray ﬂux. It is assumed that the ﬂux of cosmic rays passing through each part of S4 is equal.
+Each S4 bar is divided into 7 cm segments for analysis, and the number of cosmic rays passing through
+each segment is measured by assuming that all signals occurring outside of beam spills are produced by
+cosmic rays. The efﬁciency is then found from this distribution by normalising the bin with the highest
+number of cosmic ray signals to 1. This efﬁciency is highest around the middle of the bars (70 cm) because
+of the requirement that coincident signals are observed in both PMTs on a given bar in order for a hit to
+be recorded. An example of one of these distributions is shown in Figure 21. Events are then weighted
+according to the bar in which they are observed and their measured position along this bar. The weight
+applied is the inverse of the value shown on the z-axis of Figure 21. Additionally, a further weight is
+applied to all S4 events of 1.25. This weight is derived from tests performed on the S4 bars with a 90Sr
+source. Using this source, it was determined that the maximum measured rate of signals produced by the
+90Sr source was equal to 0.8 of the true rate.
+
+pion
+
+proton
+
+103
+
+102
+
+10
+
+1
+
+10−1
+
+10−2
+
+Events/spill/0.044GeV2c−4
+
+Instruments 2020, 4, 21
+
+19 of 28
+
+Eff
+
+0.9
+
+0.8
+
+0.7
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+.1
+
+00
+
+1
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+Horizontal bar position [cm]
+
+Figure 21. Relative detection efﬁciency of S4 as a function of bar number and position along each bar as
+measured with cosmic rays. The data from bar 10 was not used in the analysis due to the poor efﬁciency
+along the bar.
+
+Using Figure 19, protons and MIPs are selected with timing cuts and a ﬂat background is then
+subtracted. The particles in the quicker timing window (those for which 36 ns < tS4 − tS2 < 51 ns) are
+considered to be minimum ionizing particles while those in the slower timing window (those for which
+62 ns < tS4 − tS2 < 125 ns) are considered to be protons.
+
+The background is determined by ﬁtting a sum of signal and background functions to the time of
+ﬂight spectra. The signal functions are taken to be Gaussians while the background is taken to be ﬂat. An
+example of this is shown in Figure 22. The background rates for each sample are shown in Table 4. These
+backgrounds have been subtracted from the totals shown in Section 4.2.
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+
+tS4 − tS2 [ns]
+
+Figure 22. Example of the time of ﬂight spectrum observed in S4 with combined signal and background
+functions ﬁtted (shown in red).
+
+The backgrounds follow the same pattern as the total measured S4 particle rates (see Section 4.2).
+The background rate initially increases with the addition of the addition of more moderator blocks then
+decreases for the 3 and 4 moderator block conﬁgurations.
+
+The ratio of the rate of signal protons to the background rate falls with the addition of moderator
+blocks. This is due to increased scattering from the moderator blocks which causes more particles to strike
+
+123456789
+
+10B
+
+ar
+
+102
+
+10
+
+1
+
+Events/spill/ns
+
+10−1
+
+10−2
+
+30
+
+Instruments 2020, 4, 21
+
+20 of 28
+
+S4 without passing through S2. This leads to an increase in false coincidences which contribute to the
+background rate.
+
+Table 4. Background rates for the time of ﬂight spectra measured in S4. To convert these to the number of
+expected background events in a spill, the rate is multiplied by the size of the timing window for either
+MIPs or protons.
+
+Number of Moderator Blocks Background / Events × spill−1 × ns−1
+
+0
+1
+2
+3
+4
+
+0.037 ± 0.004
+0.066 ± 0.005
+0.165 ± 0.007
+0.124 ± 0.009
+0.085 ± 0.002
+
+4. Beam Flux Measurement
+
+4.1. Flux Measurements with S3
+
+The ToF systems are at an off-axis angle with respect to the beam axis (see Table 1), in order to probe
+the reduced proton momentum spectrum, to cover the region most relevant for neutrino experiments and
+to measure the ﬂux passing through the TPC. This is quantiﬁed in terms of θ and φ (see Section 2.2).
+
+The proton spectra upstream of the TPC are shown in Figure 23. Figure 23 left, shows the kinetic
+energy of particles identiﬁed as protons is successfully reduced with increasing numbers of moderator
+blocks, with the range falling from 210-320 MeV for the unmoderated beam, to 60–110 MeV for 4 acrylic
+blocks. Figure 23 right, shows the kinetic energy spectrum of protons crossing into the TPC. This ﬁgure
+indicates that the ﬂux of low energy protons (those with a kinetic energy of less than 80 MeV) reaching the
+TPC was increased from negligible in the 0, 1 and 2 block cases to (9.7 ± 0.1) per spill for the 4 block case.
+Comparing Figure 23 right, with Figure 2 shows that, for the four moderator block case, the kinetic energy
+of protons incident upon the TPC is just above the 50 MeV region where the different neutrino interaction
+generators become discrepant. These protons lose further energy within the walls of the HPTPC vessel,
+resulting in a ﬂux of protons below 50 MeV within the TPC.
+
+0 blocks - 19.0 ± 0.9 per spill
+
+1 block - 49 ± 1 per spill
+
+2 blocks - 93 ± 2 per spill
+
+3 blocks - 108 ± 3 per spill
+
+4 blocks - 21.4 ± 0.2 per spill
+
+012345678
+
+Protons/spill/3.1MeV
+
+0 blocks
+
+1 block
+
+2 blocks
+
+3 blocks
+
+4 blocks
+
+180
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+Protons/spill/3.1MeV
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+Proton kinetic energy [MeV]
+
+Proton kinetic energy [MeV]
+
+Figure 23. Proton kinetic energy spectrum as measured in S3. (Left) All protons. (Right) The subset of
+protons passing through the HPTPC drift volume. The errors shown in the legend are the statistical error in
+particle number per spill.
+
+The combination of the use of moderator blocks and positioning the TPC in an off-axis position also
+caused a change in the multiplicity of protons passing through the TPC. Figure 23 right, shows that the
+
+Instruments 2020, 4, 21
+
+21 of 28
+
+addition of 1, 2 and 3 moderator blocks increased the number of protons passing through the TPC from
+(19.0 ± 0.9) per spill in the unmoderated case to (108 ± 3) per spill in the 3 block case. The addition of the
+fourth moderator block effectively removes the ﬂux of protons above 100 MeV, leaving (21.4 ± 0.2) per
+spill to traverse the TPC active volume.
+
+The distributions vs. off-axis angle of MIPs and protons in S3 are shown in Figure 24. In both cases,
+the peak beam intensity falls and broadens in θ with the increasing number of moderator blocks. At off-axis
+angles the number of MIPs and protons is increased as the number of moderator blocks is increased. The
+TPC lies within this off-axis region. The spread of particles for unmoderated data was unexpected; this
+peak was broadened by the beam steering scattering that led to the double proton peaks seen in Figures 16
+and 17. For the unsteered and unmoderated beam, the measured horizontal FWHM is 9.6 cm while the
+vertical FWHM is 11.0 cm. This is compared with the measured horizontal FWHM for the unmoderated
+and steered beam of 16.8 cm.
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+θ [degrees]
+
+2
+
+3
+θ [degrees]
+
+Figure 24. Distribution of hits in S3 as a function of the horizontal off-axis angle, measured from S1, for
+varying numbers of moderator blocks. No coincident hit in S2 was required. (Left) Minimum ionizing
+particles. (Right) Protons. The errors shown in the legend are the statistical error in particle number
+per spill.
+
+Figure 25 shows the proton–MIP ratio measured in S3 as a function of the nominal off-axis angle,
+horizontally and vertically, respectively, and for various numbers of moderator blocks. For 0, 1, 2 and 3
+moderator blocks the ratio falls to a minimum at approximately 1◦ with respect to the beam axis. This
+corresponds to the true beam centre for the steered beam. As the angle moves away from the true beam
+centre, the ratio rises for these conﬁgurations. The peak of the proton–MIP ratio shifts away from the
+beam centre progressively as more moderator blocks are added (from approximately 1◦ away from beam
+centre for 0 blocks up to approximately 3◦ away from beam centre for 3 blocks). At most values of θ, the
+proton–MIP ratio falls with the addition of more moderator blocks. Thus, reducing the kinetic energy of
+the protons below 100 MeV came at the cost of reducing the purity of the proton beam.
+
+4.2. Flux Measurements with S4
+
+Figure 26 left, shows the ﬂux of particles identiﬁed as minimum ionizing particles across S4. For all
+numbers of moderator blocks, the peak number of minimum ionizing particle events occurs at a value of θ
+between −1◦ and −2◦. Similarly the number of proton events per spill, shown in Figure 26 right, peaks
+at a value of θ of approximately −2◦. The fall in the number of events between θ = −1◦ and θ = 0◦ is
+as a result of the beam impinging on the vessel doors at these angles. The positioning and shape of the
+pressure vessel doors means that, for particles travelling at these angles, a greater length of steel is passed
+through compared to those particles which strike the body of the vessel.
+
+104
+
+103
+
+102
+
+10
+
+1
+
+Protons/spill/degree
+
+0 blocks - 12530 ± 20 per spill
+
+1 block - 13260 ± 20 per spill
+
+2 blocks - 12560 ± 20 per spill
+
+3 blocks - 11680 ± 30 per spill
+
+4 blocks - 8513 ± 3 per spill
+
+0 blocks - 2440 ± 10 per spill
+
+1 block - 2058 ± 8 per spill
+
+2 blocks - 1608 ± 7 per spill
+
+3 blocks - 1069 ± 8 per spill
+
+4 blocks - 166.5 ± 0.6 per spill
+
+105
+
+104
+
+103
+
+102
+
+10
+
+MIPs/spill/degree
+
+Instruments 2020, 4, 21
+
+22 of 28
+
+0.4
+
+0.35
+
+0.3
+
+0.25
+
+0.2
+
+0.15
+
+0.1
+
+0.05
+
+Protons/MIPs
+
+102
+
+10
+
+1
+
+10−1
+
+10−2
+
+10−3
+
+10−4
+
+Protons/spill/degree
+
+0
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+θ [degrees]
+
+0
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+
+φ [degrees]
+
+Figure 25. Proton–MIP ratio in S3 for varying numbers of moderator blocks as a function of off-axis angle,
+as measured from S1. (Left) Horizontal angle. (Right) Vertical angle. The TPC spans horizontal angles
+1.4–3.6◦ and vertical angles −2.6–+2.6◦.
+
+Figure 26 left, also shows that initially, an increasing number of moderator blocks results in an
+increased total MIP ﬂux through S4. This is because both S2 and S4 are positioned off-axis, so the
+unmoderated beam particles do not strike these detectors. Due to scattering processes in the moderator, a
+greater number of MIPs are incident upon S2 and S4, with more scattering occurring with greater numbers
+of moderator blocks. However, with the fourth moderator block the ﬂux of MIPs is seen to fall. Similarly,
+with the addition of the ﬁrst two moderator blocks, the proton ﬂux shown in Figure 26 right, initially
+sees an increase in the total number of events in S4. However, with three and four moderator blocks, the
+total number of protons observed in S4 falls. The initial proton ﬂux increase is similar to that for the MIP
+ﬂux, with increased scattering causing more protons to pass through the off-axis S2 and S4 detectors. The
+subsequent decrease is due to the larger loss of energy of the protons in the thicker moderator. In turn, this
+leads to attenuation of protons in the pressure vessel resulting in fewer observed events in S4.
+
+0 blocks - 119 ± 2 per spill
+1 block - 181 ± 2 per spill
+2 blocks - 158 ± 2 per spill
+3 blocks - 39 ± 1 per spill
+4 blocks - 1.3 ± 0.2 per spill
+
+0
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+θ [degrees]
+
+0
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+θ [degrees]
+
+0
+
+Figure 26. Distribution of hits in S4 as a function of the number of moderator blocks and the horizontal
+off-axis angle. (Left) Minimum ionizing particles. (Right) Protons. The errors shown in the legend are the
+statistical error in particle number per spill.
+
+Figure 27 shows the ratio of protons to MIPs as a function of the number of moderator blocks, θ and
+φ. For all of the different block conﬁgurations, the ratio is ﬂat across both θ and φ. With the addition of
+moderator blocks, the ratio reduces from its highest level of 0.5 for the 0 block case, to 0.002 for the 4 block
+data. As mentioned previously, this is thought to be due to the attenuation of low energy protons within
+the walls of the pressure vessel.
+
+0 blocks - 236 ± 4 per spill
+1 block - 698 ± 5 per spill
+2 blocks - 1049 ± 6 per spill
+3 blocks - 1134 ± 9 per spill
+4 blocks - 495 ± 1 per spill
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+MIPs/spill/degree
+
+0 blocks
+
+2 blocks
+
+4 blocks
+
+1 block
+
+3 blocks
+
+0 blocks
+
+1 block
+
+2 blocks
+
+3 blocks
+
+4 blocks
+
+0.4
+
+0.35
+
+0.3
+
+0.25
+
+0.2
+
+0.15
+
+0.1
+
+0.05
+
+Protons/MIPs
+
+Instruments 2020, 4, 21
+
+23 of 28
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1.5
+
+-1
+
+-0.5
+
+0
+
+0.5
+
+1
+
+-1
+θ [degrees]
+
+0
+
+φ [degrees]
+
+Figure 27. Proton–MIP ratio in S4 for varying numbers of moderator blocks as a function of off-axis angle.
+(Left) Horizontal off-axis angle. (Right) Vertical off-axis angle.
+
+4.3. Monte Carlo Studies
+
+In order to ascertain the ﬂux of protons reaching the active region of the TPC, and verify the corrections
+described above, a Monte Carlo (MC) simulation study was performed. The simulation was performed
+using GEANT4 [20], with geometric volumes approximating the vessel, TPC and time of ﬂight systems.
+In order to match upstream conditions as closely as possible, particle momenta were drawn from the S3
+distributions shown in Figure 23 left, and simulated with trajectories that resulted in the same position
+distribution as seen in Figure 11 right. The same timing cuts described in Section 3.2 were applied.
+
+The simulated protons are propagated through the vessel to the S4 detector. The momentum proﬁle
+of simulated protons reaching the S4 panel is shown in Figure 28. A proton detection threshold of S4 of
+140 MeV/c (10 MeV kinetic energy) is included. The simulation shows a signiﬁcant reduction in kinetic
+energy as most particles have travelled through both steel walls of the TPC vessel. In particular, in the 4
+moderator block case, very few particles have survived through the second vessel wall to reach S4.
+
+0 blocks
+
+3 blocks
+
+1 block
+
+4 blocks
+
+2 blocks
+
+1
+
+10−1
+
+10−2
+
+10−3
+
+Protons/MIPs
+
+0 blocks
+
+2 blocks
+
+4 blocks
+
+1 block
+
+3 blocks
+
+10−1
+
+10−2
+
+10−3
+
+10−4
+
+Protons/MIPs
+
+0 blocks - 53 ± 2 per spill
+
+2 blocks - 104 ± 2 per spill
+
+4 blocks - 2.13 ± 0.06 per spill
+
+1 block - 105 ± 2 per spill
+
+3 blocks - 48 ± 2 per spill
+
+102
+
+10
+
+1
+
+Protons/spill/3.75MeV
+
+10−1
+
+10−2
+
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+Proton kinetic energy [MeV]
+
+Figure 28. Energy proﬁle of simulated protons reaching S4, with kinetic energy above the detection
+threshold of 10 MeV.
+
+Comparisons of S2 to S4 time of ﬂight for data and MC are shown in Figure 29 for varying numbers
+of moderator blocks. Figure 29 shows that, for all numbers of moderator blocks, the peak positions in the
+
+Instruments 2020, 4, 21
+
+24 of 28
+
+data and MC spectra agree to within 2 ns. This level of agreement conﬁrms that the simulated energy loss
+in the vessel and TPC is similar to the energy loss in the data.
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+
+tS4 − tS2 [ns]
+
+Figure 29. Comparison of simulated and measured proton ToF between S2 and S4. Solid lines correspond
+to the simulated distributions, while points correspond to data. All distributions are area normalised to 1.
+
+Systematic uncertainties on the number of protons measured in S3 and S4 are estimated for both
+data and MC, and shown in Table 5. The systematic uncertainty on the MC simulation is determined by
+varying the geometric initial conditions of the simulation, including the position of the S1 and S2 detectors.
+These variations induce changes in the direction and momenta of the propagated protons. Additionally, a
+study was performed with 1 cm of additional acrylic in the beamline, as a proxy for the uncertainty on
+other pieces of light material in the beam facility. This set of calculated errors represents geometric sources
+of uncertainty in the MC simulation.
+
+For the data, the uncertainty on the overall efﬁciency of S3 is calculated by taking the ±1σ uncertainty
+on the ﬁtted linear relationship between S1 ∩ S2 signals in the upstream and downstream ToF DAQs (see
+Section 3.2) and calculating the fractional change this causes in the S3 proton count.
+
+The uncertainty on the overall efﬁciency of S4 is calculated from the calibration tests performed on
+the S4 bars with a 90Sr source, as discussed in Section 3.2. The overall efﬁciency factor of 0.8 was calculated
+using data taken with a signiﬁcantly different readout to that used in the beam test and therefore is subject
+to variation. The spread in maximum bar efﬁciencies measured in these 90Sr source tests for the various S4
+bars is used as the systematic uncertainty on the overall S4 efﬁciency.
+
+The S4 angular correction systematic uncertainty is assessed by varying the number of horizontal
+
+bins in Figure 21 from 20 to 10 and taking the fractional change in the number of measured S4 protons.
+
+The uncertainty on the S4 background subtraction is determined by taking the 1σ error on the ﬁtted
+ﬂat background and determining the resulting change in the number of protons. This has a larger effect in
+the 4 block case because of the very small number of protons detected in S4 relative to the background.
+
+0 blocks
+
+1 block
+
+2 blocks
+
+3 blocks
+
+4 blocks
+
+0.2
+
+0.18
+
+0.16
+
+0.14
+
+0.12
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0
+
+Normalisedunits
+
+Instruments 2020, 4, 21
+
+25 of 28
+
+Table 5. List of systematic errors and values for data and Monte Carlo (MC) simulation. All values are the
+percent error on the S4 proton count with the exception of the uncertainty on the efﬁciency of S3, which is
+the percent error on the S3 proton count. All uncertainties are treated as uncorrelated. nS4, MC refers to the
+number of protons reaching S4 in MC simulations.
+
+Monte Carlo
+
+Number of moderator blocks
+2
+
+1
+
+3
+
+Systematic uncertainty on nS4, MC
+
+9.5%
+
+8.0%
+
+8.5% 17.0% 8.0%
+
+Source of systematic error
+
+Absolute efﬁciency of S3
+Absolute efﬁciency of S4
+S4 angular correction
+S4 background uncertainty
+
+Number of moderator blocks
+2
+
+1
+
+3
+
+1.1% 11.4% 7.0% 11.4% 4.9%
+11.0% 11.0% 11.0% 11.0% 11.0%
+4.1%
+6.7%
+1.5%
+2.9%
+8.1%
+0.18% 0.16% 1.1%
+
+8.2%
+1.4%
+
+Total
+
+11.5% 16.0% 14.7% 18.3% 18.9%
+
+0
+
+0
+
+Data
+
+4
+
+4
+
+The ratio of number of protons reaching S4 to those reaching S3 is shown for both simulation and
+data in Table 6, which includes the total statistical and systematic error in each case. The agreement
+shown relative to the uncertainty provided by the beam test setup provides strong evidence that efﬁciency
+corrections described in Section 3.2 are justiﬁed.
+
+The number of simulated particles that penetrate the active area of the TPC are shown in Figure 30
+left and right, as a function of momentum and kinetic energy, respectively. Comparing Figure 30 right,
+with the motivation plot shown in Figure 2, it is clear that 4 moderator blocks were required to access
+the momentum region of interest (below 50 MeV). The off-axis and moderator technique were therefore
+successful in the extent to which the proton energy was lowered. The number of protons reaching the
+active area of the TPC was per spill (7.0 ± 0.1) for 4 moderator blocks, compared with (12.6 ± 0.7) per spill
+without moderation. For 4 moderator blocks, (5.6 ± 0.1) of those protons had energies below 100 MeV.
+These values were calibrated with the full comparison between data and simulation.
+
+Table 6. Ratio of number of protons reaching S4 to number protons reaching S3 for different numbers of
+moderator blocks in MC and data. In each instance, the combined statistical and systematic errors are
+shown.
+
+Number of Moderator Blocks Monte Carlo
+
+Data
+
+Data/MC
+
+0
+1
+2
+3
+4
+
+0.027 ± 0.003
+0.067 ± 0.005
+0.084 ± 0.007
+0.06 ± 0.01
+0.011 ± 0.001
+
+0.049 ± 0.007
+0.09 ± 0.01
+0.10 ± 0.01
+0.036 ± 0.007
+0.008 ± 0.001
+
+1.8 ± 0.3
+1.3 ± 0.2
+1.2 ± 0.2
+0.7 ± 0.2
+0.7 ± 0.1
+
+Instruments 2020, 4, 21
+
+26 of 28
+
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.5
+
+0.4
+0.6
+Proton momentum [GeV c−1]
+
+0.7
+
+0.8
+
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+Proton kinetic energy [MeV]
+
+Figure 30. (Left) Momentum proﬁle of simulated protons reaching the active region of the TPC. (Right)
+Energy proﬁle of simulated protons reaching the active region of the TPC. The errors shown in the legend
+are the statistical error in particle number per spill.
+
+5. Conclusions
+
+The prototype high pressure gas time projection chamber was operated in the T10 beamline at
+CERN in August and September 2018 in order to make measurement of low momentum protons in
+argon. The vessel was placed at a position off the centre axis of the beam, and a number of acrylic
+blocks were placed directly in the beamline in order to produce a ﬂux of low momentum protons through
+the TPC, ensure a low occupancy of these low energy protons within the TPC and change the ratio of
+MIPs to protons. Measurements of the beam ﬂux were made using two time of ﬂight systems placed
+(1.323 ± 0.001) m upstream and (0.918 ± 0.001) m downstream of the TPC vessel. These measurements
+were used to determine the absolute and relative rates of protons and MIPs as well as their momenta, at
+different positions off the beam axis, and for varying numbers of moderator blocks.
+
+When the beam was unsteered, the width was measured to be 9.6 cm. When the beam was steered
+
+approximately 1◦ off-axis, the beam width increased to 16.8 cm.
+
+These measurements demonstrated that adding moderator blocks reduced the average kinetic energy
+of protons reaching the TPC from 0.3 GeV with 0 moderator blocks to 0.1 GeV for 4 moderator blocks,
+accessing the kinematic region of interest. This indicates that the off-axis moderator technique provides a
+suitable method for providing low energy hadron beams for neutrino detector tests. The proton/MIP ratio
+increased at low off-axis angles, peaking at 1◦–2◦ off axis, depending on how many moderator blocks were
+used and then fell off at higher angles. The four moderator block conﬁguration yielded a proton/MIP ratio
+that was substantially lower than 0–3 blocks and also ﬂat versus off-axis angle, but achieved the desired
+proton energy spectrum. With calibration from the upstream and downstream time of ﬂight systems,
+for data with 4 moderator blocks in the beamline the simulated number of protons with energy below
+100 MeV reaching the active TPC region was (5.6 ± 0.1) per spill with an energy range of 0 to 50 MeV/c.
+
+Author Contributions: Conceptualization, A.B.-F., S.B., L.C., J.H., A.K. (Asher Kaboth), J.M., R.N., J.N., R.S., N.S., Y.S.
+and M.W. (Morgan Wascko); data curation, S.J., T.N., E.A., D.B., A.D. (Alexander Deisting), A.D. (Adriana Dias), P.D.,
+J.H., P.H.-B., A.K. (Asher Kaboth), A.K. (Alexander Korzenev), M.M., J.M., R.N., J.N., W.P., H.R.-Y., Y.S., A.T., M.U.,
+S.V., A.W. and M.W. (Morgan Wascko); formal analysis, S.J., T.N., P.D., A.K. (Alexander Korzenev), Y.S. and A.W.;
+funding acquisition, G.B., A.B.-F., S.B., A.K. (Asher Kaboth), J.M., R.N., J.N., S.R., R.S. and M.W. (Morgan Wascko);
+investigation, S.J., T.N., A.B.-F., S.B., L.C., P.D., P.H.-B., A.K. (Asher Kaboth), W.M., M.M., J.M., R.N., J.N., R.S., Y.S.,
+J.S., M.U., S.V., A.W., M.W. (Mark Ward) and M.W. (Morgan Wascko); methodology, S.J., T.N., E.A., A.B.-F., C.B.,
+S.B., Z.C.-W., L.C., A.D. (Alexander Deisting), A.D. (Adriana Dias), P.D., J.H., A.K. (Asher Kaboth), A.K. (Alexander
+Korzenev), P.M., J.M., R.N., W.P., H.R.-Y., R.S., N.S., Y.S., A.T., M.U., S.V., A.W., M.W. (Mark Ward) and M.W. (Morgan
+Wascko); project administration, G.B., S.B., L.C., A.D. (Alexander Deisting), A.K. (Asher Kaboth), J.M., R.N., J.N. and
+M.W. (Morgan Wascko); resources, S.B., L.C., A.K. (Asher Kaboth), J.M., R.N., J.N., S.R. and M.W. (Morgan Wascko);
+Software, S.J., T.N., E.A., D.B., Z.C.-W., L.C., A.D. (Alexander Deisting), A.D. (Adriana Dias), J.H., A.K. (Asher Kaboth),
+
+10
+
+1
+
+10−1
+
+Protons/spill/3.75MeV
+
+0 blocks - 12.6 ± 0.7 per spill
+1 block - 30.5 ± 0.9 per spill
+2 blocks - 56 ± 1 per spill
+3 blocks - 62 ± 2 per spill
+4 blocks - 7.0 ± 0.1 per spill
+
+0 blocks - 12.6 ± 0.7 per spill
+1 block - 30.5 ± 0.9 per spill
+2 blocks - 56 ± 1 per spill
+3 blocks - 62 ± 2 per spill
+blocks - 7.0 ± 0.1 per spill
+
+10
+
+1
+
+10−1
+
+Protons/spill/0.01GeVc−1
+
+Instruments 2020, 4, 21
+
+27 of 28
+
+J.M., R.N., W.P., S.V., A.W. and M.W. (Mark Ward); supervision, G.B., A.B.-F., S.B., L.C., A.D. (Alexander Deisting),
+P
+.D., J.H., A.K. (Asher Kaboth), J.M., R.N., J.N., R.S., A.W. and M.W. (Morgan Wascko); validation, S.J., T.N., E.A., D.B.,
+Z.C.-W., L.C., A.D. (Alexander Deisting), A.D. (Adriana Dias), A.K. (Asher Kaboth), M.M., J.M., R.N., W.P., H.R.-Y.
+and A.T.; visualization, S.J., T.N., L.C. and R.N.; writing—original draft, S.J., T.N., A.K. (Asher Kaboth), J.M. and M.W.
+(Morgan Wascko); writing—review and editing, S.J., T.N., E.A., S.B., D.B., Z.C.-W., L.C., A.D. (Alexander Deisting),
+A.D. (Adriana Dias), P.D., A.K. (Asher Kaboth), M.M., J.M., R.N., J.N., W.P., H.R.-Y., A.T., A.W. and M.W. (Morgan
+Wascko). All authors have read and agreed to the published version of the manuscript.
+
+Funding: This research was funded in part by Science and Technology Facilities Council grant number ST/N003233/.
+
+Acknowledgments: We wish to acknowledge support for summer students from the Ogden Trust and St. Andrews
+University, and outstanding support during the beam test from Johannes Bernhard of CERN as well as Rebecca
+Conybeare, Nicole Cullen, Kate Gould, Veera Mikola, Christopher Thorpe, and Simon Williams.
+
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+Abe, K.; Akutsu, R.; Ali, A.; Alt, C.; Andreopoulos, C.; Anthony, L.; Antonova, M.; Aoki, S.; Ariga, A.; Asada, Y.;
+Ashida, Y. Constraint on the matter–antimatter symmetry-violating phase in neutrino oscillations. Nature 2020,
+580, 339–344, doi:10.1038/s41586-020-2177-0.
+
+2. Mosel, U. Neutrino Interactions with Nucleons and Nuclei: Importance for Long-Baseline Experiments. Ann.
+
+Rev. Nucl. Part. Sci. 2016, 66, 171–195, doi:10.1146/annurev-nucl-102115-044720.
+Acero, M.A.; Adamson, P.; Aliaga, L.; Alion, T.; Allakhverdian, V.; Altakarli, S.; Anﬁmov, N.; Antoshkin, A.;
+Aurisano, A.; Back, A.; Backhouse, C. First Measurement of Neutrino Oscillation Parameters using Neutrinos
+and Antineutrinos by NOvA. Phys. Rev. Lett. 2019, 123, 151803, doi:10.1103/PhysRevLett.123.151803.
+Abi, B.; Acciarri, R.; Acero, M.A.; Adamov, G.; Adams, D.; Adinolﬁ, M.; Ahmad, Z.; Ahmed, J.; Alion, T.;
+Alonso Monsalve, S.; et al. Deep Underground Neutrino Experiment (DUNE), Far Detector Technical Design
+Report, Volume II: DUNE Physics. arXiv 2020, arXiv:2002.03005.
+Abe, K.; Abe, T.; Aihara, H.; Fukuda, Y.; Hayato, Y.; Huang, K.; Ichikawa, A.; Ikeda, M.; Inoue, K.; Ishino, H.;
+et al. Letter of Intent: The Hyper-Kamiokande Experiment—Detector Design and Physics Potential—. arXiv
+2011, arXiv:1109.3262.
+Acciarri, R.; Acero, M.A.; Adamowski, M.; Adams, C.; Adamson, P.; Adhikari, S.; Ahmad, Z.; Albright,
+C.H.; Alion, T.; Amador, E.; Anderson, J. Long-Baseline Neutrino Facility (LBNF) and Deep Underground
+Neutrino Experiment (DUNE) Conceptual Design Report, Volume 4 The DUNE Detectors at LBNF.
+arXiv 2016, arXiv:1601.02984.
+Andreopoulos, C.; Bell, A.; Bhattacharya, D.; Cavanna, F.; Dobson, J.; Dytman, S.; Gallagher, H.; Guzowski,
+.; Hatcher, R.; Kehayias, P.; et al. The GENIE Neutrino Monte Carlo Generator. Nucl. Instrum. Meth. 2010,
+P
+A614, 87–104, doi:10.1016/j.nima.2009.12.009.
+
+8. Hayato, Y. A neutrino interaction simulation program library NEUT. Acta Phys. Polon. 2009, B40, 2477–2489.
+9.
+
+Golan, T.; Sobczyk, J.; ˙Zmuda, J. NuWro: The Wrocław Monte Carlo Generator of Neutrino Interactions. Nucl.
+Phys. Proc. Suppl. 2012, 229–232, 499, doi:10.1016/j.nuclphysbps.2012.09.136.
+
+10. Lalakulich, O.; Gallmeister, K.; Mosel, U. Neutrino Nucleus Reactions within the GiBUU Model. J. Phys. Conf.
+
+Ser. 2013, 408, 12053, doi:10.1088/1742-6596/408/1/012053.
+
+11. Wellisch, H.; Axen, D. Total reaction cross section calculations in proton-nucleus scattering. Phys. Rev. C 1996,
+
+54, 1329.
+
+12. Bross, A.; Davies, G.; Duffy, K.; Fernandez-Moroni, G.; Flight, R.; Junk, T.; Mahn, K.; Martin-Albo, J.; Raaf,
+J.; Schukraft, A.; Simon, F. High-Pressure Argon Gas TPC Option for the DUNE Near Detector; Technical Report
+DUNE-doc-6652; FNAL: Batavia, IL, USA, 2018.
+
+13. Abe, K.; Adam, J.; Aihara, H.; Akiri, T.; Andreopoulos, C.; Aoki, S.; Ariga, A.; Ariga, T.; Assylbekov, S.; Autiero,
+D.; Barbi, M. Observation of Electron Neutrino Appearance in a Muon Neutrino Beam. Phys. Rev. Lett. 2014,
+112, 061802, doi:10.1103/PhysRevLett.112.061802.
+
+Instruments 2020, 4, 21
+
+28 of 28
+
+14. Carlson, R.F. Proton-Nucleus Total Reaction Cross Sections and Total Cross Sections Up to 1 GeV. Atom. Data
+
+Nucl. Data Tabl. 1996, 63, 93–116, doi:10.1006/adnd.1996.0010.
+
+15. Andreopoulos, C.; Walding, J.; Mermod, P.; Barker, G.; Brice, S.; Radermacher, T.; Zalewska, A.; Touramanis, C.;
+Boyd, S.; Hallsjo, S.; Haigh, J. Proposal to Measure Hadron Scattering with a Gaseous High Pressure TPC for Neutrino
+Oscillation Measurements; Technical Report CERN-SPSC-2017-030; SPSC-P-355; CERN: Geneva, Switzerland,
+2017.
+
+16. McFarland, K.S. Experiment Summary Talk.
+
+In Proceedings of the 12th International Workshop on
+
+Neutrino-Nucleus Scattering in the Few-GeV Region (NuInt18), L’Aquila, Italy, 15–19 October 2018.
+
+17. Coloma, P.; Huber, P. Impact of nuclear effects on the extraction of neutrino oscillation parameters. Phys. Rev. Lett.
+
+2013, 111, 221802, doi:10.1103/PhysRevLett.111.221802.
+
+18. Raaf, J. (Fermi National Accelerator Laboratory, Batavia, IL, USA). Personal Communication, 9 February 2020.
+Simon, D.J.; Dumollard, D.; Bätzner, K.; Durieu, L.; Ferro-Luzzi, M.; Cataneo, F. Secondary Beams for Tests in the
+19.
+PS East Experimental Area; Technical Report PS-PA-EP-Note-88-26; CERN: Geneva, Switzerland, 1988.
+
+20. Brun, R.; Urban, L.; Carminati, F.; Giani, S.; Maire, M.; McPherson, A.; Bruyant, F.; Patrick, G. GEANT: Detector
+
+Description and Simulation Tool; Technical Report; CERN: Geneva, Switzerland, 1993.
+
+21. Hamamatsu Photonics K.K. Available online: http://www.hamamatsu.com (accessed on 25 March 2019).
+22. Korzenev, A.; Betancourt, C.; Blondel, A.; Breton, D.; Datwyler, A.; Gascon, D.; Gomez, S.; Khabibullin, M.;
+Kudenko, Y.; Maalmi, J.; Mermod, P. Plastic scintillator detector with the readout based on an array of large-area
+SiPMs for the ND280/T2K upgrade and SHiP experiments. In Proceedings of the International Workshop on
+New Photon Detectors (PD18) Tokyo, Japan, 27–29 November 2018.
+SCIONIX HOLLAND BV, Radiation Detectors & Crystals. Available online: http://scionix.nl (accessed on 25
+March 2019).
+
+23.
+
+24. Eljen Technology - EJ-200, EJ-204, EJ-208, EJ-212. Available online: http://https://eljentechnology.com/
+
+products/plastic-scintillators/ej-200-ej-204-ej-208-ej-212 (accessed on 7 August 2019).
+
+25. Betancourt, C.; Blondel, A.; Brundler, R.; Dätwyler, A.; Favre, Y.; Gascon, D.; Gomez, S.; Korzenev, A.; Mermod,
+P
+.; Noah, E.; Serra, N. Application of large area SiPMs for the readout of a plastic scintillator based timing
+detector. J. Instrum. 2017, 12, P11023, doi:10.1088/1748-0221/12/11/P11023.
+
+26. Delagnes, E.; Breton, D.; Grabas, H.; Maalmi, J.; Rusquart, P.; Saimpert, M. The SAMPIC Waveform and Time to
+Digital Converter. In Proceedings of the 2014 IEEE Nuclear Science Symposium (2014 NSS/MIC), Seattle, WA,
+USA, 8–15 November 2014.
+
+27. NuviaTech Instruments. Available online: http://www.nuviatech-instruments.com (accessed on 30 July 2019).
+28. Berger, M.; Coursey, J.; Zucker, M.; Chang, J. ESTAR, PSTAR, and ASTAR: Computer Programs for Calculating
+Stopping-Power and Range Tables for Electrons, Protons, and Helium Ions; (version 1.2.3); National Institute of
+Standards and Technology: Gaithersburg, MD, USA, 2005.
+
+29. Deisting, A.; Waldron, A. V.; Atkin, E.; Barker, G. J.; Basharina-Freshville, A.; Betancourt, C.; Boyd, S. B.;
+Brailsford, D.; Chen-Wishart, Z.; Cremonesi, L.; et al. A High Pressure Time Projection Chamber with Optical
+Readout. Instruments 2020, forthcoming.
+
+(cid:13) 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+c
+article distributed under the terms and conditions of the Creative Commons Attribution (CC
+BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+"	"論文
+CERNT10ビームの軸外特性評価
+高い運動量陽子測定
+圧力ガスタイムプロジェクションチェンバー
+
+、T.S。 Nonnenmacher 2、*、E。Atkin2、G.J。バーカー3、A。バシャリーナ-フレッシュビル1、
+
+S.B.ジョーンズ1、*
+C. Betancourt 4、S.B。 Boyd 3、D。Brailsford5、Z。Chen-Wishart6、L。Cremonesi1、A。Deisting6、A。Dias
+6、P。Dunne2、J。Haigh3、P。Hamacher-Baumann7、A。Kaboth6、A。Korzenev8、W。Ma7、P。Mermod8、
+M. Mironova 2,9、J。Monroe6、R。Nichol1、J。Nowak5、W。Parker6、H。Ritchie-Yates6、S。Roth7、
+R. Saakyan 1、N。Serra4、Y。Shitov2,10、J。Steinmann7、A。Tarrant6、M.A。Uchida2,11、S。Valder3、
+A.V. Waldron 2、M。Ward6,12、M.O。 Wascko 2
+
+2
+
+4
+
+7
+
+1ユニバーシティ・カレッジ・ロンドン、ガワー・ストリート、キングス・クロス、ロンドンWC1E 6BT、物理天文学科、
+
+イギリス; anastasia.freshville@ucl.ac.uk（A.B.-F。）; l.cremonesi@ucl.ac.uk（L.C。）; r.nichol@ucl.ac.uk（R.N。）;
+r.saakyan@ucl.ac.uk（R.S。）
+The Blackett Laboratory、Imperial College London、London SW7 2BW、英国; e.atkin17@imperial.ac.uk（E.A。）;
+p.dunne12@imperial.ac.uk（P.D。）; maria.mironova@physics.ox.ac.uk（M.M。）; Shitov@JINR.ru（Y.S。）;
+m.a.uchida@imperial.ac.uk（M.A.U。）; a.waldron@imperial.ac.uk（A.V.W。）; m.wascko@imperial.ac.uk（M.O.W。）
+
+3英国、コベントリーCV4 7AL、ワーウィック大学物理学部。 g.j.barker@warwick.ac.uk（G.J.B。）;
+
+S.B.Boyd@warwick.ac.uk（S.B.B。）; J.Haigh.2@warwick.ac.uk（J.H。）; s.valder@warwick.ac.uk（S.V。）
+Physik-Institut、UniversitätZüriche、Rämistrasse71、8006チューリッヒ、スイス; christopher.betancourt@cern.ch
+（C.B.）; nicola.serra@cern.ch（N.S。）
+
+5ランカスター大学物理学部、Bailrigg、ランカスターLA1 4YW、英国。
+
+d.brailsford@lancaster.ac.uk（D.B。）; j.nowak@lancaster.ac.uk（J.N。）
+
+6英国、エガムTW20 0EX、エガムヒル、ロンドン大学ロイヤルホロウェイ物理学部。
+
+Zachary.Chen-Wishart.2016@live.rhul.ac.uk（Z.C.-W。）; Alexander.Deisting@cern.ch（A.D。）;
+Adriana.Dias.2011@live.rhul.ac.uk（A.D。）; Asher.Kaboth@rhul.ac.uk（A.K。）; jocelyn.monroe@rhul.ac.uk（J.M。）;
+William.Parker.2016@live.rhul.ac.uk（W.P。）; Harrison.Ritchie-Yates.2013@live.rhul.ac.uk（H.R.-Y。）;
+Adam.Tarrant.2015@live.rhul.ac.uk（A.T。）; mark.ward@snolab.ca（M.W。）
+III。 Physikalisches Institut、RWTHアーヘン大学、52056アーヘン、ドイツ;
+hamacher.baumann@physik.rwth-aachen.de（P.H.-B。）; ma@physik.rwth-aachen.de（W.M。）;
+stefan.roth@physik.rwth-aachen.de（S.R。）; jochen.steinmann@physik.rwth-aachen.de（J.S。）
+
+8DPNCUniversitédeGenève、1205 Genf、スイス; korzenev@mail.cern.ch（A.K。）; Philippe.Mermod@cern.ch
+
+（午後）
+
+JINR、141980ドゥブナ、ロシア
+
+9オックスフォード大学物理学部、オックスフォードOX1 3PU、英国
+10
+11キャベンディッシュ研究所、ケンブリッジCB3 0HE、英国
+12カナダ、オンタリオ州キングストン、クイーンズ大学物理学部K7L 3N6
+*対応：sebastian.jones.17@ucl.ac.uk（S.B.J。）; toby.nonnenmacher14@imperial.ac.uk（T.S.N。）
+
+受領：2020年6月29日;承認済み：2020年7月24日。公開日：2020年7月28日
+
+要約：プロトンフラックスの研究を提示しますsCERNのT10ビームライン。プロトタイプ高圧
+ガスタイムプロジェクションチェンバー（TPC）は、陽子やその他の粒子のビームにさらされました。
+低エネルギーの断面積測定を行うための、T10の0.8 GeV / c運動量設定
+アルゴン中の陽子。 GeVスケールのニュートリノによって生成されたハドロンに匹敵するエネルギー領域を探索する
+振動実験での相互作用、すなわち、0.1 GeV近くの運動エネルギー、減速する方法
+T10ビームが採用されました：アクリルブロックでビームを減速し、測定する二重技術
+ビーム軸から離れた散乱陽子は、入射陽子の運動エネルギーを減少させるために使用されました。
+
+Instruments 2020、4、21; doi：10.3390 / Instruments4030021
+
+www.mdpi.com/journal/instruments
+
+arXiv：2007.15609v1 [physics.ins-det] 2020年7月30日
+
+楽器楽器2020、4、21
+
+28の2
+
+入射フラックスのプロトン/最小電離粒子（MIP）組成を変更します。の測定
+ビーム特性は飛行時間を使用して作成されましたTPCの上流と下流のシステム。ザ・
+TPCに到達する陽子の運動エネルギーは、モデレーターなしで約0.3GeVから正常に変更されました。
+4つのモデレーターブロック（パス長40cm）で0.1GeV未満にブロックします。両方の陽子の流れ
+ビーム軸から外れたMIPが増加しました。プロトンとMIPの比率は、
+軸外角度により、検出器を最適化して必要な粒子のタイプを選択できます。
+飛行測定の時間によって通知されたシミュレーションは、4つのモデレーターブロックが配置されていることを示しています
+ビームライン、（5.6±0.1）陽子は、流出あたり0.1 GeV未満のエネルギーで、アクティブなTPC領域を通過しました。
+ビーム組成とエネルギーの測定値が表示されます。
+
+キーワード：ニュートリノ物理学;タイムプロジェクションチェンバー;高圧; CERN;ビームテスト;飛行時間;オフ
+軸
+
+1.はじめに
+
+グローバルニュートリノ物理学プログラムの主要な目標の1つは、基礎を探求することです。
+自然の対称性は、なぜ私たちが物質界に住んでいるのかと関連していますinated宇宙。電荷パリティ対称性
+ニュートリノセクターにおける違反（CPV）は、さらに実験的に調査されていない可能性の1つです。
+ニュートリノ実験は、レプトンセクターにおけるCPVの現在の測定値の改善に努めています[1]。 CPV
+νµの消失とνeの出現の振動チャネルの同時適合から得られます
+ニュートリノと反ニュートリノは別々に。 CPVがなく、問題の影響を考慮している場合、
+νµ→νeとνµ→νeの振動の速度は等しくなければなりません。測定された相互作用率をに変換するには
+CPVのレベル、実験はニュートリノとニュートリノの相互作用の断面積を正確に知る必要があります
+最も一般的には水素、炭素、酸素、アルゴン、および検出器材料を備えた反ニュートリノ
+鉄。したがって、ニュートリノと核の相互作用断面積に関する体系的な不確実性が重要なインプットです。
+そのようなCPV検索に。これらの相互作用断面積は、ニュートリノ核子のモデリングに依存しています
+iと発生する相互作用n核。
+
+これらの断面積によって通知される核モデルは、測定値に大きな影響を及ぼします
+
+最終状態の粒子の運動学的分布[2]。
+
+現在CPVを探している長いベースラインニュートリノ実験は東海から神岡です
+実験（T2K）[1]およびNuMI軸外νe外観実験（NOvA）[3]。 T2K実験、
+ニュートリノのCPVに対する最も強い制約を現在報告している[1]、体系的な不確実性があります
+遠方検出器の電子のようなイベントの発生率の予測に対する近方検出器の制約後の7〜9％、
+断面の不確実性が最大の寄与です。未来のディープアンダーグラウンドニュートリノ
+実験（DUNE）[4]およびハイパーカミオカンデ[5]プロジェクトは、同じ割合で1〜3％に到達しようとします。
+遠方検出器の電子のようなイベントの[6]、改善された系統的誤差により、
+CP対称性の破れの段階。これらの不確実性を減らすための鍵は、多重度を正確に測定することです。
+と運動量の分布最終状態の粒子の。ただし、これらの分布は最終的に変更されます
+反跳する二次粒子がターゲット核を通過するときの状態相互作用（FSI）。最も
+一般的に使用されるニュートリノ発生器モンテカルロス（GENIE [7]、NEUT [8]、NuWro [9]）は、FSIをシミュレートします
+外部ハドロン-核散乱測定で調整されたカスケードモデルを使用します。発電機
+GiBUU [10]は、半古典的なボルツマン-ユーリング-ユーレンベック方程式を解くことによってFSIをモデル化します。
+
+ただし、図1に示すように、陽子-原子核散乱測定は非常にまばらです。
+そして多くの場合、関連するエネルギー領域および/または関連する核には存在しません。
+したがって、半経験的パラメータ化を使用して、運動量と原子量を推定します[11]。
+パラメータは3つのジェネレータ間で異なり、桁違いのスケールを生成します
+
+Instruments 2020、4、21
+
+28の3
+
+最終状態の陽子の予測される多重度と運動学の違い[12]。プロトンの最終状態
+mオデリングは、イベントの選択に影響を与えるため、ニュートリノ振動測定の重要な要素です。
+帯電電流（CC）相互作用におけるニュートリノエネルギーの再構築。
+振動パラメータを測定するため、CPVの検索の中心になります[13]。これらの理由により、FSI
+ニュートリノ相互作用の系統的不確実性全体に大きく貢献します[1]。
+
+図1.アルゴン、ネオン、フッ素、酸素、炭素、ヘリウム4上のプロトンの全反応断面積。
+データ[14]は、半経験的モデル[11]と比較されます。 [15]の図。
+
+さらに、FSIモデルはデータと緊張関係にあります。最近のニュートリノ散乱測定は
+ニュートリノと核の相互作用の最もよく使われるモデル（NEUTとGENIEで採用されている）が異なること
+最終状態の粒子の断面積と運動学の両方で自然から30％も増加します[16]。これら
+不確実性は、近距離/遠距離検出器の組み合わせでは完全に軽減することはできません。
+理論モデルの欠陥近距離外挿でキャンセルされないiency [17]。
+
+相互作用モデルを区別するための重要なプロトン運動エネルギー範囲は、以下の領域です。
+0.1GeV。図2は、上のνµCC相互作用のプロトン多重度と運動エネルギー分布を示しています。
+DUNE実験のためにGENIE、NEUT、NuWroニュートリノ発生器によって計算されたアルゴン。これら
+右側のパネルに示されているように、低いプロトン運動エネルギーでは分布が大きく異なります。ザ・
+利用可能なデータが不足しているため、発電機は低エネルギー領域を一貫して処理するようには設計されていません。
+これは主に、次のような液体アルゴンTPC（0.04 GeV）のプロトン検出しきい値を下回っています。
+DUNEおよび水中チェレンコフ検出器（0.5GeV）で使用されるもの。の下限しきい値
+高圧ガスは、ニュートリノ相互作用モデルを区別するユニークな機会を提供します
+同じ核標的。
+
+プロトン運動エネルギー（MeV）50100150200250反応断面積（mb）02004006008001000ArgonNeonFluorineOxygenCarbonHelium-4ArgonNeonFluorineOxygenCarbonHelium-4 Instruments 2020、4、21
+
+28の4
+
+図2.GENIE、NEUT、およびNuWroから予測されたプロトン運動エネルギー（KE）スペクトル[18]。エネルギースペクトル
+左側には最大1GeVが表示され、右側には低エネルギーにズームインされています。この図では、
+DUNEのビームエネルギーとフラックスのロングベースラインニュートリノファシリティ（LBNF）シミュレーション。 LBNFビーム
+平均エネルギーは約2.5GeVです[4]。縦の破線は予想されるプロトンを示します
+液体アルゴンの自動再構成/識別しきい値。垂直の実線は
+10気圧のガス状アルゴンについても同じです[12]。
+
+高圧ガスタイムプロジェクションチェンバー（HPTPC）のプロトタイプを作成し、
+2018年8月と9月のCERNのT10ビームラインの荷電粒子ビーム[15]。勢い
+T10ビームのプロファイルは、0.8〜6.5 GeV / cの範囲（運動エネルギー範囲0.3〜5.6 GeV）内で調整できます。
+左の図3は、飛行時間（ToF）スペクターを示していますの勢いに調整されたT10ビームラインのええと
+0.8 GeV / c;この測定は、アップストリームToFシステムを使用して行われました（詳細については、セクション2を参照してください。
+ToFシステム）。この中で上流のToF測定から計算された陽子の運動エネルギー
+サンプルを図3の右に示します。示されているように、運動エネルギーが200MeV未満の陽子のフラックスは
+無視できる。 HPTPCビームテストの物理的目的は、アルゴン上の陽子を測定することでした。
+200 MeV未満、つまりT10ビームで利用可能なものよりも低い運動エネルギーで。さらに、
+HPTPCプロトタイプで採用されている電荷結合素子カメラ（CCD）の読み出し速度が動機付け
+TPCアクティブボリューム内の総粒子多重度の制限。
+
+低エネルギープロトンフラックスを強化するために、新しい技術が採用されました：アクリルモデレーターを配置しました
+複数のクーロンを介してビーム粒子を拡散および減速するビームラインで直接ブロックします
+散乱。 TPCをbeaに対して軸外の位置に配置するm方向、観察した
+T10で可能であったよりも低エネルギーの陽子を含むビーム組成
+ビームライン。これらの手法は、TPC内のMIPに対するプロトンの比率を高めるように設計されています。
+TPCのアクティブ領域のプロトン運動量と多重度を減らします。
+
+ビーム粒子のフラックスと組成は、上流に配置された2つのToFシステムで測定されました。
+TPCの下流。陽子とMIPの測定値は、軸外の関数として表示されます
+モデレーターの角度と厚さ。この論文は飛行時間の詳細な説明を提供します
+セクション2のビームラインで採用されているシステム、セクション3のToFデータの分析方法。
+ToFシステムの提示は、セクション4で、セクション5で追加の結論になります。
+
+Instruments 2020、4、21
+
+28の5
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+tS3 − tS1 [ns]
+
+0
+150
+
+200
+
+250
+
+300
+プロトン運動エネルギー[MeV]
+
+350
+
+図3.モデレートされていないTと曲がっていないTの測定選択した10.8mのベースラインを超える10ビーム
+0.8GeV / cのビーム運動量。測定はS3検出器で行われます。 50nsとの間のピーク
+60nsは陽子によって生成されます。 （左）飛行スペクトルの時間。 （右）陽子の運動エネルギーの測定値。
+
+2.ビームラインと検出器
+
+2.1。ビームテストの概要
+
+ビームテストは、プロトンシンクロトロン（PS）の東エリアにあるT10ビームラインで行われました。
+CERNで。 CERNのT10ビームラインは、PSビームから派生した2次ビームです。
+主に陽子、電子、荷電パイ中間子である[19]。の関数としての理論的なビーム組成
+ビーム運動量を図4に示します。実験装置の主要コンポーネントを示します。
+図5に概略的に示します。
+
+2200
+
+2000年
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+プロトン/2.9MeV
+
+105
+
+104
+
+103
+
+102
+
+10
+
+1
+
+イベント/0.4ns
+
+図4.選択されたビーム運動量の関数として計算されたT10ビームの強度。
+粒子タイプ[19]。
+
+Instruments 2020、4、21
+
+28の6
+
+F図5.高圧ガスタイムプロジェクションチェンバー（HPTPC）ビームテストの概略図（平面図）
+CERNのT10エリアでの構成。
+
+ビーム位置モニター（BPM）は、テストエリアへのビーム入口の上流に配置されました。
+すべてのToF構成要素とTPC。 TPCはBPMの13m下流に配置されました。最初から
+GEANT4 [20]ビームシミュレーション、到達する粒子の運動量を減らすための最適なTPC位置
+検出器は、粒子の流れを過度に減少させることなく、2◦から3◦の間であると決定されました。
+ビーム軸ですが、スペースの制約により、TPCを公称ビームからそれほど遠くに配置できませんでした
+センター。したがって、ビームは公称位置から約1◦離れて操縦され、TPCは
+TPCアクティブ領域が軸外角度の範囲内にあるように、公称ビーム中心から1.5◦離れて配置されます
+1.4〜3.8◦の範囲。
+
+4つのToF構成要素がありました：
+
+•
+•
+•
+•
+
+S1、小面積ビームトリガー。セクション2.3を参照。
+S2、との同時測定S1、セクション2.3を参照。
+S3、TPC容器のすぐ上流に配置されたプラスチックシンチレータバーのパネル。セクション2.4を参照してください。
+S4、TPC容器のすぐ下流に配置されたプラスチックシンチレータバーのパネル。セクション2.5を参照してください。
+
+一連のアクリル（ポリメチルメタクリレート）ブロックがS1カウンターとS2カウンターの間に配置されました。アップ
+10×10×10cm3のアクリルブロックを4つまで三脚スタンドに連続して配置できます。図6は、
+4つのブロックが取り付けられたスタンド。モデレーターブロックには、両方のエネルギーを削減する効果があります。
+入ってくる粒子とその方向を変える。これにより、プロトンとMIPの比率が増加する傾向があります。
+ビームからの軸外角度が低く、陽子とMIPの総数が減少します。
+TPC。データは、T10ビーム運動量を0.8 GeV / cに設定し、各構成で収集されました。
+0から4のモデレーターブロック。
+
+10m1mẑx̂高圧容器TPCフィールドケージS2（ToFトリガー2）ラインからTPC中心公称ビーム中心S3（上流ToF）S1（ToFトリガー1）ビーム位置モニターアクリルモデレーターブロックS4（ダウンストリームToF）ステアリングビームセンターInstruments 2020、4、21
+
+28の7
+
+図6.飛行時間（ToF）構成要素を示す写真。 （左）セットアップの下流部分
+これは、S3、S4検出器、およびHPTPCを示しています。 （右）S1とS2のカウンターと4つのアクリルのスタンド
+モデレーターブロック。
+
+S3（上流）およびS4（下流）ToFシステムのデータ収集（DAQ）システムは
+完全に独立しています。 ToF DAQシステム間の同期は、
+すべての流出の開始時のPSからの参照信号。 T10は、それぞれの間にPSから1〜3回の流出を受けました
+スーパーサイクル。通常の持続時間は33秒です。こぼれの持続時間は400ミリ秒です。の最小分離
+2回の流出間の時間は1秒であるため、流出開始信号の周波数は1Hz以下です。結果として
+流出開始信号の低頻度の場合、DAQファイルのタイムスタンプと一緒に使用することができます。
+確実にtすべての流出は両方のDAQで一致します。アップストリームToFのトリガー条件は
+S1とS3の構成要素間の一致。 S2信号は、アップストリームToFDAQによっても記録されました
+しかし、トリガーでは使用されませんでした。ダウンストリームToFのDAQは、自己トリガーモードで実行されました。
+流出中にゲートが開きます。 S1カウンターとS2カウンター間の一致信号も
+下流のToFDAQであり、セクション4で説明されている粒子同定（PID）分析で使用されました。
+
+2.2。調査および座標系
+
+T10ビームライン領域が調査され、特定のコンポーネントまでの距離が測定されました
+CERN Survey、Mechatronics and Measurements（SMM）グループによる0.5mmの精度。
+S1、S2、S3、S4、およびTPCフレームのそれぞれの複数のポイントで、それらの位置が測定されています。
+
+右手の座標系の軸は次のように定義されます。
+
+xは非ビームを指します
+ˆ
+図に示すように、水平方向、垂直方向にˆy、ビーム方向にˆzure5。表示します
+結果は、2つの軸外角度で表されます。θは、正の角度でˆx − ˆz平面で測定されます。
++ ˆx方向で測定され、φはˆy − ˆz平面で測定され、正の角度が測定されます。
++ ˆy方向に。原点はS1にあると見なされます。
+
+図7は、定義された座標系を使用したビームライン内のオブジェクトの角度範囲を示しています。
+上記。表1は、さまざまなビームラインコンポーネントの計算された角度範囲を示しています。
+S1。表2は、T10ビームライン内のさまざまなオブジェクトの中心間の距離を示しています。これらの距離
+調査チームによって収集されたデータを使用して計算されました。
+
+Instruments 2020、4、21
+
+28の8
+
+ビームライン内のオブジェクトの位置（S1原点）
+
+-6
+
+-4
+
+-2
+
+0
+
+2
+
+θ[度]
+
+図7.T10ビームライン内のさまざまなオブジェクトの角度位置。このビューの原点は
+S1の中心;ステアリングビームの真の中心は、θで+1◦、φで0◦にあります。
+
+表1.T内のオブジェクトの角度範囲S1から測定した10ビームライン。
+
+オブジェクト
+
+最小φ
+最大θ
+最小θ
+0.36◦±0.03◦
+−2.01◦±0.03◦
+−3.96◦±0.03◦
+−5.923◦±0.004◦
+3.040◦±0.004◦−3.215◦±0.004◦
+−6.083◦±0.003◦−0.401◦±0.003◦−1.426◦±0.003◦
+−2.66◦±0.01◦
+−1.44◦±0.01◦
+−3.59◦±0.01◦
+TPC下流面-3.778◦±0.009◦-1.806◦±0.009◦-2.440◦±0.009◦
+
+S2
+S3
+S4
+TPC上流面
+
+最大φ
+2.94◦±0.03◦
+3.344◦±0.004◦
+1.771◦±0.003◦
+2.58◦±0.01◦
+2.361◦±0.009◦
+
+表2.T10ビームライン内のオブジェクト間の距離。 USとDSはアップストリームとダウンストリームを指します
+それぞれTPCのエッジ。
+
+ポイント
+
+センター間の距離/ m
+
+ビームモニター– S1
+S1 − S2
+S1 − S3
+S3 – TPCUS側
+TPC DS側– S4
+S2 − S4
+
+0.288±0.001
+1.419±0.001
+10.756±0.001
+1.323±0.002
+0.918±0.002
+12.651±0.001
+
+2.3。上流ビームカウンター（S1およびS2）
+
+ビームカウンターS1とS2を図8に示します。S1カウンターは40×40×5mm3のプラスチックです。
+4枚の1インチ浜松ホトニクスR4998写真に取り付けられたシンチレータクロスマルチプライヤチューブ（PMT）
+光の読み出しのために両端に。のDAQシステムによって測定されたカウンターの時間分解能
+上流のToFは約30psでした。これは、平均PMTヒット時間の分布から推定されます。
+量tave = 1
+4（（tPMT0 + tPMT1）−（tPMT2 + tPMT3））は、単純平均と同じ広がりを持っていますが、
+便利なことにゼロを中心にしています。 S1データの1回の実行に対するテイブ分布の例を以下に示します。
+図9.分布の半値全幅（FWHM）は62psです。
+
+S2
+
+S3
+
+S4
+
+TPC
+
+0123
+
+-1
+
+-2
+
+-3
+
+φ[度]
+
+Instruments 2020、4、21
+
+28の9
+
+図8.S1およびS2ビームカウンター。一緒にビームカウンターの信号の一致は
+データ収集（DAQ）システムによって記録されます。
+
+FWHM = 0.062 ns
+
+×103
+
+2200
+
+2000年
+
+1800
+
+1600
+
+1400
+
+1200
+
+1000
+
+800
+
+600
+
+400
+
+200
+
+S1トリガー/8.9×10-3ns
+
+0
+-0.2
+
+-0.15
+
+-0.1
+
+-0.05
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+S1PMTのテイブ[ns]
+
+図9.S1ヒットのタイミングスプレッドの例。時間はヒット時間の平均として計算されます
+4つの光電子増倍管（PMT）のそれぞれで測定されます。
+
+S2カウンターは、サイズ120×120×5 mm3のシンチレータタイルで、2インチの浜松ホトニクスと結合されています。
+R1309 PMT [21]、図6に示すような長いライトガイドを介して。S2カウンターを配置しました（1.419±0.001）m
+S1の下流。 S2の横方向の位置は、ビームの発散を考慮して調整されました。
+モデレーターブロック。
+
+S1PMTとS2PMTの1つからのアナログ信号がLeCroy620ALNIMに供給されました
+しきい値が30mVのディスクリミネーターユニット。続いて、識別された信号が
+NIM一致ユニット。その出力はダウンストリームToF（S4）パネルのDAQシステムによって記録されました。
+この情報は、S4の飛行分析の際にさらに使用されました。
+
+Instruments 2020、4、21
+
+28の10
+
+2.4。上流の飛行時間計器（S3）
+
+S3の「上流」ToF構成要素は、上流側の上流（1.323±0.001）mに配置されました。
+HPTPCドリフトvoビームラインのルーム。 S3ToFパネルの概略図を左の図10に示します。
+検出器は、22本の千鳥状シンチレータバーで構成されています。寸法が168×6.0×1.0cm3の20本のバーと2本です。
+150×6.0×1.0cm3のバーを上下に配置[22]。バー間のオーバーラップは5mmに設定されているため、
+検出器のアクティブエリアは2.0214cm2でした。
+
+図10.飛行パネルの時間のビュー。 （左）TPCの上流のS3パネル[22]。 （右）S4
+TPCの下流のパネル。
+
+バーはEJ-200 [23]プラスチックシンチレータでできており、
+10,000光子/ MeVが堆積しました。また、4 mの適切な光減衰長と高速タイミングを備えており、
+立ち上がり時間は0.9ns、減衰時定数は2.1nsです。 EJ-200のシンチレーション発光スペクトル
+可視スペクトル（435 nm）の紫色領域にピークがあります[24]。バーはアルミニウムで包まれていました
+集められた光を増やすための箔（60％の反射率）。
+
+8つの6×6mm2面積シリコン光乗算器のアレイrs（SiPMs）S13360-6050PE from Hamamatsu
+フォトニクス[21]をバーの両端に結合して、シンチレーション光子を収集しました。光子検出
+ピーク感度波長（450 nm）での効率は40％です[21]。 SiPMのアノード信号が読み取られます
+参考文献に記載されているように、専用回路によって出力、合計、および成形されます。 [25]。
+
+S3は、SAMPICチップに基づく64チャネルのデータ収集システムを使用します。 SAMPICチップは
+波形と時間からデジタルへのコンバーター（WTDC）16チャネルASICは、
+微細なタイミング抽出やパルスの他のパラメータを可能にする超高速アナログメモリ[26]。各
+チャネルには、独立してトリガーしたり、より複雑なものに参加したりできるディスクリミネーターが含まれています
+複合トリガー。 3つのASICモジュール（16×3 = 48チャネル）がS3の44チャネルに接続されました
+セルフトリガーモードで操作されました。
+
+トリガー条件は次のとおりです。4つのS1PMTのうち少なくとも3つは、上記の信号を持っている必要があります。
+30mVのしきい値。さらに、S3には30mVを超える信号が少なくとも1つ存在する必要があります。これらのS1とS3
+信号は70nsのゲート内で一致している必要があります。 4番目のASICは、S1からデータを取得するために使用されました。
+
+168 cm150 cm121.5 cm132 cm168 cm150 cm121.5 cm132 cm Instruments 2020、4、21
+
+28の11
+
+一致信号S1∩S2とPSからの流出開始信号。検出された光信号の平均時間
+単一のバーの両端で、約100 psの解像度で時間基準を提供しますが、違いは
+光信号の時間の間は、バーに沿った相互作用の位置を与えます。
+1.6cm。
+
+再構築されたS3空間分布の例を図11に示します。図11の左側は、
+4つのモデレーターブロックが存在するときにMIPによって生成されると考えられるS3のヒットの空間分布
+ビームライン。図11右は、S3で4の場合にプロトンとして識別されたヒットの空間分布を示しています。
+モデレーターブロックはビームラインにありました。ヒットのパターンはより拡散しており、散乱効果
+モデレーターブロックの。この位置にあるとき、モデレートされていないビームの測定された水平FWHM
+垂直FWHMが11.0cmであるのに対し、は16.8cmです。ビームラインに4つのモデレーターブロックがあり、測定された
+ビームの水平FWHMは63.8cmで、垂直FWHMは60.0cmです。
+
+イベント/流出/8.7cm2
+
+0.24
+
+0.22
+
+0.2
+
+0.18
+
+0.16
+
+0.14
+
+0.12
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+.02
+
+00
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+120
+
+100
+
+y [cm]
+
+イベント/流出/8.7cm2
+
+20
+
+18
+
+16
+
+14
+
+12
+
+0
+
+24681
+
+80
+
+60
+
+40
+
+20
+
+0
+
+0
+
+120
+
+100
+
+y [cm]
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+160
+x [cm]
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+160
+x [cm]
+
+図11.S3で観察されたヒットの再構築された位置。 （左）4つの最小電離粒子
+ビームラインに配置されたモデレーターブロック。 （右）4つのモデレーターブロックを配置して検出されたプロトン
+ビームライン。この図は、ローカルS3座標を使用しています。ここで、y、x = 0cmは右下隅です。
+S1から見たときのアクティブエリア。
+
+図12は、thに必要なトリガーロジックを示しています。e上流ToFでのビーム粒子の検出
+計装。一致に使用される信号しきい値とタイミングカットは、これで詳細に説明されているものです。
+セクション。
+
+図12.ビーム粒子のアップストリームToF検出用の簡略化されたトリガーロジック図。
+必要な偶然。左と右は、の両端にあるシリコン光電子増倍管（SiPM）を指します。
+同じバー。
+
+2.5。下流の飛行時間計器（S4）
+
+S4の「下流」ToF構成要素は、下流エッジの下流に（0.918±0.001）m座っていました。
+ビームラインにおけるHPTPCプロトタイプのドリフトボリュームの測定。 NuviaNuDETの10本のバーで構成されています
+最大発光波長が425nm、減衰時定数がのプラスチックシンチレータ
+
+Instruments 2020、4、21
+
+28の12
+
+2.5 ns [27]。これらの各バーのサイズは10×1×140cm3です。これらのシンチレータバーの両端に取り付けられているのは
+5 ""浜松ホトニクスR6594PMT [21]。バーは5列2列に配置されており、
+コンプリート検出器に入射するビーム粒子のカバレッジ。バーは個別に包装されています
+光の収量を増やすために反射ミラーシートで。 S4パネルの総アクティブエリアは1.40×0.78m2です。
+S4の図とその寸法を図10の右側に示します。
+
+バーとPMTの時間分解能は、に配置された90Srソースを使用して0.8nsと測定されます。
+バーに沿って測定された距離。図13は、から来る信号の測定された時間差です。
+特定の位置での90Srによって引き起こされたバーの両端のPMT。図13に、
+時間分解能が導き出された分布。バーの対応する空間分解能
+PMTは7cmと測定されました。
+
+χ2/ ndf
+χ2/ ndf
+
+絶え間ない
+絶え間ない
+
+280.1 / 8
+280.1 / 8
+
+4282±62.3
+4282±62.3
+
+平均
+平均
+
+7.555×10−2±7.161×10−3
+7.555e −11±7.161e− 12
+
+シグマ
+シグマ
+
+6.874×10-1±6.979×10-3
+6.874e −10±6.979e− 12
+
+4000
+
+3500
+
+3000
+
+2500
+
+2000年
+
+1500
+
+1000
+
+500
+
+バートリガーs / 0.8ns
+
+0
+-20
+
+-15
+
+-10
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+∆t [ns]
+
+図13.90Srソースを使用して測定されたバーの両端でのPMTの信号到着時間の違い
+バーの一端から64cmのところに配置。
+
+20個すべてのPMTのアノード信号は、LeCroy 620ALNIM弁別器を使用して弁別されます。
+20mVのしきい値で。識別された信号は、Time-to-Digital Converter（TDC）に送られます。 A
+S4の信号は、両方のPMTで信号が識別器のしきい値を超えて見られた場合に、発生したと見なされます。
+互いに20ns以内の同じバー上。このタイミングウィンドウは、実行されたテストによって決定されます
+バーの既知の位置に90Srソースがあります。
+
+S1 − S2一致信号は、同じTDCによってデジタル化されます。この信号は、
+
+S2からS4への粒子飛行時間。
+
+2.6。 HPTPCプロトタイプ
+
+このペーパーで説明されているToFシステムを使用したビームの特性評価については、関連する
+HPTPCプロトタイプの特徴は、位置と厚さです。鋼の容器の壁の。
+円筒形の鋼製容器の外径は142cmです。本体の長さは60cmで、
+丸みを帯びたエンドキャップは、両端にさらに37cm突き出ています。壁の厚さが1cmの場合、定格は6バールです。
+絶対圧。血管壁の厚さは、運動エネルギーが
+約80MeV [28]。モデレートされていないビームの場合、陽子の典型的なエネルギー損失は
+容器内で停止しないのは50MeVです。これは、セクション4.3で詳述されているモンテカルロ研究から決定されます。
+TPCの中心の角度位置は約θ= −2.5◦です。ポジションの詳細と
+TPCの範囲を表1および2に示します。
+
+Instruments 2020、4、21
+
+28の13
+
+アクティブなTPCは、直径111 cm、長さ48cmの円柱です。 TPCは薄い鋼で構成されていました
+メッシュ電極（直径118cmのカソード1つと直径121cmのアノード3つ）、および銅12個
+均一なドリフトフィールドを作成するためのリング。アノードはsupでした六角形のアルミニウム補強材で移植
+カメラとは反対側を向いています。 TPCでのデータ取得では、光学と電荷の両方を利用しました
+読み出す。 TPCの容器、電極、ドリフト領域を図14に示します。
+
+図14.TPCの断面図。薄いメッシュ電極と銅リングのドリフトボリュームは
+鋼製の容器の中に見られます。示されている血管の壁は厚さ1cmで、血管の外径は
+142cm。船に当たった時点で、ビームの中心は船の中心から垂直に1cm下にありました。
+ここで、血管壁の内側からドリフト領域までの距離は15cmでした。
+
+実行中、TPCは純粋なアルゴン、またはアルゴンと少量のアルゴンの組み合わせのいずれかで満たされました。
+
+クエンチャーのパーセンテージ。このTPCのパフォーマンスは、今後の出版物の主題です[29]。
+
+3.分析
+
+3.1。分析目標
+
+この分析の主な目的は、軸外の組み合わせを使用することの実現可能性を評価することです。
+位置決めとモードの運動量の範囲をカバーする運動量を持つ粒子を生成する定格ビーム
+GeVスケールのニュートリノ相互作用で生成された粒子とTPCへの入射フラックスの特性評価
+TPCデータ分析のために、TPCを終了します。
+
+モデレーターブロックの数ごとに記録された流出の数を表3に示します。その他のデータ
+
+ビームテストの大部分に使用された構成であるため、4ブロックで収集されました。
+
+Beam Instruments 2020、4、21
+
+28の14
+
+表3.このペーパーに含まれる各モデレーターブロック構成について記録された流出の総数。
+
+記録された流出をモデレーターブロックの数
+
+0
+1
+2
+3
+4
+
+257
+254
+267
+220
+3884
+
+3.2。飛行時間分析
+
+運動量0.8GeV / cの荷電パイ中間子は、S1からS3までの飛行時間があります（距離は
+10.8 m）は37 nsですが、同じ運動量の陽子の飛行時間は55nsです。同様に
+S2とS4（距離12.7 m）の間を移動する2つの粒子、帯電したパイ中間子には時間があります
+43nの飛行のsと陽子の飛行時間は65nsです。図15の左右は、
+S1 −S3距離およびS2−S4距離にわたるさまざまな粒子種の予測飛行時間。
+それぞれ。
+
+S1からS3への予測飛行時間
+
+S2からS4への予測飛行時間
+
+ピオン
+
+ミューオン
+
+カオン
+
+プロトン
+
+重陽子
+
+200
+
+180
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+飛行時間[ns]
+
+ピオン
+
+ミューオン
+
+カオン
+
+プロトン
+
+重陽子
+
+200
+
+180
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+飛行時間[ns]
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.7
+
+0.6 0.6
+粒子の運動量[GeVc-1]
+
+0.8
+
+0.9
+
+1
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.7
+
+0.6 0.6
+粒子の運動量[GeVc-1]
+
+0.9
+
+0.8
+
+1
+
+図15.粒子の関数としてのいくつかの異なる粒子種の計算された飛行時間
+勢い。 （左）S1とS3の間のToF。 （右）S2とS4の間のToF。
+
+図16は、さまざまな数のS3タイミングポイントで記録された飛行スペクトルの時間を示しています。
+モデレーターブロック。より速いピークは最小の電離粒子によって形成され、一方、より高い
+tS3 −tS1の値は陽子に対応します。プロトンピークは二重ピークの特徴を示し、小さい
+メインプロトンピークに密接に続く遅延ピーク。この機能は、ビームが操縦​​された後に表示されました
+完全な2.5◦軸外角度を達成できるように、これはビーム散乱の一部によるものです。
+ステアリングマグネット、より遅いピークにつながります。ステアリングに当たらないビーム部分
+磁石は、スペクトル内でより速い陽子ピークを生成します。図3左と右、プロトンピークを示しています
+ステアリングされていないビームの場合、ダブルピーク構造はなくなります。 0ブロックを示す黒い曲線
+データでは、95nsを中心に重陽子のピークが見られます。粒子種選択のタイミング範囲は次のとおりです。
+図15に示す分析的期待値を使用して選択されます。
+
+Instruments 2020、4、21
+
+28の15
+
+0ブロック
+
+1ブロック
+
+2ブロック
+
+3ブロック
+
+4ブロック
+
+104
+
+103
+
+102
+
+10
+
+1
+
+10-1
+
+イベント/流出/0.4ns
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+tS3 − tS1 [ns]
+
+図16.Sさまざまな数のモデレーターブロックの3回の飛行スペクトル。
+
+正しい飛行時間を計算するために、ケーブル配線と機器によって引き起こされるタイミング遅延が考慮されます
+アカウント。同じ方法を使用して、S1とS3の間の飛行時間の測定値を修正します。
+およびS2およびS4。最初に記録された時間tiはtS1またはtS2のいずれかであり、最後に記録された時間tfはtS3です。
+またはtS4、それぞれ。
+
+タイミングオフセットは、t f −tiスペクトルの最速のピークを想定してビームラインで測定されます。
+モデレートされていないデータの場合、0.8 GeV / cの運動量を持つ帯電したMIPによって生成されます。必須
+タイミングシフトは、これを前提として、最速のピークを予想される位置に移動するために必要なシフトです。
+仮定。このシフトは、測定されたすべての飛行時間に適用されます。この修正が実行されます
+tS3 −tS1の測定とtS4−tS2の測定の両方で別々に。必要なタイミング
+tS4 −tS2測定のシフトは43.7nsです。 tS3 − tS1測定の場合、edタイミングシフトは
+65.0ns。
+
+モデレーターブロックなしのデータセットに対して計算された質量分布を図17に示します。
+単一粒子（tS3 − tS1）に対応するS3カウンターとS1カウンター間の時間差は、
+式（1）を使用した粒子の質量m。ここで、式は自然単位系です。粒子の運動量、
+pは、0.8 GeV / cであると想定されます。
+
+m2 = p2
+
+（cid：32）（cid：18）tS3 − tS1
+xS3 − xS1
+
+（cid：19）2
+
+（cid：33）
+
+− 1
+
+、
+
+（1）
+
+図17の陽子とパイ中間子の質量位置は、垂直の矢印で示されています。はっきりとできる
+陽子と重水素に対応する明確なピークを観察します。図の挿入図はズームされたものを示しています
+MIPに対応する領域。
+
+Instruments 2020、4、21
+
+28の16
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+
+3.5
+
+4
+
+4.5
+
+m2 [GeV2 c-4]
+
+図17.モデレーターブロックなしで取得されたデータの再構築されたマススペクトル。スペクトルは
+S3とS1の時間差を使用して計算されます。垂直矢印は、粒子の予測位置を示しています
+ギブ0.8 GeV / cの勢いで。挿入：同じスペクトルのMIP領域の拡大図。
+
+S3で収集されたデータでは、タイミングと信号振幅の両方のカットを使用して陽子を選択し、
+MIP。図18は、シンチレータの1つでSiPMの1つに記録された信号サイズの例を示しています。
+tS3 −tS1の測定値に対するバー。使用されるビームエネルギーでは、質量が大きいため、
+陽子は通常、検出器により多くのエネルギーを蓄積し、より大きな振幅の観測をもたらします。
+したがって、プロトンサンプルのバックグラウンドイベントの数を減らすために、最小信号振幅
+必要とされている。このカットは、問題のSiPMによって異なり、次のような分布から決定されます。
+図18に示すように、カット値は0.125Vから0.3Vの範囲で変化します。
+
+35.75 ns <tS3 − tS1 <37.75nsの粒子がMIPとして識別されます。通過する粒子
+振幅カットで、53 ns <tS3 − tS1 <115nsが陽子として識別されます。これの上限
+ティム重水素を除外するために、モデレートされていないサンプルのカットは80nsに削減されます。
+
+その大きな死者を説明するために、上流のToF DAQ（S1、S2、およびS3）に修正を適用する必要があります
+時間。 S1∩S2信号は、アップストリームとダウンストリームの両方のToFDAQによってデジタル化されます。のデッドタイム
+下流のToFDAQはごくわずかであることがわかりました。 S1∩S2信号の数の間の線形関係
+各DAQで測定されたものは、モデレーターブロックサンプルごとに決定されます。したがって、で測定されたイベント
+アップストリームToFDAQは、アップストリームで測定されたS1∩S2信号の数が測定されるように重み付けされます。
+ダウンストリームのToFDAQはほぼ同じです。
+
+図19は、S4によって記録された飛行時間スペクトルの変化を数値の変化とともに示しています。
+モデレーターブロックの。このスペクトルは、一致の観測間の時間差によって与えられます
+S1とS2のタイミングポイントで、S4で記録されている信号（S4信号の定義が与えられます）
+上記）。
+
+pionpionpionpionpionpionpion
+
+申命記エロン
+重陽子
+重陽子
+重陽子
+重陽子
+
+陽電子
+陽電子
+陽電子
+陽電子
+陽電子
+陽電子
+
+0
+-0.02
+
+-0.01
+
+0
+
+0.01
+
+0.02
+
+0.03
+
+0.04
+m2 [GeV2 c-4]
+
+0.05
+
+350
+
+300
+
+250
+
+200
+
+150
+
+100
+
+50
+
+イベント/流出/ 5×10-4GeV2c-4
+
+プロトン
+プロトン
+プロトン
+プロトン
+
+104
+
+103
+
+102
+
+10
+
+1
+
+イベント/流出/0.016GeV2c−4
+
+Instruments 2020、4、21
+
+28の17
+
+図18.さまざまな数値のS1からS3の飛行時間に対してプロットされたSiPM信号振幅の例
+モデレーターブロックの。左上から時計回りに0、1、3、2のモデレーターブロックが表示されます。 A1は電圧です
+バーの最後にあるSiPMに記録されます。赤い水平の破線は、に使用される振幅カットを示しています
+この特定のSiPM。赤い破線で囲まれた領域のイベントがプロトンとして選択されます。イベント
+緑の破線で囲まれたものがMIPとして選択されます。
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+
+tS4 − tS2 [ns]
+
+図19.さまざまな数のモデレーターブロックのS4飛行時間スペクトル。すべての構成で、フラット
+背景はされていますデータに適合し、データから減算します。さらに、プロットも修正されました
+さまざまなバーの効率の違いと、位置の関数としての効率の変化について
+セクション3.2で説明されているように、バーに沿って。
+
+さらに、S2からS4に移動する粒子の再構築された質量分布を以下に示します。
+図20、式（1）を使用して作成。移動する粒子に対して生成された同じ分布とは異なり
+
+0ブロック
+
+1ブロック
+
+2ブロック
+
+3ブロック
+
+4ブロック
+
+102
+
+10
+
+1
+
+イベント/流出/ ns
+
+10-1
+
+10−2
+
+30
+
+2030405060708090100110120 [ns] S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V] 110210310イベント/ ns / 0.0045V0ブロック2030405060708090100110120 [ns] S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V] 110210310イベント/ ns 0.0045V1ブロック2030405060708090100110120 [ns] S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V] 110210310イベント/ ns / 0.0045V2ブロック2030405060708090100110120 [ns] S1-tS3t00.050.10.150.20.250.30.350.40.45A1 [V] 110210 ns / 0.0045V3ブロックInstruments 2020、4、21
+
+28の18
+
+S1からS3まで（図17を参照）、重陽子のピークは見えません。これは、の減衰によるものと考えられます
+TPCの壁内の重水素。さらに、予測されるプロトン位置はと一致しません
+測定されたプロトン位置。これもまた、TPCが前に配置されていることが原因であると考えられています。
+S4。 TPCを通過する陽子はエネルギーを失い、元の0.8 GeV / c未満になります。
+ビーム運動量。次に、これにより、陽子の再構成質量が予測よりも大きくなります。ザ・
+図20の陽子質量ピークの変位は、容器内の予想されるエネルギー損失と一致しています。
+壁。この一貫性は、セクション4.3のモンテカルロ研究で示されています。これらのモンテカルロ研究も
+この研究で使用されたエネルギーで、血管に衝突する陽子の約40％が
+その中で停止します。
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+
+3.5
+
+4
+
+4.5
+
+m2 [GeV2 c-4]
+
+図20.データtの再構成されたマススペクトルモデレーターブロックなしでaken。スペクトル
+S4とS2の時間差を使用して計算されました。垂直矢印はの予測位置を示しています
+粒子。
+
+バー間の粒子検出効率のばらつきと、
+各バーに沿った位置の関数としてのこの効率の変化。この修正は、
+宇宙線の流れ。 S4の各部分を通過する宇宙線のフラックスは等しいと仮定されます。
+各S4バーは、分析のために7 cmのセグメントに分割され、通過する宇宙線の数が示されます。
+各セグメントは、ビーム流出の外側で発生するすべての信号がによって生成されると仮定して測定されます
+宇宙線。次に、ビンを最も高い値で正規化することにより、この分布から効率を求めます。
+宇宙線信号の数は1になります。この効率は、バーの中央付近（70 cm）で最も高くなります。
+ヒットするために、特定のバーの両方のPMTで一致する信号が観察されるという要件の
+記録するorded。これらの分布の1つの例を図21に示します。次に、イベントが重み付けされます。
+それらが観察されるバーとこのバーに沿ったそれらの測定された位置に応じて。重量
+適用されるのは、図21のz軸に示されている値の逆数です。さらに、追加の重みは
+1.25のすべてのS4イベントに適用されます。この重量は、90Srを使用してS4バーで実行されたテストから得られます。
+ソース。このソースを使用して、によって生成された信号の最大測定レートが決定されました。
+90Srソースは真のレートの0.8に等しかった。
+
+パイ中間子
+
+プロトン
+
+103
+
+102
+
+10
+
+1
+
+10-1
+
+10−2
+
+イベント/流出/0.044GeV2c−4
+
+Instruments 2020、4、21
+
+28の19
+
+効果
+
+0.9
+
+0.8
+
+0.7
+
+0.6 0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+.1
+
+00
+
+1
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+鉄棒の位置[cm]
+
+図21.バー番号と各バーに沿った位置の関数としてのS4の相対的な検出効率
+宇宙線で測定。バー10のデータは、効率が悪いため、分析には使用されませんでした。
+tに沿って彼はバー。
+
+図19を使用して、プロトンとMIPがタイミングカットで選択され、フラットなバックグラウンドが選択されます。
+差し引かれます。より速いタイミングウィンドウ内の粒子（36 ns <tS4 − tS2 <51 nsの粒子）は
+最小の電離粒子と見なされますが、タイミングウィンドウが遅い粒子（
+62 ns <tS4 − tS2 <125 ns）は陽子と見なされます。
+
+バックグラウンドは、信号関数とバックグラウンド関数の合計を次の時間に適合させることによって決定されます。
+飛行スペクトル。信号関数はガウス関数と見なされ、背景はフラットと見なされます。あ
+この例を図22に示します。各サンプルのバックグラウンドレートを表4に示します。
+セクション4.2に示されている合計からバックグラウンドが差し引かれています。
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+
+tS4 − tS2 [ns]
+
+図22.信号とバックグラウンドを組み合わせたS4で観測された飛行時間スペクトルの例
+適合した機能（赤で表示）。
+
+背景は、測定されたS4partiの合計と同じパターンに従います。cleレート（セクション4.2を参照）。
+バックグラウンドレートは、モデレーターブロックを追加すると、最初は増加します。
+3および4モデレーターブロック構成では減少します。
+
+バックグラウンドレートに対するシグナルプロトンのレートの比率は、モデレーターの追加により低下します
+ブロック。これは、減速材ブロックからの散乱が増加し、より多くの粒子が衝突するためです。
+
+123456789
+
+10B
+
+ar
+
+102
+
+10
+
+1
+
+イベント/流出/ ns
+
+10-1
+
+10−2
+
+30
+
+Instruments 2020、4、21
+
+28の20
+
+S2を通過せずにS4。これは、誤った偶然の増加につながり、
+バックグラウンドレート。
+
+表4.S4で測定された飛行スペクトルの時間のバックグラウンドレート。これらをの数に変換するには
+流出で予想されるバックグラウンドイベント、レートはいずれかのタイミングウィンドウのサイズで乗算されます
+MIPまたは陽子。
+
+モデレーターブロックの数背景/イベント×spill-1×ns-1
+
+0
+1
+2
+3
+4
+
+0.037±0.004
+0.066±0.005
+0.165±0.007
+0.124±0.009
+0.085±0.002
+
+4。ビームフラックス測定
+
+4.1。 S3を使用したフラックス測定
+
+ToFシステムは、プローブするために、ビーム軸に対して軸外角度になっています（表1を参照）。
+ニュートリノ実験に最も関連する領域をカバーするための、減少した陽子運動量スペクトル
+TPCを通過するフラックスを測定します。これは、θとφで定量化されます（セクション2.2を参照）。
+
+TPCの上流のプロトンスペクトルを図23に示します。左の図23は、速度論を示しています。
+陽子として識別された粒子のエネルギーは、モデレーターの数が増えるにつれて正常に減少します
+ブロック、範囲はモデレートされていないビームの210〜320 MeVから4アクリルの60〜110 MeV
+ブロック。図23右は、TPCに交差する陽子の運動エネルギースペクトルを示しています。この図
+低エネルギー陽子（運動エネルギーが80 MeV未満の陽子）のフラックスが
+TPCは、0、1、および2ブロックの場合の無視できる値から、4ブロックの場合の流出あたり（9.7±0.1）に増加しました。
+Fiの比較図23右、図2は、4つのモデレーターブロックの場合、運動エネルギーが
+TPCに入射する陽子の数は、異なるニュートリノ相互作用がある50MeV領域のすぐ上にあります。
+ジェネレーターは不一致になります。これらの陽子は、HPTPC容器の壁内でさらにエネルギーを失います。
+その結果、TPC内で50MeV未満の陽子のフラックスが発生します。
+
+0ブロック-流出ごとに19.0±0.9
+
+1ブロック-流出ごとに49±1-
+
+2ブロック-流出ごとに93±2-
+
+3ブロック-流出ごとに108±3-
+
+4ブロック-流出あたり21.4±0.2
+
+012345678
+
+陽子/流出/3.1MeV
+
+0ブロック
+
+1ブロック
+
+2ブロック
+
+3ブロック
+
+4ブロック
+
+180
+
+160
+
+140
+
+120
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+陽子/流出/3.1MeV
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+350
+
+プロトン運動エネルギー[MeV]
+
+プロトン運動エネルギー[MeV]
+
+図23.S3で測定されたプロトン運動エネルギースペクトル。 （左）すべての陽子。 （右）のサブセット
+HPTPCドリフトボリュームを通過する陽子。凡例に示されているエラーは、の統計エラーです。こぼれたあたりの粒子数。
+
+モデレーターブロックの使用とTPCの軸外位置への配置の組み合わせも
+TPCを通過する陽子の多重度に変化を引き起こしました。図23右は、
+
+Instruments 2020、4、21
+
+28の21
+
+1、2、および3のモデレーターブロックを追加すると、TPCを通過するプロトンの数が増加しました。
+モデレートされていない場合の流出あたり（19.0±0.9）から3ブロックの場合の流出あたり（108±3）。の追加
+4番目のモデレーターブロックは、100 MeVを超える陽子の流れを効果的に除去し、1個あたり（21.4±0.2）を残します。
+TPCアクティブボリュームをトラバースするためにこぼれます。
+
+S3のMIPと陽子の分布と軸外角度の関係を図24に示します。どちらの場合も、
+ピークビーム強度は、モデレーターブロックの数が増えるにつれて低下し、θで広がります。軸外
+モデレーターブロックの数が増えると、MIPとプロトンの数が増えます。ザ・
+TPCはこの軸外領域内にあります。粒子の広がりモデレートされていないデータの場合は予期していませんでした。この
+ピークはビームステアリング散乱によって広がり、図16に見られる二重陽子ピークにつながりました。
+17.ステアリングされていない、モデレートされていないビームの場合、測定された水平FWHMは9.6 cmですが、
+垂直FWHMは11.0cmです。これは、モデレートされていない場合に測定された水平FWHMと比較されます
+そして16.8cmの操縦されたビーム。
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+θ[度]
+
+2
+
+3
+θ[度]
+
+図24.S1から測定された、水平軸外角度の関数としてのS3のヒットの分布
+さまざまな数のモデレーターブロック。 S2での同時ヒットは必要ありませんでした。 （左）最小電離
+粒子。 （右）陽子。凡例に示されているエラーは、粒子数の統計エラーです。
+こぼれごと。
+
+図25は、S3で測定されたプロトン-MIP比を、公称軸外角度の関数として示しています。
+それぞれ水平方向と垂直方向、およびさまざまな数のモデレーターブロックに対して。 0、1、2、3の場合
+モデラーatorは、ビーム軸に対して約1◦で比率が最小になるのをブロックします。この
+ステアリングビームの真のビーム中心に対応します。角度が真のビームから離れるにつれて
+中央では、これらの構成の比率が高くなります。プロトン-MIP比のピークは
+より多くのモデレーターブロックが追加されるにつれて、ビームの中心は徐々に増加します（ビームから約1◦離れたところから）
+0ブロックの中心から3ブロックのビーム中心から約3◦まで）。 θの最大値、
+プロトン-MIP比は、モデレーターブロックを追加すると低下します。したがって、の運動エネルギーを減らす
+100 MeV未満の陽子は、陽子ビームの純度を低下させるという犠牲を払って発生しました。
+
+4.2。 S4を使用したフラックス測定
+
+左の図26は、S4全体で最小の電離粒子として識別された粒子の流れを示しています。すべてのために
+モデレーターブロックの数、最小電離粒子イベントのピーク数は、θの値で発生します
+-1◦と-2◦の間。同様に、spiあたりのプロトンイベントの数ll、図26の右に示すように、ピーク
+θの値が約-2◦の場合。 θ=-1◦とθ=0◦の間のイベント数の減少は次のとおりです。
+これらの角度で船のドアにビームが衝突した結果として。の位置と形状
+圧力容器のドアは、これらの角度で移動する粒子の場合、より長い鋼が通過することを意味します
+容器の本体に衝突する粒子と比較して。
+
+104
+
+103
+
+102
+
+10
+
+1
+
+陽子/流出/度
+
+0ブロック-12530±20 /流出
+
+1ブロック-13260±20 /流出
+
+2ブロック-12560±20 /流出
+
+3ブロック-11680±30 /流出
+
+4ブロック-流出ごとに8513±3-
+
+0ブロック-流出ごとに2440±10
+
+1ブロック-2058±8 /流出
+
+2ブロック-1608±7 /流出
+
+3ブロック-流出あたり1069±8
+
+4ブロック-流出あたり166.5±0.6
+
+105
+
+104
+
+103
+
+102
+
+10
+
+MIP /流出/学位
+
+Instruments 2020、4、21
+
+28の22
+
+0.4
+
+0.35
+
+0.3
+
+0.25
+
+0.2
+
+0.15
+
+0.1
+
+0.05
+
+プロトン/ MIP
+
+102
+
+10
+
+1
+
+10-1
+
+10−2
+
+10−3
+
+10−4
+
+陽子/流出/度
+
+0
+
+-6
+
+-5
+
+-4-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+θ[度]
+
+0
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+
+φ[度]
+
+図25.軸外角度の関数としてのさまざまな数のモデレーターブロックに対するS3のプロトン-MIP比。
+S1から測定。 （左）水平角。 （右）頂角。 TPCは水平角にまたがっています
+1.4–3.6◦および頂角-2.6– +2.6◦。
+
+左の図26は、最初はモデレーターブロックの数が増えると
+S4を介した総MIPフラックスの増加。これは、S2とS4の両方が軸外に配置されているためです。
+モデレートされていないビーム粒子はこれらの検出器に衝突しません。モデレーターでの散乱プロセスにより、
+より多くのMIPがS2とS4に入射し、より多くの散乱がより多く発生します。
+モデレーターブロックの。ただし、4番目のモデレーターブロックを使用すると、MIPの流れが低下するように見えます。同様に、
+最初の2つのモデレーターブロックを追加すると、図26の右側に示されているプロトンフラックスが最初に
+S4のイベントの総数が増加しています。ホーwever、3つおよび4つのモデレーターブロックで、
+S4で観測された陽子の総数は減少します。初期のプロトンフラックスの増加は、MIPの場合と同様です。
+散乱が増加すると、より多くの陽子が軸外のS2およびS4検出器を通過するフラックス。ザ・
+その後の減少は、より厚いモデレーターでの陽子のエネルギー損失が大きいためです。順番に、これ
+圧力容器内の陽子の減衰につながり、S4で観測されるイベントが少なくなります。
+
+0ブロック-流出ごとに119±2-
+1ブロック-流出ごとに181±2-
+2ブロック-流出ごとに158±2-
+3ブロック-流出ごとに39±1-
+4ブロック-流出あたり1.3±0.2
+
+0
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+θ[度]
+
+0
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+θ[度]
+
+0
+
+図26.モデレーターブロックの数と水平方向の関数としてのS4のヒットの分布
+軸外角度。 （左）最小電離粒子。 （右）陽子。凡例に示されているエラーは
+こぼれあたりの粒子数の統計誤差。
+
+図27は、陽子と陽子の比率を示しています。モデレーターブロック数の関数としてのMIP、θおよび
+φ。さまざまなブロック構成のすべてについて、比率はθとφの両方でフラットです。の追加で
+モデレーターブロックの場合、比率は0ブロックの場合の最高レベルの0.5から4ブロックの場合の0.002に減少します。
+データ。前述のように、これは内部の低エネルギー陽子の減衰によるものと考えられています
+圧力容器の壁。
+
+0ブロック-流出ごとに236±4-
+1ブロック-流出ごとに698±5-
+2ブロック-1049±6 /流出
+3ブロック-流出ごとに1134±9
+4ブロック-流出ごとに495±1-
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+MIP /流出/学位
+
+0ブロック
+
+2ブロック
+
+4ブロック
+
+1ブロック
+
+3ブロック
+
+0ブロック
+
+1ブロック
+
+2ブロック
+
+3ブロック
+
+4ブロック
+
+0.4
+
+0.35
+
+0.3
+
+0.25
+
+0.2
+
+0.15
+
+0.1
+
+0.05
+
+プロトン/ MIP
+
+Instruments 2020、4、21
+
+28の23
+
+-6
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1.5
+
+-1
+
+-0.5
+
+0
+
+0.5
+
+1
+
+-1
+θ[度]
+
+0
+
+φ[度]
+
+図27.軸外角度の関数としてのさまざまな数のモデレーターブロックに対するS4のプロトン-MIP比。
+（レフt）水平軸外角度。 （右）垂直軸外角度。
+
+4.3。モンテカルロ研究
+
+TPCの活性領域に到達する陽子の流れを確認し、補正を検証するために
+上記のように、モンテカルロ（MC）シミュレーション研究が実行されました。シミュレーションが実行されました
+GEANT4 [20]を使用し、幾何学的体積が船舶、TPC、および飛行時間システムを概算します。
+上流の条件にできるだけ一致させるために、粒子の運動量はS3から引き出されました。
+左の図23に示されている分布であり、同じ位置になる軌道でシミュレートされています
+図11右に見られるような分布。セクション3.2で説明したのと同じタイミングカットが適用されました。
+
+シミュレートされた陽子は、容器を通ってS4検出器に伝播されます。勢いのプロファイル
+S4パネルに到達するシミュレートされた陽子の数を図28に示します。S4の陽子検出しきい値
+140 MeV / c（10 MeVの運動エネルギー）が含まれています。シミュレーションは、親族の大幅な減少を示していますエティック
+ほとんどの粒子がTPC容器の両方の鋼壁を通過したときのエネルギー。特に、4
+モデレーターブロックの場合、S4に到達するために2番目の血管壁を通過して生き残った粒子はごくわずかです。
+
+0ブロック
+
+3ブロック
+
+1ブロック
+
+4ブロック
+
+2ブロック
+
+1
+
+10-1
+
+10−2
+
+10−3
+
+プロトン/ MIP
+
+0ブロック
+
+2ブロック
+
+4ブロック
+
+1ブロック
+
+3ブロック
+
+10-1
+
+10−2
+
+10−3
+
+10−4
+
+プロトン/ MIP
+
+0ブロック-流出ごとに53±2-
+
+2ブロック-流出ごとに104±2-
+
+4ブロック-流出あたり2.13±0.06
+
+1ブロック-流出ごとに105±2-
+
+3ブロック-流出ごとに48±2-
+
+102
+
+10
+
+1
+
+陽子/流出/3.75MeV
+
+10-1
+
+10−2
+
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+プロトン運動エネルギー[MeV]
+
+図28.S4に到達するシミュレートされた陽子のエネルギープロファイル、検出を超える運動エネルギー
+10MeVのしきい値。
+
+データとMCのS2とS4の飛行時間の比較を、さまざまな数値について図29に示します。
+モデレーターブロックの。図29は、すべての数のモデレーターブロックについて、
+
+Instruments 2020、4、21
+
+24の28
+
+データとMCスペクトルは2ns以内で一致します。このレベルの合意は、シミュレートされたエネルギー損失を確認します
+船内およびTPCは、データのエネルギー損失と同様です。
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+
+tS4 − tS2 [ns]
+
+図29.S2とS4の間のシミュレートおよび測定されたプロトンToFの比較。実線は対応します
+シミュレートされた分布に、ポイントはデータに対応します。すべての分布は、1に正規化された面積です。
+
+S3とS4で測定された陽子の数に関する体系的な不確実性は、両方について推定されます。
+データとMC、および表5に示されています。MCシミュレーションの体系的な不確実性は、次のように決定されます。
+S1およびS2検出器の位置を含む、シミュレーションの幾何学的初期条件を変更します。
+これらの変動は、伝播した陽子の方向と運動量の変化を引き起こします。さらに、
+研究は、不確実性の代用として、ビームラインに1cmの追加のアクリルを使用して実行されました。
+ビーム施設内の他の軽い材料。この計算されたエラーのセットは、幾何学的なソースを表します
+MCシミュレーションにおける不確実性の。
+
+データの場合、S3の全体的な効率の不確かさは、±1σの不確かさをとることによって計算されます。
+アップストリームとダウンストリームのToFDAQにおけるS1∩S2信号間の適合線形関係について（を参照）
+セクション3.2）そしてこれがS3プロトンカウントに引き起こすわずかな変化を計算します。
+
+S4の全体的な効率に関する不確かさは、で実行された校正テストから計算されます。
+セクション3.2で説明したように、90Srソースを備えたS4バー。 0.8の全体的な効率係数が計算されました
+ビームテストで使用されたものとは大幅に異なる読み出しで取得されたデータを使用するため、対象となります
+バリエーションに。さまざまなS4のこれらの90Srソーステストで測定された最大バー効率の広がり
+バーは、全体的なS4効率の体系的な不確実性として使用されます。
+
+S4角度補正の体系的な不確実性は、水平方向の数を変化させることによって評価されます
+
+Figuのビンre 21を20から10に変更し、測定されたS4陽子の数をわずかに変化させます。
+
+S4バックグラウンド減算の不確かさは、フィットの1σ誤差を取ることによって決定されます
+平坦なバックグラウンドと、結果として生じる陽子数の変化を決定します。これはでより大きな効果があります
+バックグラウンドと比較してS4で検出された陽子の数が非常に少ないため、4ブロックの場合。
+
+0ブロック
+
+1ブロック
+
+2ブロック
+
+3ブロック
+
+4ブロック
+
+0.2
+
+0.18
+
+0.16
+
+0.14
+
+0.12
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+0
+
+正規化されたユニット
+
+Instruments 2020、4、21
+
+28の25
+
+表5.データとモンテカルロ（MC）シミュレーションの体系的なエラーと値のリスト。すべての値は
+S3の効率に関する不確実性を除いて、S4プロトンカウントのパーセント誤差。
+S3プロトンカウントのパーセント誤差。すべての不確実性は無相関として扱われます。 nS4、MCは
+MCシミュレーションでS4に到達する陽子の数。
+
+モンテカルロ
+
+モデレーターブロックの数
+2
+
+1
+
+3
+
+系統的nS4、MCの不確実性
+
+9.5％
+
+8.0％
+
+8.5％17.0％8.0％
+
+系統的エラーの原因
+
+S3の絶対効率
+S4の絶対効率
+S4角度補正
+S4の背景の不確実性
+
+モデレーターブロックの数
+2
+
+1
+
+3
+
+1.1％11.4％7.0％11.4％4.9％
+11.0％11.0％11.0％11.0％11.0％
+4.1％
+6.7％
+1.5％
+2.9％
+8.1％
+0.18％0.16％1.1％
+
+8.2％
+1.4％
+
+合計
+
+11.5％16.0％14.7％18.3％18.9％
+
+0
+
+0
+
+データ
+
+4
+
+4
+
+S3に到達する陽子に対するS4に到達する陽子の数の比率は、シミュレーションと
+表6のデータには、それぞれの場合の統計的および系統的エラーの合計が含まれています。合意
+ビームテストのセットアップによって提供される不確実性に関連して示されていることは、効率が
+セクション3.2で説明されている修正は正当化されます。
+
+TPCのアクティブエリアに浸透するシミュレートされた粒子の数を図30に示します。
+それぞれ運動量と運動エネルギーの関数としての左と右。図30を右に比較すると、
+図2に示す動機付けのプロットを見ると、それは明らかです。アクセスするには4つのモデレーターブロックが必要でした
+関心のある運動量領域（50 MeV未満）。したがって、軸外およびモデレーター技術は
+陽子エネルギーが低下した程度で成功しました。到達する陽子の数
+TPCのアクティブエリアは、4つのモデレーターブロックで流出あたり（7.0±0.1）でしたが、流出あたり（12.6±0.7）でした。
+モデレートなし。 4つのモデレーターブロックの場合、これらの陽子のうち（5.6±0.1）のエネルギーは100MeV未満でした。
+これらの値は、データとシミュレーションを完全に比較して調整されました。
+
+表6.S4に到達するプロトンの数とS3に到達するプロトンの数の比率
+MCとデータのモデレーターブロック。いずれの場合も、統計的エラーと体系的エラーの組み合わせは次のとおりです。
+示されています。
+
+モデレーターブロックの数モンテカルロ
+
+データ
+
+データ/ MC
+
+0
+1
+2
+3
+4
+
+0.027±0.003
+0.067±0.005
+0.084±0.007
+0.06±0.01
+0.011±0.001
+
+0.049±0.007
+0.09±0.01
+0.10±0.01
+0.036±0.007
+0.008±0.001
+
+1.8±0.3
+1.3±0.2
+1.2±0.2
+0.7±0.2
+0。7±0.1
+
+Instruments 2020、4、21
+
+28の26
+
+0
+
+0.1
+
+0.2
+
+0.3
+
+0.5
+
+0.4
+0.6 0.6
+プロトン運動量[GeVc-1]
+
+0.7
+
+0.8
+
+0
+
+50
+
+100
+
+150
+
+200
+
+250
+
+300
+
+プロトン運動エネルギー[MeV]
+
+図30.（左）TPCのアクティブ領域に到達するシミュレートされた陽子の運動量プロファイル。 （正しい）
+TPCの活性領域に到達するシミュレートされた陽子のエネルギープロファイル。凡例に示されているエラー
+流出あたりの粒子数の統計誤差です。
+
+5。結論
+
+プロトタイプの高圧ガスタイムプロジェクションチェンバーは、T10ビームラインで操作されました。
+2018年8月と9月のCERNで低運動量陽子の測定を行うために
+アルゴン。容器は、ビームの中心軸から離れた位置に配置され、いくつかのアクリル
+ブロックはビームラインに直接配置され、低運動量の陽子の流れを生成します。
+TPC、TPC内のこれらの低エネルギー陽子の低い占有率を確保し、の比率を変更します。
+陽子へのMIP。ビームフラックスの測定は、tを使用して行われました。配置された飛行システムの2回
+TPC船の上流（1.323±0.001）mおよび下流（0.918±0.001）m。これらの測定値
+陽子とMIPの絶対速度と相対速度、およびそれらの運動量を決定するために使用されました。
+ビーム軸から離れたさまざまな位置、およびさまざまな数のモデレーターブロック用。
+
+ビームが操縦​​されていないとき、幅は9.6cmであると測定された。ビームが操縦​​されたとき
+
+軸外で約1◦、ビーム幅は16.8cmに増加しました。
+
+これらの測定は、モデレーターブロックを追加すると平均運動エネルギーが減少することを示しました
+0モデレーターブロックで0.3GeVから4モデレーターブロックで0.1GeVまでTPCに到達する陽子の数、
+運動学的関心領域へのアクセス。これは、軸外モデレーター技術が
+ニュートリノ検出器のテストに低エネルギーハドロンビームを提供するための適切な方法。プロトン/ MIP比
+モデレーターブロックの数に応じて、軸外角度が小さいと増加し、軸外1◦–2◦でピークになります。
+使用済みおよびt鶏はより高い角度で落ちました。 4つのモデレーターブロック構成により、プロトン/ MIP比が得られました。
+これは、0〜3ブロックよりも大幅に低く、軸外角度に対してフラットでもありましたが、目的の角度を達成しました。
+陽子エネルギースペクトル。飛行システムの上流および下流時間からのキャリブレーションにより、
+ビームラインに4つのモデレーターブロックがあるデータの場合、エネルギーが以下の陽子のシミュレーション数
+アクティブTPC領域に到達する100MeVは、0〜50 MeV / cのエネルギー範囲で流出あたり（5.6±0.1）でした。
+
+著者の貢献：概念化、A.B.-F.、S.B.、L.C.、J.H.、A.K。 （アッシャーカボス）、J.M.、R.N.、J.N.、R.S.、N.S.、Y.S。
+およびM.W.（Morgan Wascko）;データキュレーション、S.J.、T.N.、E.A.、D.B.、A.D。（Alexander Deisting）、A.D。（Adriana Dias）、P.D。、
+J.H.、P.H.-B.、A.K。 （アッシャーカボス）、A.K。 （Alexander Korzenev）、M.M.、J.M.、R.N.、J.N.、W.P.、H.R.-Y.、Y.S.、A.T.、M.U。、
+S.V.、A.W。およびM.W.（Morgan Wascko）;正式な分析、S.J.、T.N.、P.D.、A.K。 （アレクサンダーコルゼネフ）、Y.S。およびA.W .;
+資金調達、G.B.、A.B.-F.、S.B.、A.K。 （Asher Kaboth）、J.M.、R.N.、J.N.、S.R.、R.S。およびM.W.（Morgan Wascko）;
+調査、S.J.、T.N.、A.B.-F.、S.B.、L.C.、P.D.、P.H.-B.、A.K。 （アッシャーカボス）、W.M.、M.M.、J.M.、R.N.、J.N.、R.S.、Y.S。、
+J.S.、M.U.、S.V.、A.W.、M.W。（Mark Ward）、M.W。（Morgan Wascko）;方法論、S.J.、T.N.、E.A.、A.B.-F.、C.B。、
+S.B.、Z.C.-W.、L.C.、A.D。（Alexander Deisting）、A.D。（Adriana Dias）、P.D.、J.H.、A.K。 （アッシャーカボス）、A.K。 （アレクサンダー
+Korzenev）、P.M.、J.M.、R.N.、W.P.、H.R.-Y.、R.S.、N.S.、Y.S.、A.T.、M.U.、S.V.、A.W.、M.W。（Mark Ward）、M.W。（Morgan
+Wascko）;プロジェクト管理、G.B.、S.B.、L.C.、A.D。（Alexander Deisting）、A.K。 （アッシャーカボス）、J.M.、R.N.、J.N。そして
+M.W.（Morgan Wascko）;リソース、S.B.、L.C.、A.K。 （Asher Kaboth）、J.M.、R.N.、J.N.、S.R。およびM.W.（Morgan Wascko）;
+Software、S.J.、T.N.、E.A.、D.B.、Z.C.-W.、L.C.、A.D。（Alexander Deisting）、A.D。（Adriana Dias）、J.H.、A.K。 （アッシャーカボス）、
+
+10
+
+1
+
+10-1
+
+陽子/流出/3.75MeV
+
+0ブロック-12.6±0.7 / spill
+1ブロック-流出あたり30.5±0.9
+2ブロック-流出ごとに56±1-
+3ブロック-流出ごとに62±2-
+4ブロック-流出あたり7.0±0.1
+
+0ブロック-流出ごとに12.6±0.7
+1ブロック-流出あたり30.5±0.9
+2ブロック-流出ごとに56±1-
+3ブロック-流出ごとに62±2-
+ブロック-流出あたり7.0±0.1
+
+10
+
+1
+
+10-1
+
+陽子/流出/0.01GeVc-1
+
+Instruments 2020、4、21
+
+28の27
+
+J.M.、R.N.、W.P.、S.V.、A.W。およびM.W.（マークワード）;監督、G.B.、A.B.-F.、S.B.、L.C.、A.D。（Alexander Deisting）、
+P
+.D。、J.H.、A.K。 （Asher Kaboth）、J.M.、R.N.、J.N.、R.S.、A.W。およびM.W.（Morgan Wascko）;検証、S.J.、T.N.、E.A.、D.B。、
+Z.C.-W.、L.C.、A.D。（Alexander Deisting）、A.D。（Adriana Dias）、A.K。 （Asher Kaboth）、M.M.、J.M.、R.N.、W.P.、H.R.-Y。
+およびA.T .;視覚化、S.J.、T.N.、L.C。およびR.N .;執筆-元のドラフト、S.J.、T.N.、A.K。 （Asher Kaboth）、J.M。およびM.W.
+（モーガンワスコ）;執筆-レビューと編集、S.J.、T.N.、E.A.、S.B.、D.B.、Z.C.-W.、L.C.、A.D。（Alexander Deisting）、
+A.D.（Adriana Dias）、P.D.、A.K。 （アッシャーカボス）、M.M.、J.M。、R.N.、J.N.、W.P.、H.R.-Y.、A.T.、A.W。およびM.W.（モーガン
+Wascko）。すべての著者は、出版された原稿を読み、同意しました。
+
+資金提供：この研究は、科学技術施設研究会議の助成金番号ST / N003233 /によって部分的に資金提供されました。
+
+謝辞：OgdenTrustとSt.Andrewsからの夏の学生へのサポートに謝意を表します。
+大学、およびCERNのヨハンズベルンハルトとレベッカからのビームテスト中の卓越したサポート
+Conybeare、Nicole Cullen、Kate Gould、Veera Mikola、Christopher Thorpe、SimonWilliams。
+
+利益相反：著者は利益相反を宣言しません。
+
+参考文献
+
+1。
+
+3.3。
+
+4.4。
+
+5.5。
+
+6。
+
+7。
+
+阿部健一;アクツ、R。;アリ、A。; Alt、C。; Andreopoulos、C。;アンソニー、L。;アントノバ、M。;青木聡;有賀、A。;浅田恭子;
+芦田恭子。ニュートリノ振動における物質-反物質対称性違反相への制約。 Nature 2020、
+580、339–344、doi：10.1038 / s41586-020-2177-0。
+
+2.モーゼル、U。ニュートリノと核子および核子との相互作用i：ロングベースライン実験の重要性。アン。
+
+Nucl牧師部。科学2016、66、171–195、doi：10.1146 / annurev-nucl-102115-044720。
+Acero、M.A。;アダムソン、P。; Aliaga、L。;アリオン、T。; Allakhverdian、V。; Altakarli、S。;アンフィモフ、N。;アントシュキン、A。;
+Aurisano、A。;戻る、A。;バックハウス、C。ニュートリノを使用したニュートリノ振動パラメータの最初の測定
+およびNOvAによる反ニュートリノ。物理学レット牧師2019、123、151803、doi：10.1103 /PhysRevLett.123.151803。
+アビ、B。; Acciarri、R。; Acero、M.A。;アダモフ、G。;アダムス、D。; Adinolfi、M。;アフマド、Z。; Ahmed、J。;アリオン、T。;
+Alonso Monsalve、S。; etal。深部地下ニュートリノ実験（DUNE）、遠方検出器の技術設計
+レポート、ボリュームII：砂丘物理学。 arXiv 2020、arXiv：2002.03005。
+阿部健一;阿部徹;相原秀樹;福田恭子;隼人、Y。;黄、K。;市川晃;池田眞;井上健一;石野秀樹;
+etal。レターオブインテント：ハイパーカミオカンデ実験—検出器の設計と物理的可能性—。 arXiv
+2011、arXiv：1109.3262。
+Acciarri、R。; Acero、M.A。;アダモウスキー、M。;アダムス、C。;アダムソン、P。; Adhikari、S。;アフマド、Z。;オルブライト、
+C.H。;アリオン、T。;アマドール、E。;アンダーソン、J。ロングベースラインニュートリノ施設（LBNF）と深部地下
+ニュートリノ実験（DUNE）概念設計レポート、第4巻LBNFのDUNE検出器。
+arXiv 2016、arXiv：1601.02984。
+Andreopoulos、C。;ベル、A。; Bhattacharya、D。;カバンナ、F。;ドブソン、J。; Dytman、S。; Gallagher、H。;グゾウスキー、
+。;ハッチャー、R。; Kehayias、P。; etal。 GENIEニュートリノモンテカルロジェネレーター。核インストラム。覚醒剤。 2010、
+P
+A614、87〜104、doi：10.1016 /j.nima.2009.12.009。
+
+8.隼人恭子。ニュートリノ相互作用シミュレーションプログラムライブラリNEUT。 ActaPhys。ポロニウム。 2009、B40、2477〜2489。
+9.9。
+
+Golan、T。; Sobczyk、J。; ˙Zmuda、J。NuWro：ニュートリノ相互作用のヴロツワフモンテカルロジェネレーター。核
+物理学手続き補足。 2012、229–232、499、doi：10.1016 /j.nuclphysbps.2012.09.136。
+
+10. Lalakulich、O。; Gallmeister、K。;モーゼル、U。GiBUUモデル内のニュートリノ核反応。 J.Phys。会議
+
+Ser。 2013、408、12053、doi：10.1088 / 1742-6596/408/1/012053。
+
+11. Wellisch、H。; Axen、D。陽子-原子核散乱における全反応断面積の計算。物理学改訂C1996、
+
+54、1329。
+
+12. Bross、A。; Davies、G。;ダフィー、K。; Fernandez-Moroni、G。;フライト、R。;ジャンク、T。;マーン、K。; Martin-Albo、J。;ラーフ、
+J。; Schukraft、A。; Simon、F.DUNEニアディテクタ用の高圧アルゴンガスTPCオプション。テクニカルレポート
+砂丘-doc-6652; FNAL：米国イリノイ州バタビア、2018年。
+
+13.阿部健一;アダム、J。;相原秀樹;アキリ、T。; Andreopoulos、C。;青木聡;有賀、A。;有賀徹; Assylbekov、S。;オーティエロ、
+D .;バルビ、M。ミューニュートリノビームにおける電子ニュートリノの出現の観察。物理学レット牧師2014年、
+112、061802、doi：10.1103 /PhysRevLett.112.061802。
+
+Instruments 2020、4、21
+
+28の28
+
+14.カールソン、R.F。プロトン-核の全反応断面積と最大1GeVの全断面積。原子。データ
+
+核データ表。 1996、63、93–116、doi：10.1006 /adnd.1996.0010。
+
+15. Andreopoulos、C。; Walding、J。; Mermod、P。;バーカー、G。;ブライス、S。; Radermacher、T。;ザイルwska、A。; Touramanis、C。;
+ボイド、S。; Hallsjo、S。; Haigh、J。ニュートリノ用のガス状高圧TPCでハドロン散乱を測定する提案
+振動測定;テクニカルレポートCERN-SPSC-2017-030; SPSC-P-355; CERN：スイス、ジュネーブ、
+2017年。
+
+16.カンザス州マクファーランド実験概要トーク。
+
+第12回国際ワークショップの議事録
+
+2018年10月15〜19日、イタリアのラクイラにある少数GeV領域（NuInt18）でのニュートリノ-核散乱。
+
+17.コロマ、P。; Huber、P。ニュートリノ振動パラメータの抽出に対する核効果の影響。物理学レット牧師
+
+2013、111、221802、doi：10.1103 /PhysRevLett.111.221802。
+
+18. Raaf、J。（Fermi National Accelerator Laboratory、Batavia、IL、USA）。パーソナルコミュニケーション、2020年2月9日。
+サイモン、D.J。; Dumollard、D。; Bätzner、K。; Durieu、L。; Ferro-Luzzi、M。;カタネオ、F。でのテストのための二次ビーム
+19。
+PS東実験エリア;テクニカルレポートPS-PA-EP-Note-88-26; CERN：スイス、ジュネーブ、1988年。
+
+20. Brun、R。;アーバン、L。;カルミナティ、F。; Giani、S。; Maire、M。;マクファーソン、A。; Bruyant、F。; Patrick、G。GEANT：検出器
+
+説明およびシミュレーションツール;テクニカルレポート; CERN：スイス、ジュネーブ、1993年。
+
+21.浜松ホトニクス株式会社オンラインで入手可能：http：//www.hamamatsu.com（2019年3月25日にアクセス）。
+22. Korzenev、A。; Betancourt、C。;ブロンデル、A。;ブレトン、D。; Datwyler、A。;ガスコン、D。;ゴメス、S。; Khabibullin、M。;
+Kudenko、Y。; Maalmi、J。; Mermod、P。大面積のアレイに基づく読み出しを備えたプラスチックシンチレータ検出器
+ND280 / T2KアップグレードおよびSHiP実験用のSiPM。に関する国際ワークショップの議事録
+新しい光子検出器（PD18）東京、日本、2018年11月27〜29日。
+SCIONIX HOLLAND BV、放射線検出器および結晶。オンラインで入手可能：http：//scionix.nl（25にアクセス
+2019年3月）。
+
+23。
+
+24. Eljen Technology-EJ-200、EJ-204、EJ-208、EJ-212。オンラインで入手可能：http：// https：//eljentechnology.com/
+
+製品/プラスチックシンチレータ/ ej-200-ej-204-ej-208-ej-212（2019年8月7日にアクセス）。
+
+25. Betancourt、C。;ブロンデル、A。; Brundler、R。; Dätwyler、A。;ファーヴ、Y。;ガスコン、D。;ゴメス、S。; Korzenev、A。; Mermod、
+P
+。;ノア、E。; Serra、N。プラスチックシンチレータベースのタイミングの読み出しのための大面積SiPMの適用
+検出器。 J.インストラム。 2017、12、P11023、doi：10.1088 / 1748-0221 / 12/11 / P11023。
+
+26. Delagnes、E。;ブレトン、D。;グラバス、H。; Maalmi、J。; Rusquart、P。; Saimpert、M.SAMPICの波形と
+デジタルコンバーター。 2014 IEEE Nuclear Science Symposium（2014 NSS / MIC）の議事録、ワシントン州シアトル、
+米国、2014年11月8〜15日。
+
+27.NuviaTechInstruments。オンラインで入手可能：http：//www.nuviatech-instruments.com（2019年7月30日にアクセス）。
+28.バーガー、M。;コースリー、J。; Zucker、M。; Chang、J。ESTAR、PSTAR、およびASTAR：計算のためのコンピュータプログラム
+電子、陽子、およびヘリウムイオンのストッピングパワーと範囲の表。 （バージョン1.2.3）;国立研究所
+標準と技術：米国メリーランド州ゲーサーズバーグ、2005年。
+
+29. Deisting、A。; Waldron、A。V。;アトキン、E。;バーカー、G。J。;バシャリーナ-フレッシュビルe、A。; Betancourt、C。;ボイド、S。B。;
+Brailsford、D。; Chen-Wishart、Z。; Cremonesi、L。; etal。光学式の高圧タイムプロジェクションチェンバー
+読み出す。 Instruments 2020、近日公開。
+
+（cid：13）著者による2020年。ライセンシーMDPI、バーゼル、スイス。この記事はオープンアクセスです
+c
+Creative Commons Attribution（CC）の利用規約に基づいて配布された記事
+BY）ライセンス（http://creativecommons.org/licenses/by/4.0/）。"
+arxiv2	"Neural Architecture Search in
+Graph Neural Networks
+
+Matheus Nunes and Gisele L. Pappa
+
+Universidade Federal de Minas Gerais, Minas Gerais, Brazil
+{mhnnunes,glpappa}@dcc.ufmg.br
+
+Abstract. Performing analytical tasks over graph data has become in-
+creasingly interesting due to the ubiquity and large availability of re-
+lational information. However, unlike images or sentences, there is no
+notion of sequence in networks. Nodes (and edges) follow no absolute
+order, and it is hard for traditional machine learning (ML) algorithms
+to recognize a pattern and generalize their predictions on this type of
+data. Graph Neural Networks (GNN) successfully tackled this problem.
+They became popular after the generalization of the convolution concept
+to the graph domain. However, they possess a large number of hyper-
+parameters and their design and optimization is currently hand-made,
+based on heuristics or empirical intuition. Neural Architecture Search
+(NAS) methods appear as an interesting solution to this problem. In this
+direction, this paper compares two NAS methods for optimizing GNN:
+one based on reinforcement learning and a second based on evolutionary
+algorithms. Results consider 7 datasets over two search spaces and show
+that both methods obtain similar accuracies to a random search, raising
+the question of how many of the search space dimensions are actually
+relevant to the problem.
+
+Keywords: Graph Neural Networks · Neural Architecture Search · Evo-
+lutionary Algorithms · Reinforcement Learning.
+
+1
+
+Introduction
+
+Performing analytical tasks over graph1 data has become increasingly interesting
+due to the ubiquity and large availability of relational information. Predicting
+interaction between proteins, classifying users in social networks and recom-
+mending movies to users are some classical examples of such tasks [24]. However,
+unlike images (formed by a grid of pixels) and sentences (formed by a string of
+ordered words), there is no notion of sequence in networks. Nodes (and edges)
+follow no absolute order, so it is hard for traditional machine learning (ML)
+algorithms, which were built to handle data stored in tensors, to recognize a
+pattern and generalize their predictions on this type of data [23].
+
+1 In this work we use the terms “graph” and “network” interchangeably. When refer-
+
+ring to “neural networks” we will use NN or “neural network”.
+
+arXiv:2008.00077v1  [cs.NE]  31 Jul 2020
+
+2
+
+Nunes, M and Pappa, G. L.
+
+Due to the success of convolutional neural networks (CNNs) for tasks such
+as image classiﬁcation [12], object identiﬁcation [14] and semantic segmentation
+[1], a large body of work began to re-deﬁne the concept of convolution to the
+graph domain. Following the work of Gori et. al. [10] and Scarselli et al. [17] on
+Graph Neural Networks (GNNs), the concept of spectral-based graph convolu-
+tion function was deﬁned by Bruna et al. [3] and later reﬁned by Deﬀerrard et. al.
+[5]. In this approach, unlike traditional neural networks where the architecture
+is composed by fully connected layers of neurons, graph neural networks follow
+the graph structure itself [17]. Forward propagation is done on the nodes of the
+graph, which pass information onto the next layer by aggregating information
+from the neighborhood and applying an activation function to the result.
+
+Since the concept of convolution was adapted to the context of graphs, a
+plethora of GNN models were proposed, including GraphSAGE [11], Graph At-
+tention Networks (GAT) [20], Graph Isomorphism Network (GIN) [22] and many
+others. These methods achieve state-of-the-art results on tasks such as node
+classiﬁcation and link prediction. However, the design and optimization of GNN
+architectures is currently hand-made, based on heuristics or empirical intuition,
+which makes it an ineﬀective and error prone task [22].
+
+Automated Machine Learning (AutoML) appears as a solution to this prob-
+lem, as it aims to automate the process of building and optimizing machine learn-
+ing pipelines, relieving users from that burden [7]. Neural Architecture Search
+(NAS) is considered the current challenge in automating machine learning algo-
+rithms [8]. Its methods are composed by a search space of possible architectures,
+a search method to explore this space and an evaluation framework for the gen-
+erated architectures.
+
+To the best of our knowledge, there were few attempts in the literature to
+employ NAS for GNNs [9,25]. In these works, reinforcement learning methods are
+used to explore similar search spaces. The NAS literature poses two main types
+of methods as the most eﬀective to solve the problem: reinforcement learning
+(RL) and evolutionary algorithms (EAs) [8]. The second type of technique has
+been so far overlooked in the context of GNNs.
+
+This work employs an EA previously proposed for NAS in the context of
+image classiﬁcation [16] to optimize GNNs and performs a comparative analy-
+sis of the method with reinforcement learning and random search in terms of
+model accuracy and runtime. It also conducts a study of the characteristics of
+the previously proposed search spaces for GNNs in order to identify opportuni-
+ties for performance improvement on GNN NAS algorithms. Results show that
+both RL and EA are able to ﬁnd equivalent models in terms of accuracy, with
+EA being faster in some cases, which corroborates previous ﬁndings for image
+classiﬁcation. Furthermore, following the already discussed problems of large
+search spaces – such as those required in the case of GNNs – with many low
+eﬀective dimensions [2], we show a Random Search is able to ﬁnd architectures
+with equivalent accuracy while being faster. We discuss these results in the light
+of previous works that discuss this problem.
+
+Neural Architecture Search in Graph Neural Networks
+
+3
+
+The remainder of this work is organized as follows. Section 2 introduces
+background on GNNs and Section 3 discusses related work. Section 4 describes
+the methodology followed to apply the tested methods in GNN search spaces,
+while Section 5 presents the results. Finally, Section 6 draws conclusions and
+discusses directions of future work.
+
+2 Background
+
+In this work, we assume as input a graph composed of a set of nodes and edges,
+G = (N, E). Each node ni ∈ N is attached to a feature/attribute vector xi ∈ X,
+and a label li ∈ L. The presence of node labels indicates that we are assuming a
+supervised learning situation. We deﬁne by N (i) the neighborhood of a node
+i, i.e., the set of nodes connected to i by an edge. The primary concept behind
+GNNs is that each node in the graph represents an abstract concept, and edges
+represent the relationship between these concepts. Therefore, the node’s features
+should correlate with its neighboring features, deﬁning a state (or hidden node
+representation) hi ∈ HN for each node [17].
+
+Traditionally, each GNN layer is composed of a function that aggregates
+information from the neighborhood of each node N (i), forming an intermediate
+vector hN (i), and a second function that combines this value with the current
+node representation hi, which in turn goes through an activation function before
+being output [17,11]. Formally, this process can be deﬁned as:
+
+h(k)
+N (i) = aggregate(hk−1
+i = activate(combine(h(k−1)
+h(k)
+
+j
+
+i
+
+: j ∈ N (i))
+
+, h(k)
+
+N (i)))
+
+(1)
+
+(2)
+
+By convention, the ﬁrst hidden representation of each node is its feature vec-
+tor, h(0)
+i = xi [13]. Figure 1 shows how the structure of a GNN is generated.
+Given the graph represented in part (a) of the ﬁgure, which has 4 nodes ni and
+a feature vector xi associated to each of them, an intermediate representation is
+generated ((b) in the ﬁgure). In this representation, for each node, the neighbor-
+hood information generates the intermediate vectors hi according to the process
+described in Eq. 1. The third part of the picture (c) shows the GNN itself, where
+each layer corresponds to an update of the state of the feature vectors of the
+current node.
+
+In this work we consider undirected graphs and a one-hop neighborhood for
+each node, which means that only features from a node’s direct neighbors are
+considered in aggregation. There are many options of aggregation and activa-
+tion functions, and other mechanisms can also be added to this standard GNN
+architecture. These components choices are the main subject of this paper, as
+detailed in Section 4.1.
+
+4
+
+Nunes, M and Pappa, G. L.
+
+Fig. 1. Structure of a GNN, adapted from Scarselli et. al. [17]
+
+3 Related Work
+
+NAS is considered the current challenge in automating machine learning al-
+gorithms, after the success of automated feature engineering [8]. Famous NAS
+works can be roughly split into two categories: Reinforcement Learning (RL)
+[26,4] and Evolutionary Algorithms (EA) [16]. It has been shown that both
+types of methods are able to ﬁnd models that perform better than hand-crafted
+engineered ones, but Real et al. presents empirical proof that EA-based and
+RL-based methods are able to ﬁnd equally well-suited models in terms of perfor-
+mance, with EA-based methods ﬁnding less complex models in less overall time
+[8,16]. Our idea is to adapt and employ NAS methods to the task of ﬁnding a
+good GNN model for large-scale graph embedding, whereas in previous works,
+the tasks of interest were mostly image classiﬁcation and object detection.
+
+To the best of our knowledge, NAS has not yet been largely explored in the
+context of GNNs. GraphNAS [9] is one of the few that uses RL to ﬁnd feasible
+architectures for the node classiﬁcation task. The authors deﬁne a search space
+composed of sampling, aggregation and gated functions, which can be extended
+to account for hyperparameters. Auto-GNN [25] follows the same line of work,
+exploring RL and a similar search space to GraphNAS.
+
+n1n3n2n4         ...x2         ...x1         ...x4         ...x3Agg hn(1)kh3kh1kAgg hn(4)kAgg hn(2)kAgg hn(3)kh2kh4kh1kh4kh2kh3kCmb +Acth1(k+1)h2(k+1)h3(k+1)h4(k+1)Agg hn(1)kAgg hn(4)kAgg hn(2)kAgg hn(3)kCmb +ActCmb +ActCmb +ActCmb +Acth1(k+1)h2(k+1)h3(k+1)h4(k+1)Agg hn(1)kAgg hn(4)kAgg hn(2)kAgg hn(3)kCmb +ActCmb +ActCmb +ActCmb +Acth1(k+2)h2(k+2)h3(k+2)h4(k+2)Cmb +ActCmb +ActCmb +Act...Layers(a)(b)(c)Neural Architecture Search in Graph Neural Networks
+
+5
+
+Fig. 2. Macro Search Space GNN Layer Example
+
+Table 1. Macro search space options for 5 actions.
+
+AGG
+ATT
+sum
+const, eij = 1
+gcn, eij = 1/didj
+mean
+gat, eij = leaky relu((Wlhi + Wrhj)) max
+sym-gat, eij = eji + eij
+mlp
+cos, eij =< Wlhi, Wrhj >
+linear, eij = tanh(sum(Wlhj))
+gen linear, eij = Watanh(Wlhi + Wrhj)
+
+ACT
+tanh
+linear
+softplus
+sigmoid
+elu
+relu
+relu6
+leaky relu
+2i, i ∈ {1, ..., 6}
+2i, i ∈ {2, ..., 8}
+
+K
+DIM
+
+4 Methodology
+
+The problem of NAS in GNNs can be formally deﬁned as follows. Given a dataset
+D – split into training and validation sets Dtrain and Dvalid, respectively – and a
+search space of Graph Neural Architectures A, capable of generating a GNN with
+an architecture a ∈ A with its own set of hyperparameters Λ, the goal is to ﬁnd
+the model with the highest expected accuracy E on Dvalid, when its parameters
+w∗ are set on Dtrain, setting the following bi-level optimization problem:
+
+argmax
+aλ∈A,λ∈Λ,w∗
+
+E[(aλ(w∗, Dvalid))]
+
+s. t. w∗ = argmin
+
+L(aλ(w, Dtrain)),
+
+w
+
+This section details the search spaces A previously deﬁned for GraphNAS [9]
+and describes the evolutionary algorithm and the RL methods we evaluated in
+the context of GNN architecture search.
+
+4.1 Search Spaces
+
+The two search spaces evaluated in this work, named by the authors in [9] as
+“Macro” and “Micro”, are composed by diﬀerent GNN layers, as detailed next.
+
+ATT+KAGG ACT+DIMLayer nLayer n-1Layer n+16
+
+Nunes, M and Pappa, G. L.
+
+Table 2. Micro search space action and hyperparameters.
+
+CNV GAT1,...,8, GCN, Cheb, SAGE, ARMA, SG, Linear, Zero
+CMB Add, Product, Concat
+ACT Sigmoid, tanh, elu, relu, linear
+LR {1 × 10−2, 1 × 10−3, 1 × 10−4}
+DO {0.0, 0.1, ..., 0.9}
+WD {0, 1 × 10−3, 1 × 10−4, 5 × 10−4, 1 × 10−5, 5 × 10−5}
+HU 2i, i ∈ {3, ..., 9}
+
+Macro Search Space The name “Macro” comes from the fact that architec-
+tures generated from this space always follow the same structure: each layer is
+composed by a multi-head attention mechanism AT T and the number of heads
+K, a choice of aggregator AGG, the output dimension DIM and an activation
+function ACT , in this order. The neighborhood sampling method is ﬁxed as a
+ﬁrst-order sampler, i.e. only direct neighbors of each node are sampled at each
+step.
+
+Considering the deﬁnitions in Section 2, we have a new component here,
+which is the attention mechanism. As described by the authors in [20], an atten-
+tion mechanism – implemented by the coeﬃcients eij, is designed to attribute
+diﬀerent importance value to the features of each of a node’s neighbors. Such
+coeﬃcients are calculated only for j ∈ N (i) for performance reasons (in order
+to avoid an N × N matrix), and in practice deﬁne the importance of node j’s
+features over node i. They are implemented as a single-layer feed-forward neural
+network, and a range of options to this mechanism is available (see ﬁrst col-
+umn of Table 1). Multi-head attention is a way of having independent attention
+mechanisms over the node’s features. It has been proven that concatenating the
+results of these independent mechanisms yields better results than using a single
+attention head [20].
+
+Figure 2 presents the disposition of the actions. The number of multi-heads
+K can be merged with the attention mechanism AT T as they alter the same
+behavior. The output dimension DIM can also be merged with the activation
+function ACT .
+
+Table 1 presents the options for each action on the layers. Considering the
+number of options for each action on the layers, the search space presents (7 ×
+6 × 4 × 7 × 8) = 9408 possibilities for each layer. According to the authors
+in [13], GNNs achieve the best overall results using architectures with 2 or 3
+layers. Therefore in this paper the architectures have 2 layers, in a total of
+94082 = 88, 510, 464 architecture possibilities.
+
+One important characteristic of this search space is that the hyperparameters
+of the GNNs, such as learning rate, dropout, weight decay are kept ﬁxed. The
+learning rate is set to 0.005, the dropout to 0.6 and the weight decay to 5 × 10−4.
+
+Micro Search Space The name “Micro” comes from the fact that architectures
+generated from this search space are composed by combining diﬀerent convolu-
+
+Neural Architecture Search in Graph Neural Networks
+
+7
+
+tion schemes, and do not follow a single ﬁxed structure. The choice of actions
+in this space are: a convolutional layer CN V , a combination scheme CM B and
+an activation function ACT . The hyperparameters which can be tuned are: the
+learning rate LR, the dropout rate DO, the weight decay rate W D and the num-
+ber of hidden units HU . In the options for CN V , the option GAT1,...,8 means
+that there are 8 possible GAT convolutions, using 1 to 8 multi-heads attention.
+
+Fig. 3. Micro Search Space GNN architectures Example
+
+Figure 3 illustrates the types of architectures that can be generated from
+this space. The straight arrows represent one type of connectivity, where the
+input is fed to two separate convolutional layers and their outputs are fed to the
+combination layer. The dashed line represents the second type, when two con-
+volutional layers are stacked before feeding the output to the combination layer.
+The full list of actions and hyperparameters for this space is presented in Table
+2. Regarding the number of possibilities for each action and hyperparameter
+listed, there are (15 × 15 × 3 × 5 × 3 × 10 × 5 × 7) = 3, 543, 750 architecture
+possibilities in this space.
+
+Note that the architectures in the micro-space take advantage of convolu-
+tions. Graph convolution methods are classiﬁed mainly into two streams, both
+covered by the micro-search space: spectral-based and spatial-based methods
+[21]. Spectral methods [3,13] rely on spectral properties of the graph, by ﬁnding
+eigenvectors of the normalized graph Laplacian. This approach is limited because
+eigendecomposition is an expensive operation, eigenbasis are sensible to minimal
+graph perturbations and the learned ﬁlters do not generalize well to graphs of
+diﬀerent structure (therefore they do not work well on inductive learning scenar-
+ios). Spatial-based methods [11,20] follow the message passing idea of traditional
+GNNs (also known as Recursive GNNs), in which a node’s hidden representation
+is an input to its neighbors computation. These methods are scalable to large
+
+CNVH1 CMBCNVH2 ACTOutIn8
+
+Nunes, M and Pappa, G. L.
+
+graphs and are more generalizable to various types of graphs (heterogeneous,
+directed, graphs which contain edge labels, etc.).
+
+4.2 Search Methods
+
+This section describes the two methods we apply to search the macro and micro
+search spaces described in the previous section: the evolutionary method and the
+reinforcement learning. We also describe the random search method that will be
+used as a baseline for the results.
+
+Evolutionary algorithm - Evolutionary methods are inspired by Darwin’s
+theory of evolution, and evolve a set of individuals – which represent solutions to
+the problem at hand – for a number of iterations (also known as generations) [6].
+From one iteration to the next, individuals are evaluated according to a ﬁtness
+function, which assesses their ability to solve the problem. The value of ﬁtness
+is used to probabilistic select the individuals that will undergo crossover and
+mutation operators, which are applied according to user-deﬁned probabilities.
+We explore an evolutionary method inspired on the Aging Evolution method,
+described by Real at. al. [16]. In this method, a population of individuals –i.e.,
+a set of GNNs – is generated randomly by sampling options for each action in a
+layer, considering the number of layers speciﬁed. These GNNs are then trained
+in a training set and have their accuracy measured on a validation set. This value
+of accuracy is used to select an individual via tournament selection to generate a
+new oﬀspring. The child individual is generated via mutation, which is uniform
+over the actions and replaces the selected action by a random option. The child
+individual is always added to the population and the oldest individual in the
+population (i.e., the individual that has been in the population for the highest
+number of iterations) is always removed (hence the name “Aging Evolution”).
+
+Reinforcement Learning - GraphNAS uses a LSTM (Long-Short Term Mem-
+ory) network as a controller to generate ﬁxed-length architectures, which act as
+GNN architecture descriptors and can be viewed as a list of actions. The ac-
+curacy achieved by the GNN in the validation dataset at convergence is used
+as the reward signal to the training process of the reinforcement learning con-
+troller. As the reward signal R is non-diﬀerentiable, a policy gradient method is
+used to iteratively update θ with a moving average baseline for reward to reduce
+variance.
+
+Random Search - An initial random GNN is generated by sampling options
+from each action in a layer, for the speciﬁed number of layers. The GNN is trained
+and the accuracy on the validation set measured. This process is repeated for
+the speciﬁed number of iterations, storing the GNN with the highest accuracy.
+
+Neural Architecture Search in Graph Neural Networks
+
+9
+
+5 Experimental Analysis
+
+We assess the performance of the evolutionary algorithm (EA)2, the reinforce-
+ment learning (RL) method and the random search (RS) on the transductive
+in a node classiﬁcation task, over a set of 7 datasets in terms
+learning scenario,
+of accuracy and runtime, as detailed next.
+It is important to note that this
+work does not compare the architectures obtained by the optimization methods
+to hand-crafted ones, as that was already done in GraphNAS’ paper [9].
+
+5.1 Datasets
+
+Table 3 presents the details of the datasets, as previously used in [19] and pro-
+vided by Pytorch Geometric3. For all cases, we are dealing with a node clas-
+siﬁcation task, where we use information from the nodes with known-labels to
+assign a class to nodes with unknown label (test set).
+
+Table 3. Dataset characteristics.
+
+Dataset (Abbrv.)
+CORA (COR)
+Citeseer (CIT)
+Pubmed (MED)
+Coauthor CS (CS)
+Coauthor Physics (PHY)
+Amazon Computers (CMP)
+Amazon Photo (PHO)
+
+# Classes # Features # Nodes # Edges
+10556
+9104
+88648
+163788
+495924
+491722
+238162
+
+2708
+3327
+19717
+18333
+34493
+13752
+7650
+
+1433
+3703
+500
+6805
+8415
+767
+745
+
+7
+6
+3
+15
+5
+10
+8
+
+The ﬁrst three datasets (COR, CIT, MED) are paper co-authorships net-
+works, used previously in [13]. Nodes represent documents, and an edge between
+two documents means that one paper cited the other. Class labels represent sub-
+areas of machine learning [18]. Node features are sparse bag-of-words vectors.
+
+CS and PHY are also co-authorship networks, based on the Microsoft Aca-
+demic Graph from KDD Cup 2016. However, in these datasets nodes represent
+authors instead of papers, connected by an edge if they have co-authored a paper.
+Node features represent paper keywords for each author’s papers. Class labels
+indicate the most active ﬁeld of study for each author in the network.
+
+CMP and PHO are segments of the Amazon co-purchase graph, where
+nodes represent products and edges are added between items frequently bought
+together. The nodes features are a bag-of-words representation of product re-
+views, and class labels represent the product category.
+
+2 Code available at: https://github.com/mhnnunes/nas_gnn
+3 https://github.com/rusty1s/pytorch_geometric
+
+10
+
+Nunes, M and Pappa, G. L.
+
+Table 4. Accuracies and execution times (in ×104 seconds) of search methods.
+
+Macro
+
+Micro
+
+Accuracy
+
+Time
+
+Accuracy
+
+Time
+
+CS
+
+EA 0.83 ± 0.007 0.75 ± 0.16 0.82 ± 0.005 1.73 ± 0.53
+COR RL 0.83 ± 0.003 1.45 ± 0.38 0.81 ± 0.001 2.42 ± 0.62
+RS 0.82 ± 0.003 0.96 ± 0.02 0.80 ± 0.009 1.20 ± 0.21
+EA 0.75 ± 0.002 1.18 ± 0.10 0.71 ± 0.007 2.80 ± 0.72
+CIT RL 0.73 ± 0.004 1.52 ± 0.42 0.68 ± 0.006 2.24 ± 0.08
+RS 0.73 ± 0.005 1.05 ± 0.03 0.69 ± 0.006 1.29 ± 0.04
+EA 0.82 ± 0.003 1.40 ± 0.37 0.82 ± 0.009 1.40 ± 0.09
+MED RL 0.80 ± 0.003 2.10 ± 0.14 0.76 ± 0.017 2.58 ± 0.28
+RS 0.85 ± 0.045 1.31 ± 0.02 0.80 ± 0.009 1.10 ± 0.18
+EA 0.98 ± 0.001 3.35 ± 0.78 0.99 ± 0.002 2.65 ± 0.48
+RL 0.95 ± 0.001 3.13 ± 0.11 0.97 ± 0.002 2.90 ± 0.34
+RS 0.97 ± 0.001 1.50 ± 0.03 0.99 ± 0.001 1.58 ± 0.05
+EA 0.99 ± 0.002 4.21 ± 0.85 0.99 ± 0.000 1.53 ± 0.15
+PHY RL 0.98 ± 0.001 3.34 ± 0.27 0.98 ± 0.001 2.01 ± 0.19
+RS 0.98 ± 0.001 2.08 ± 0.07 0.99 ± 0.001 1.11 ± 0.05
+EA 0.91 ± 0.005 3.09 ± 0.49 0.93 ± 0.004 4.02 ± 1.94
+CMP RL 0.90 ± 0.010 3.43 ± 0.21 0.92 ± 0.008 3.68 ± 0.27
+RS 0.89 ± 0.004 1.69 ± 0.07 0.92 ± 0.002 2.05 ± 0.07
+EA 0.97 ± 0.002 2.48 ± 0.22 0.98 ± 0.004 1.66 ± 0.41
+PHO RL 0.96 ± 0.005 3.65 ± 0.19 0.97 ± 0.002 1.88 ± 0.23
+RS 0.96 ± 0.002 1.82 ± 0.04 0.97 ± 0.002 1.08 ± 0.04
+
+5.2 Experimental Setup
+
+All search methods were executed for 1000 iterations in order to enable a fair
+comparison. In each iteration, a single GNN architecture is generated, trained on
+Dtrain and evaluated (in terms of accuracy) on Dvalid. The architecture with the
+highest validation accuracy is saved across iterations, and returned as the result
+of the optimization process. The generated architectures are trained using the
+following ﬁxed hyperparameters for all search spaces and methods: minimizing
+cross-entropy loss using ADAM optimizer, initial learning rate of 0.005 and an
+early stopping strategy with a patience of 100 epochs.
+
+Random search has only one parameter: the number of iterations. The re-
+inforcement learning controller is trained using the same hyperparameters as
+described on GraphNAS’ paper [9]: a one-layer LSTM with 100 hidden units,
+ADAM optimizer, learning rate at 3.5×10−4 and random initialization of weights.
+Aging Evolution has three main parameters: the population size, the tournament
+size k and the number of iterations n. The ﬁrst parameter is related to the num-
+ber of solutions evaluated during the search process, while the tournament size
+controls the convergence speed. The higher the value of k, the faster the al-
+gorithm converges. From all tested values ({100, 25}, {25, 2}, {100, 3}), the best
+results were achieved using the population size set to 100 and k set to 3.
+
+Neural Architecture Search in Graph Neural Networks
+
+11
+
+The dataset split between training, validation and testing sets was done
+in the same way as in the GraphNAS public code4: the last 1000 nodes are
+separated for validation and testing, split evenly between the two.
+
+All experiments were repeated 5 times as the methods are non-deterministic.
+The experiments were run on a machine with a 16-core Intel(R) Xeon(R) Silver
+4108 CPU @ 1.80GHz, 16GB DIMM DDR4 @ 2666 MHz RAM, and a NVIDIA
+GV100 [TITAN V] graphics card, with 12GB dedicated RAM.
+
+5.3 Results
+
+Fig. 4. Highest validation accuracy by iteration, for CIT and COR datasets, on the
+Macro search space.
+
+Table 4 shows the results of accuracy and execution time for the Macro
+and Micro search spaces, at the end of the optimization process (after 1000
+iterations). In terms of accuracy, the results obtained by the EA and RL methods
+are very similar to the ones obtained by the random search. In terms of execution
+time, RS wins in most cases. The execution time for the search varies between
+2 and 12 GPU hours.
+
+Figure 4 presents the evolution of the highest validation accuracy value
+achieved by an GNN architecture across the iterations, by search method5. Each
+line represents the mean validation score across all seeds, and the shaded area
+around it represents the standard deviation of this value. It is very clear that all
+methods converge (ﬁnd a good performing architecture and plateaus) within
+
+4 https://github.com/GraphNAS/GraphNAS
+5 We present only the results for the Macro search space because the results for
+
+Micro are very similar.
+
+02004006008001000Iteration0.30.40.50.60.70.8Validation ScoreCITEARLRS02004006008001000IterationCOREARLRS12
+
+Nunes, M and Pappa, G. L.
+
+only a few iterations. The fact that the EA already starts at a high value
+may be attributed to the population initialization process, depicted in Figure 6.
+It may seem counter-intuitive that we are using sophisticated methods to
+obtain results that can be also be achieved by a random search method, but as
+the authors in [2] have previously discussed, in large search spaces where many
+of the dimensions are irrelevant to the task at hand the random search can be
+as eﬀective as more sophisticated methods. This problem is aggravated by the
+neutrality of the space, i.e., architectures in neighbour regions of the search space
+may diﬀer in a few components but do not lead to a value of accuracy diﬀerent
+from their neighbors [15]. Another stronger indicator of a neutral search space
+is the fact that many high quality individuals are generated in the initialization
+step, and evolution takes a minor part in improving them, as shown in Figure 4.
+
+Fig. 5. Cumulative number of architectures with validation accuracy higher than
+threshold, for CIT and COR datasets, on the Macro search space.
+
+Figure 5 presents the number of evaluated architectures with validation
+accuracy over 0.7, for CIT and COR, in the Macro search space. The 0.7
+threshold was set because this value represents approximately the best accuracy
+value for CIT on the Macro search space. The pattern shown in the ﬁgure
+is consistent for all datasets in both search spaces.
+It shows that the EA
+tends to converge to a better region of the search space faster than the other two
+methods, thus evaluating more high quality architectures. Such tendency could
+be explained by the EA’s selective pressure (driven by the tournament selection
+process), which makes the algorithm prioritize good individuals for mutation
+and evaluation.
+
+The parameter size of GNNs is dependent on the dataset (since the struc-
+ture of the neural network follows the graph) and on the choice of architecture.
+Table 5 presents the percentage of generated architectures which exceeded GPU
+
+02004006008001000Iterations0200400600800# Archs w/ Val. Score > 0.7CITRLRSEA02004006008001000IterationsCORRLRSEANeural Architecture Search in Graph Neural Networks
+
+13
+
+Fig. 6. Distribution of EA’s initial population validation accuracies on both search
+spaces.
+
+memory, by each dataset and search method.6 EA is consistently the search
+method for which the smallest percentage of generated architectures are too
+big for the GPU memory, with the highest value as 16%, while RL reaches 81%
+of all architectures being too large. This corroborates the ﬁndings of Real et. al.
+[16] which state that Evolutionary Algorithms are able to ﬁnd less complex but
+equally well performing architectures than RL.
+
+6 Conclusions and Future Work
+
+GNNs are able to achieve state-of-the-art performances in prediction tasks over
+networks. However, their design and optimization is currently hand-made and
+error prone. This paper compared the results of two NAS search methods – a
+reinforcement learning technique and an evolutionary algorithm – to a random
+search in the task of searching for architectures and hyperparameters for GNNs.
+The three methods produced GNN architectures which achieved similar
+results in terms of accuracy when considering a set of 7 datasets and two ar-
+chitecture layer search spaces, with the random search being the fastest method
+followed by the evolutionary algorithm and reinforcement learning. Architec-
+tures generated by EA tend to ﬁt in GPU memory, while the other methods
+generate oversized architectures in up to 80% of cases. This shows that EA gen-
+erates less complex structures while achieving a similar accuracy value to the
+other methods, corroborating the ﬁndings of Real et. al. [16] for images.
+
+In general, the results indicate that there are irrelevant dimensions to this
+task in the deﬁned search spaces, which will require a more in-depth study of
+
+6 The smallest datasets (CIT and COR) are not present in the table because none
+
+of the generated architectures for these datasets exceeded GPU memory.
+
+CITCORMEDCSCMPPHOPHY0.00.20.40.60.81.0Validation Scoremacromicro14
+
+Nunes, M and Pappa, G. L.
+
+Table 5. Percentages of generated architectures which exceeded the GPU memory and
+therefore were not evaluated, by dataset and search method
+
+Avg. Max
+%
+
+%
+
+CS
+
+0.60 ± 0.89
+EA
+2.0
+3.20 ± 0.84
+MED RL
+4.0
+2.80 ± 0.84
+RS
+4.0
+EA
+4.60 ± 1.52
+6.0
+RL 10.20 ± 2.59
+14.0
+11.0
+9.60 ± 1.52
+RS
+EA 13.60 ± 1.82 16.0
+56.0
+PHY RL 41.80 ± 9.44
+48.0
+RS
+47.80 ± 0.45
+14.0
+EA 11.60 ± 2.61
+CMP RL 47.00 ± 20.94 81.0
+41.0
+9.0
+24.0
+14.0
+
+38.40 ± 1.67
+4.60 ± 2.70
+PHO RL 20.80 ± 3.42
+11.80 ± 1.48
+
+RS
+EA
+
+RS
+
+each of these spaces. Further, the neutrality of this space, i.e., the fact that
+neighbor solutions present diﬀerent architectures but very similar results of ac-
+curacy make search even harder. As future work, we intend to perform a more
+in-depth investigation of the dimensions of the search space in order to identify
+those that may be irrelevant to search, as well as propose new search methods
+that may include mechanisms to try to avoid these neutral regions.
+
+References
+
+1. Badrinarayanan, V., Kendall, A., Cipolla, R.: Segnet: A deep convolutional
+encoder-decoder architecture for image segmentation. TPAMI’17 39(12), 2481–
+2495 (2017)
+
+2. Bergstra, J., Bengio, Y.: Random search for hyper-parameter optimization.
+
+JMLR’12 13(Feb), 281–305 (2012)
+
+3. Bruna, J., Zaremba, W., Szlam, A., LeCun, Y.: Spectral networks and locally
+connected networks on graphs. In: Bengio, Y., LeCun, Y. (eds.) ICLR’14 (2014)
+4. Cai, H., Chen, T., Zhang, W., Yu, Y., Wang, J.: Eﬃcient architecture search by
+
+network transformation. In: AAAI’18 (2018)
+
+5. Deﬀerrard, M., Bresson, X., Vandergheynst, P.: Convolutional neural networks
+on graphs with fast localized spectral ﬁltering. In: Lee, D.D., Sugiyama, M., von
+Luxburg, U., Guyon, I., Garnett, R. (eds.) NeurIPS’16. pp. 3837–3845 (2016)
+6. Eiben, A., Smith, J.: Introduction to Evolutionary Computing. Springer (2015)
+7. Elshawi, R., Maher, M., Sakr, S.: Automated machine learning: State-of-the-art
+
+and open challenges. arXiv preprint arXiv:1906.02287 (2019)
+
+8. Elsken, T., Metzen, J.H., Hutter, F.: Neural architecture search: A survey.
+
+JMLR’19 20, 55:1–55:21 (2019)
+
+Neural Architecture Search in Graph Neural Networks
+
+15
+
+9. Gao, Y., Yang, H., Zhang, P., Zhou, C., Hu, Y.: Graph neural architecture search.
+
+In: IJCAI’20. pp. 1403–1409 (2020)
+
+10. Gori, M., Monfardini, G., Scarselli, F.: A new model for learning in graph domains.
+In: Proceedings. 2005 IEEE International Joint Conference on Neural Networks,
+2005. vol. 2, pp. 729–734. IEEE (2005)
+
+11. Hamilton, W., Ying, Z., Leskovec, J.: Inductive representation learning on large
+
+12. He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition.
+
+13. Kipf, T.N., Welling, M.: Semi-supervised classiﬁcation with graph convolutional
+
+graphs. In: NIPS ’17 (2017)
+
+In: CVPR’16. pp. 770–778 (2016)
+
+networks. In: ICLR’17 (2017)
+
+14. Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.Y., Berg, A.C.: Ssd:
+
+Single shot multibox detector. In: ECCV’16. pp. 21–37. Springer (2016)
+
+15. Pimenta, C.G., de S´a, A.G., Ochoa, G., Pappa, G.L.: Fitness landscape analysis of
+automated machine learning search spaces. In: EvoCOP’20. pp. 114–130. Springer
+(2020)
+
+16. Real, E., Aggarwal, A., Huang, Y., Le, Q.V.: Aging evolution for image classiﬁer
+
+architecture search. In: AAAI’19 (2019)
+
+17. Scarselli, F., Gori, M., Tsoi, A.C., Hagenbuchner, M., Monfardini, G.: The graph
+
+neural network model. IEEE TNN’09 (2009)
+
+18. Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., Eliassi-Rad, T.: Collec-
+
+tive classiﬁcation in network data. AI magazine 29(3), 93–93 (2008)
+
+19. Shchur, O., Mumme, M., Bojchevski, A., G¨unnemann, S.: Pitfalls of graph neural
+
+network evaluation. arXiv preprint arXiv:1811.05868 (2018)
+
+20. Velickovic, P., Cucurull, G., Casanova, A., Romero, A., Li`o, P., Bengio, Y.: Graph
+
+21. Wu, Z., Pan, S., Chen, F., Long, G., Zhang, C., Yu, P.S.: A comprehensive survey
+
+attention networks. In: ICLR’18 (2018)
+
+on graph neural networks. CoRR (2019)
+
+In: ICLR’19. OpenReview.net (2019)
+
+22. Xu, K., Hu, W., Leskovec, J., Jegelka, S.: How powerful are graph neural networks?
+
+23. Zhang, M., Cui, Z., Neumann, M., Chen, Y.: An end-to-end deep learning archi-
+
+tecture for graph classiﬁcation. In: AAAI’18 (2018)
+
+24. Zhang, Z., Cui, P., Zhu, W.: Deep learning on graphs: A survey. TKDE’20 pp. 1–1
+
+(2020)
+
+25. Zhou, K., Song, Q., Huang, X., Hu, X.: Auto-gnn: Neural architecture search of
+
+graph neural networks. arXiv preprint arXiv:1909.03184 (2019)
+
+26. Zoph, B., Vasudevan, V., Shlens, J., Le, Q.V.: Learning transferable architectures
+
+for scalable image recognition. In: CVPR’2018 (2018)
+
+"	"ニューラルアーキテクチャ検索
+グラフニューラルネットワーク
+
+マテウス・ヌネスとジゼル・L・パパ
+
+ミナスジェライス連邦大学、ミナスジェライス州、ブラジル
+{mhnnunes、glpappa} @ dcc.ufmg.br
+
+概要。グラフデータに対して分析タスクを実行することは、
+ユビキタスであり、再利用可能性が高いため、ますます興味深いものになっています。
+国家情報。ただし、画像や文章とは異なり、
+ネットワークにおけるシーケンスの概念。ノード（およびエッジ）は絶対に従わない
+順序であり、従来の機械学習（ML）アルゴリズムでは困難です
+パターンを認識し、このタイプの予測を一般化する
+データ。グラフニューラルネットワーク（GNN）は、この問題にうまく取り組みました。
+それらは、畳み込みの概念の一般化後に人気を博しました
+グラフドメインに。しかし、彼らは多数のハイパーを持っています
+パラメータとその設計および最適化は現在手作りですが、
+ヒューリスティックまたは経験的直感に基づいています。ニューラルアーキテクチャ検索
+（NAS）メソッドは興味深いソリューションとして表示されますこの問題に。これで
+このホワイトペーパーでは、GNNを最適化するための2つのNASメソッドを比較します。
+1つは強化学習に基づいており、もう1つは進化論に基づいています
+アルゴリズム。結果は、2つの検索スペースにわたる7つのデータセットを考慮し、
+どちらの方法でもランダム検索と同様の精度が得られ、
+サーチスペースの次元が実際にいくつあるかという問題
+問題に関連しています。
+
+キーワード：グラフニューラルネットワーク・ニューラルアーキテクチャ検索・Evo-
+lutionaryアルゴリズム・強化学習。
+
+1
+
+前書き
+
+graph1データに対して分析タスクを実行することはますます興味深いものになっています
+関係情報の遍在性と大規模な可用性のため。予測
+タンパク質間の相互作用、ソーシャルネットワークでのユーザーの分類および推奨
+ユーザーに映画を修理することは、そのようなタスクのいくつかの古典的な例です[24]。しかしながら、
+画像（ピクセルのグリッドによって形成される）や文（の文字列によって形成される）とは異なり
+順序付けられた単語）、ネットワークにはシーケンスの概念はありません。うなずくes（およびエッジ）
+絶対的な順序に従わないため、従来の機械学習（ML）では困難です
+テンソルに格納されたデータを処理するために構築されたアルゴリズムは、
+このタイプのデータに関する予測をパターン化して一般化します[23]。
+
+1この作業では、「グラフ」と「ネットワーク」という用語を同じ意味で使用します。参照するとき-
+
+「ニューラルネットワーク」への呼び出しは、NNまたは「ニューラルネットワーク」を使用します。
+
+arXiv：2008.00077v1 [cs.NE] 2020年7月31日
+
+2
+
+Nunes、MおよびPappa、G。L.
+
+このようなタスクのための畳み込みニューラルネットワーク（CNN）の成功により
+画像分類[12]、オブジェクト識別[14]およびセマンティックセグメンテーションとして
+[1]、大量の作業が畳み込みの概念を再定義し始めました。
+グラフドメイン。ゴリらの仕事に続いて。 al。 [10]およびScarsellietal。 [17]オン
+スペクトルベースのグラフ畳み込みの概念であるグラフニューラルネットワーク（GNN）
+機能はBrunaらによって定義されました。 [3]そして後にDe ﬀ errardらによって改良されました。 al。
+[5]。このアプローチでは、従来のニューラルネットワークとは異なり、eアーキテクチャ
+ニューロンの完全に接続された層で構成され、グラフニューラルネットワークが続きます
+グラフ構造自体[17]。順伝播はのノードで行われます
+グラフ。情報を集約して次のレイヤーに情報を渡します。
+近所から活性化関数を結果に適用します。
+
+畳み込みの概念はグラフのコンテキストに適合しているため、
+GraphSAGE [11]、Graph At-など、多数のGNNモデルが提案されました。
+テンションネットワーク（GAT）[20]、グラフ同型ネットワーク（GIN）[22]および多く
+その他。これらの方法は、ノードなどのタスクで最先端の結果を実現します
+分類とリンク予測。ただし、GNNの設計と最適化
+アーキテクチャは現在、ヒューリスティックまたは経験的な直感に基づいて手作りされています。
+これは、効果がなく、エラーが発生しやすいタスクになります[22]。
+
+自動機械学習（AutoML）は、この問題の解決策として登場します。
+lem、それは機械学習の構築と最適化のプロセスを自動化することを目的としているため-
+ingパイプライン、その負担からユーザーを解放します[7]。ニューラルアーキテクチャ検索
+（NAS）は、機械学習アルゴリズムの自動化における現在の課題と見なされています。
+rithms [8]。そのメソッドは、可能なアーキテクチャの検索スペースで構成されています。
+この空間を探索するための検索方法と、その世代の評価フレームワーク
+エレートアーキテクチャ。
+
+私たちの知る限りでは、文献にはほとんど試みがありませんでした
+GNNにNASを採用する[9,25]。これらの作品では、強化学習の方法は
+同様の検索スペースを探索するために使用されます。 NASの文献には2つの主要なタイプがあります
+問題を解決するための最も効果的な方法としての方法の例：強化学習
+（RL）および進化的アルゴリズム（EA）[8]。 2番目のタイプのテクニックは
+これまでのところ、GNNのコンテキストでは見過ごされてきました。
+
+この作業では、NASに対して以前に提案されたEAを使用します。
+GNNを最適化し、比較分析を実行するための画像分類[16]-
+強化学習とランダム検索を使用した方法のsis
+モッドelの精度と実行時間。また、の特性の研究を行います
+機会を特定するために以前に提案されたGNNの検索スペース
+GNNNASアルゴリズムのパフォーマンス向上のための関係。結果は次のことを示しています
+RLとEAはどちらも、精度の点で同等のモデルを見つけることができます。
+EAは場合によっては高速であり、これは以前の画像の発見を裏付けています。
+分類。さらに、すでに議論された大規模な問題に続いて
+GNNの場合に必要な検索スペースなど、多くの低い検索スペース
+有効な次元[2]、ランダム検索がアーキテクチャを見つけることができることを示します
+より高速でありながら同等の精度で。これらの結果について説明します
+この問題を議論する以前の作品の。
+
+グラフニューラルネットワークでのニューラルアーキテクチャ検索
+
+3
+
+この作業の残りの部分は、次のように構成されています。セクション2では
+GNNの背景とセクション3では、関連する作業について説明します。セクション4では説明します
+テストされた方法を適用するために従った方法論s GNN検索スペースでは、
+セクション5は結果を示しています。最後に、セクション6は結論を導き出し、
+今後の作業の方向性について説明します。
+
+2背景
+
+この作業では、ノードとエッジのセットで構成されるグラフを入力として想定します。
+G =（N、E）。各ノードni∈Nは、特徴/属性ベクトルxi∈Xに接続されています。
+ラベルli∈L。ノードラベルの存在は、
+教師あり学習の状況。 N（i）ノードの近傍を定義します
+i、つまり、エッジによってiに接続されたノードのセット。背後にある主要な概念
+GNNは、グラフ内の各ノードが抽象的な概念とエッジを表すことです。
+これらの概念間の関係を表します。したがって、ノードの機能
+状態（または隠れノード）を定義して、隣接する機能と相関させる必要があります
+表現）各ノードのhi∈HN[17]。
+
+従来、各GNNレイヤーは、集約する関数で構成されています
+各ノードの近傍からの情報N（i）、中間を形成する
+ベクトルhN（i）、この値を現在の値と組み合わせる2番目の関数
+ノード表現hi、これは前に活性化関数を通過します
+出力されている[17,11]。正式には、このプロセスは次のように定義できます。
+
+h（k）
+N（i）=集計（hk-1
+i = activate（combine（h（k-1）
+h（k）
+
+j
+
+私
+
+：j∈N（i））
+
+、h（k）
+
+N（i）））
+
+（1）
+
+（2）
+
+慣例により、各ノードの最初の非表示表現はその機能ベクトルです。
+tor、h（0）
+i = xi [13]。図1は、GNNの構造がどのように生成されるかを示しています。
+図のパート（a）に表されているグラフが与えられ、4つのノードniと
+それらのそれぞれに関連付けられた特徴ベクトルxi、中間表現は
+生成されます（図の（b））。この表現では、ノードごとに、ネイバー-
+フード情報は、プロセスに従って中間ベクトルhiを生成します
+式で説明されています。 1.写真の3番目の部分（c）は、GNN自体を示しています。
+各層は、の特徴ベクトルの状態の更新に対応します。
+現在のノード。
+
+この作品では、無向グラフとワンホップ近傍
+各ノード。つまり、ノードの直接の隣接ノードからの機能のみが
+集計で考慮されます。集約とアクティブ化には多くのオプションがあります-
+この標準GNNには、機能やその他のメカニズムも追加できます。
+建築。これらのコンポーネントの選択は、このペーパーの主な主題です。
+セクション4.1で詳しく説明します。
+
+4
+
+Nunes、MおよびPappa、G。L.
+
+図1.Scarselliet。から改作されたGNNの構造。 al。 [17]
+
+3関連作業
+
+NASは、機械学習の自動化における現在の課題と見なされています。
+自動化された機能エンジニアリングの成功後のゴリスム[8]。有名なNAS
+作品は大きく2つのカテゴリに分けることができます：強化学習（RL）
+[26,4]および進化的アルゴリズム（EA）[16]。両方が示されている
+さまざまな種類の方法で、手作りよりも優れたパフォーマンスを発揮するモデルを見つけることができます
+設計されたものですが、Real etal。 EAベースの経験的証拠を提示します
+RLベースの方法でも同様にうまく見つけることができますパフォーマンスの観点からモデルを反復しました-
+EAベースの方法で、より少ない時間でより複雑でないモデルを見つけることができます。
+[8,16]。私たちのアイデアは、NASメソッドを適応させて採用することです。
+大規模なグラフ埋め込みに適したGNNモデルですが、以前の作品では、
+関心のあるタスクは、主に画像の分類とオブジェクトの検出でした。
+
+私たちの知る限りでは、NASはまだ主に調査されていません
+GNNのコンテキスト。 GraphNAS [9]は、RLを使用して実行可能なものを見つける数少ないものの1つです。
+ノード分類タスクのアーキテクチャ。著者は検索スペースを定義します
+サンプリング、集約、ゲート機能で構成され、拡張可能
+ハイパーパラメータを説明します。 Auto-GNN [25]は、同じ作業ラインに従います。
+RLおよびGraphNASと同様の検索空間を探索します。
+
+n1n3n2n4 ... x2 ... x1 ... x4 ... x3Agg hn（1）kh3kh1kAgg hn（4）kAgg hn（2）kAgg hn（3）kh2kh4kh1kh4kh2kh3kCmb + Acth1（k + 1）h2（k + 1） h3（k + 1）h4（k + 1）Agg hn（1）kAgg hn（4）kAgg hn（2）kAgg hn（3）kCmb + ActCmb + ActCmb+ ActCmb + Acth1（k + 1）h2（k + 1）h3（k + 1）h4（k + 1）Agg hn（1）kAgg hn（4）kAgg hn（2）kAgg hn（3）kCmb + ActCmb + ActCmb + ActCmb + Acth1（k + 2）h2（k + 2）h3（k + 2）h4（k + 2）Cmb + ActCmb + ActCmb + Act ... Layers（a）（b）（c）ニューラルグラフニューラルネットワークでのアーキテクチャ検索
+
+5
+
+図2.マクロ検索スペースGNNレイヤーの例
+
+表1.5つのアクションのマクロ検索スペースオプション。
+
+AGG
+ATT
+和
+const、eij = 1
+gcn、eij = 1 / didj
+平均
+gat、eij =リークrelu（（Wlhi + Wrhj））max
+sym-gat、eij = eji + eij
+mlp
+cos、eij = <Wlhi、Wrhj>
+線形、eij = tanh（sum（Wlhj））
+gen linear、eij = Watanh（Wlhi + Wrhj）
+
+行為
+タン
+線形
+softplus
+シグモイド
+エル
+relu
+relu6
+漏れやすいレル
+2i、i∈{1、...、6}
+2i、i∈{2、...、8}
+
+K
+DIM
+
+4方法論
+
+GNNにおけるNASの問題は、次のように正式に定義できます。与えられたデータセット
+D –トレーニングセットと検証セットにそれぞれDtrainとDvalidに分割–および
+グラフニューラルアーキテクチャAの検索空間。GNNを生成できます。
+独自のハイパーパラメータのセットΛを持つアーキテクチャa∈A、目標は見つけることです
+mDvalidで期待される最高の精度Eを持つodel
+w ∗はDtrainに設定され、次の2レベル最適化問題を設定します。
+
+argmax
+aλ∈A、λ∈Λ、w ∗
+
+E [（aλ（w ∗、Dvalid））]
+
+s。 t。 w ∗ = argmin
+
+L（aλ（w、Dtrain））、
+
+w
+
+このセクションでは、以前にGraphNAS用に定義された検索スペースAについて詳しく説明します[9]。
+で評価した進化的アルゴリズムとRLメソッドについて説明します
+GNNアーキテクチャ検索のコンテキスト。
+
+4.1サーチスペース
+
+この作品で評価された2つのサーチスペースは、[9]の著者によって次のように名付けられました。
+「マクロ」と「マイクロ」は、次に説明するように、異なるGNNレイヤーで構成されています。
+
+ATT + KAGG ACT + DIMLayer nLayer n-1Layer n + 1 6
+
+Nunes、MおよびPappa、G。L.
+
+表2.マイクロ検索スペースのアクションとハイパーパラメーター。
+
+CNV GAT1、...、8、GCN、Cheb、SAGE、ARMA、SG、Linear、Zero
+CMB追加、製品、連結
+ACTシグモイド、tanh、elu、relu、linear
+LR {1×10−2、1×10−3、1×10−4}
+DO {0.0、0.1、...、0.9}
+WD {0、1×10-3、1×10-4、5×10-4、1×10-5、5×10-5}
+HU 2i、i∈{3、...、9}
+
+マクロ検索スペースe「マクロ」という名前は、アーキテクチャが
+この空間から生成された構造は常に同じ構造に従います。各層は
+マルチヘッド注意メカニズムATTとヘッド数で構成
+K、アグリゲーターAGGの選択、出力ディメンションDIM、およびアクティベーション
+関数ACT、この順序で。近傍サンプリング法は次のように固定されています。
+一次サンプラー、つまり、各ノードの直接の隣接ノードのみがそれぞれでサンプリングされます
+ステップ。
+
+セクション2の定義を考慮すると、ここに新しいコンポーネントがあります。
+これが注意メカニズムです。 [20]で著者が説明しているように、
+係数eijによって実装されたメカニズムは、属性を与えるように設計されています
+ノードの各ネイバーの機能に対する異なる重要度の値。そのような
+係数は、パフォーマンス上の理由から、j∈N（i）に対してのみ計算されます（順番に）
+N×N行列を回避するため）、実際にはノードjの重要性を定義します
+ノードi上の機能。それらは単層フィードフォワードニューラルとして実装されます
+ネットワーク、およびこのメカニズムにはさまざまなオプションがあります（最初の列を参照）。
+表1）のumn。マルチヘッドアテンションは、独立したアテンションを持つ方法です
+ノードの機能に対するメカニズム。連結することが証明されています
+これらの独立したメカニズムの結果は、単一のメカニズムを使用するよりも優れた結果をもたらします
+アテンションヘッド[20]。
+
+図2は、アクションの配置を示しています。マルチヘッドの数
+Kは、同じように変更されるため、注意メカニズムATTとマージできます。
+動作。出力ディメンションDIMは、アクティベーションとマージすることもできます
+関数ACT。
+
+表1は、レイヤーに対する各アクションのオプションを示しています。を考慮して
+レイヤー上の各アクションのオプションの数、検索スペースが表示されます（7×
+6×4×7×8）=各レイヤーで9408の可能性。著者によると
+[13]では、GNNは2または3のアーキテクチャを使用して全体的に最良の結果を達成します
+レイヤー。したがって、このペーパーでは、アーキテクチャには2つの層があり、合計で
+94082 = 88、510、464アーキテクチャの可能性の都市。
+
+この探索空間の重要な特徴の1つは、ハイパーパラメータが
+学習率、ドロップアウト、重量減衰などのGNNの一部は固定されたままです。ザ・
+学習率は0.005に設定され、ドロップアウトは0.6に設定され、重みは5×10-4に減衰します。
+
+マイクロサーチスペース「マイクロ」という名前は、アーキテクチャが
+この探索空間から生成されたものは、さまざまな畳み込みを組み合わせて構成されています。
+
+グラフニューラルネットワークでのニューラルアーキテクチャ検索
+
+7
+
+スキーム、および単一の固定構造に従わない。アクションの選択
+この空間には、畳み込み層CN V、組み合わせスキームCM B、および
+活性化関数ACT。調整できるハイパーパラメータは次のとおりです。
+学習率LR、ドロップアウト率DO、重み減衰率W D、および数値
+隠されたユニットのberHU。 CN Vのオプションでは、オプションGAT1、...、8は
+1から8のマルチヘッド注意を使用して、8つの可能なGAT畳み込みがあること。
+
+図3.マイクロサーチスペースGNNアーキテクチャの例
+
+図3illustrから生成できるアーキテクチャの種類を評価します
+このスペース。直線の矢印は、接続の1つのタイプを表しています。
+入力は2つの別々の畳み込み層に供給され、それらの出力は
+コンビネーションレイヤー。破線は2番目のタイプを表します。
+革命的なレイヤーは、出力を組み合わせレイヤーに供給する前にスタックされます。
+このスペースのアクションとハイパーパラメータの完全なリストを表に示します。
+2.各アクションとハイパーパラメータの可能性の数について
+リストされているのは、（15×15×3×5×3×10×5×7）= 3、543、750アーキテクチャです。
+この空間での可能性。
+
+マイクロスペースのアーキテクチャは、複雑さを利用していることに注意してください。
+。グラフ畳み込み法は、主に2つのストリームに分類され、両方とも
+マイクロサーチ空間でカバー：スペクトルベースおよび空間ベースの方法
+[21]。スペクトル法[3,13]は、グラフのスペクトル特性に依存しています。
+正規化されたグラフLaplaciの固有ベクトル。このアプローチは制限されています。
+固有分解は高価な操作であり、固有基底は最小限に賢明です
+グラフの摂動と学習されたフィルターは、のグラフにうまく一般化されません。
+異なる構造（したがって、それらは帰納的学習シナリオではうまく機能しません-
+ios）。空間ベースの方法[11,20]は、従来のメッセージパッシングのアイデアに従います
+GNN（再帰GNNとも呼ばれます）。ノードの非表示の表現
+ネイバー計算への入力です。これらのメソッドは大規模にスケーラブルです
+
+CNVH1 CMBCNVH2 ACTOutIn 8
+
+Nunes、MおよびPappa、G。L.
+
+グラフであり、さまざまなタイプのグラフ（異種、
+有向グラフ、エッジラベルなどを含むグラフ）。
+
+4.2検索方法
+
+このセクションでは、マクロとミクロの検索に適用する2つの方法について説明します。
+前のセクションで説明した検索スペース：進化的方法と
+強化学習。また、ランダム検索方法についても説明します。
+結果のベースラインとして使用されます。
+
+エボルutionaryアルゴリズム-進化的手法はダーウィンの
+進化論、そして一連の個人を進化させる–これは
+手元にある問題–多数の反復（世代とも呼ばれます）[6]。
+ある反復から次の反復まで、個人はフィットネスに従って評価されます
+問題を解決する能力を評価する機能。フィットネスの価値
+クロスオーバーを受ける個人を確率的に選択するために使用され、
+ユーザー定義の確率に従って適用される突然変異演算子。
+エイジングエボリューション法に着想を得た進化法を探求します。
+Realatによって説明されています。 al。 [16]。この方法では、個人の母集団、つまり、
+GNNのセット–の各アクションのオプションをサンプリングすることによってランダムに生成されます
+指定されたレイヤーの数を考慮して、レイヤー。これらのGNNはその後訓練されます
+トレーニングセットで、検証セットで精度を測定します。この値
+touを介して個人を選択するために使用される精度生成するための要素の選択
+新しい春。子個体は、均一な突然変異によって生成されます
+アクションを上書きし、選択したアクションをランダムオプションに置き換えます。子供
+個人は常に人口に追加され、最も古い個人は
+人口（つまり、最も高い人口に含まれている個人
+反復回数）は常に削除されます（そのため、「AgingEvolution」という名前が付けられています）。
+
+強化学習-GraphNASはLSTM（Long-Short Term Mem-
+ory）固定長アーキテクチャを生成するためのコントローラとしてのネットワーク。
+GNNアーキテクチャ記述子であり、アクションのリストとして表示できます。 AC-
+収束時に検証データセットでGNNによって達成されたキュラシーが使用されます
+強化学習コンのトレーニングプロセスへの報酬信号として
+トロラー。報酬信号Rは微分不可能であるため、ポリシー勾配法は次のようになります。
+報酬を減らすために移動平均ベースラインでθを繰り返し更新するために使用されます
+分散。
+
+ランダム検索-An初期ランダムGNNは、サンプリングオプションによって生成されます
+指定された数のレイヤーに対して、レイヤー内の各アクションから。 GNNは訓練されています
+測定された検証セットの精度。このプロセスは次の場合に繰り返されます
+指定された反復回数。GNNを最高の精度で保存します。
+
+グラフニューラルネットワークでのニューラルアーキテクチャ検索
+
+9
+
+5実験分析
+
+進化的アルゴリズム（EA）2のパフォーマンスを評価します。
+トランスダクティブのメントラーニング（RL）法とランダム検索（RS）
+ノード分類タスクでは、7つのデータセットのセットに対して
+学習シナリオ、
+次に詳しく説明するように、精度と実行時間について説明します。
+これに注意することが重要です
+作業は、最適化方法によって取得されたアーキテクチャを比較しません
+GraphNASの論文[9]ですでに行われているように、手作りのものに。
+
+5.1データセット
+
+表3は、[19]およびプロで以前に使用されたデータセットの詳細を示しています。
+PytorchGeometric3によって提供されました。すべての場合において、私たちはde clas-
+既知のラベルを持つノードからの情報を使用して、
+ラベルが不明なノード（テストセット）にクラスを割り当てます。
+
+表3.データセットの特性。
+
+データセット（略語）
+CORA（COR）
+Citeseer（CIT）
+Pubmed（MED）
+共著者CS（CS）
+共著者物理学（PHY）
+アマゾンコンピューター（CMP）
+アマゾン写真（PHO）
+
+＃クラス＃機能＃ノード＃エッジ
+10556
+9104
+88648
+163788
+495924
+491722
+238162
+
+2708
+3327
+19717
+18333
+34493
+13752
+7650
+
+1433
+3703
+500
+6805
+8415
+767
+745
+
+7
+6
+3
+15
+5
+10
+8
+
+最初の3つのデータセット（COR、CIT、MED）は、紙の共著です。
+以前[13]で使用された作品。ノードはドキュメントを表し、その間のエッジは
+2つの文書は、一方の論文が他方を引用したことを意味します。クラスラベルはサブを表します
+機械学習の分野[18]。ノードの特徴は、まばらな単語の袋のベクトルです。
+
+CSとPHYも、MicrosoftAca-に基づく共著ネットワークです。
+KDDカップ2016のデミックグラフ。ただし、これらのデータセットでは、ノードは
+論文の代わりに著者、もし彼らが論文を共同執筆しました。
+ノード機能は、各著者の論文の論文キーワードを表します。クラスラベル
+ネットワーク内の各著者の最も活発な研究分野を示します。
+
+CMPとPHOは、Amazonの共同購入グラフのセグメントです。
+ノードは製品を表し、エッジは頻繁に購入されるアイテムの間に追加されます
+一緒。ノード機能は、製品の再表現を一言で表現したものです。
+ビュー、およびクラスラベルは、製品カテゴリを表します。
+
+2コードはhttps://github.com/mhnnunes/nas_gnnで入手できます
+3 https://github.com/rusty1s/pytorch_geometric
+
+10
+
+Nunes、MおよびPappa、G。L.
+
+表4.検索メソッドの精度と実行時間（×104秒）。
+
+大きい
+
+マイクロ
+
+正確さ
+
+時間
+
+正確さ
+
+時間
+
+CS
+
+EA0.83±0.0070.75±0.160.82±0.0051.73±0.53
+COR RL0.83±0.0031.45±0.380.81±0.0012.42±0.62
+RS0.82±0.0030.96±0.020.80±0.0091.20±0.21
+EA0.75±0.0021.18±0.100.71±0.0072.80±0.72
+CIT RL0.73±0.0041.52±0.420.68±0.0062.24±0.08
+RS0.73±0.0051.05±0.030.69±0.0061.29±0.04
+EA0.82±0.0031.40±0.370.82±0.0091.40±0.09
+MED RL0.80±0.0032.10±0.140.76±0.0172.58±0.28
+RS0.85±0.0451.31±0.020.80±0.0091.10±0.18
+EA0.98±0.0013.35±0.780.99±0.0022.65±0.48
+RL0.95±0.0013.13±0.110.97±0.0022.90±0.34
+RS0.97±0.0011.50±0.030.99±0.0011.58±0.05
+EA0.99±0.0024.21±0.850.99±0.0001.53±0.15
+PHY RL0.98±0.0013.34±0.270.98±0.0012.01±0.19
+RS0.98±0.0012.08±0.070.99±0.0011.11±0.05
+EA0.91±0.0053.09±0.490.93±0.0044.02±1.94
+CMP RL0.90±0.0103.43±0.210.92±0.0083.68±0.27
+RS0.89±0.0041.69±0.070.92±0.0022.05±0.07
+EA0.97±0.0022.48±0.220.98±0.0041.66±0.41
+PHO RL0.96±0.0053.65±0.190.97±0.0021.88±0.23
+RS0.96±0.0021.82±0.040.97±0.0021.08±0.04
+
+5.2実験のセットアップ
+
+公平を期すために、すべての検索方法は1000回の反復で実行されました
+比較。各反復で、単一のGNNアーキテクチャが生成され、トレーニングされます
+Dvalidで（精度の観点から）Dtrainして評価します。とのアーキテクチャ
+最高の検証精度が反復全体で保存され、結果として返されます
+最適化プロセスの。生成されたアーキテクチャは、
+すべての検索スペースとメソッドの次の固定ハイパーパラメータ：最小化
+ADAMオプティマイザーを使用したクロスエントロピー損失、初期学習率0.005、および
+100エポックの忍耐力で早期打ち切り戦略。
+
+ランダム検索には、反復回数という1つのパラメーターしかありません。そこ-
+強制学習コントローラーは、と同じハイパーパラメーターを使用してトレーニングされます
+GraphNASの論文[9]に記載されている：100個の隠れユニットを備えた1層LSTM、
+ADAMオプティマイザー、3.5×10-4での学習率、および重みのランダムな初期化。
+エイジングエボリューションには、人口規模、トーナメントという3つの主要なパラメーターがあります。
+サイズkと反復回数n。最初のパラメータは数値に関連しています-
+たたきの間に評価されたソリューションのberchプロセス、トーナメントサイズ
+収束速度を制御します。 kの値が高いほど、al-は速くなります。
+gorithmは収束します。テストされたすべての値（{100、25}、{25、2}、{100、3}）から、最高
+結果は、100に設定された母集団サイズと3に設定されたkを使用して達成されました。
+
+グラフニューラルネットワークでのニューラルアーキテクチャ検索
+
+11
+
+トレーニング、検証、テストセット間で分割されたデータセットが実行されました
+GraphNASパブリックコード4と同じ方法で：最後の1000ノードは
+検証とテストのために分離され、2つに均等に分割されます。
+
+メソッドは非決定論的であるため、すべての実験を5回繰り返しました。
+実験は、16コアのIntel（R）Xeon（R）Silverを搭載したマシンで実行されました。
+4108 CPU @ 1.80GHz、16GB DIMM DDR4 @ 2666 MHz RAM、およびNVIDIA
+GV100 [TITAN V]グラフィックカード、12GB専用RAM付き。
+
+5.3結果
+
+図4.CITおよびCORデータセットについて、反復による最高の検証精度
+マクロ検索スペース。
+
+表4に、の精度と実行時間の結果を示します。マクロ
+およびマイクロサーチスペース、最適化プロセスの終了時（1000以降）
+反復）。精度に関しては、EA法とRL法で得られた結果
+ランダム検索で得られたものと非常によく似ています。実行に関して
+ほとんどの場合、RSが勝ちます。検索の実行時間は、
+2および12GPU時間。
+
+図4は、最高の検証精度値の変化を示しています
+検索方法によって、反復全体のGNNアーキテクチャによって達成されます5。各
+線は、すべてのシードの平均検証スコアと影付きの領域を表します
+その周りは、この値の標準偏差を表します。すべてが非常に明確です
+メソッドは、内部で収束します（パフォーマンスの高いアーキテクチャとプラトーを見つけます）。
+
+4 https://github.com/GraphNAS/GraphNAS
+5マクロ検索スペースの結果のみを表示します。
+
+マイクロは非常に似ています。
+
+02004006008001000Iteration0.30.40.50.60.70.8検証スコアCITEARLRS02004006008001000IterationCOREARLRS12
+
+Nunes、MおよびPappa、G。L。
+
+ほんの数回の繰り返し。 EAがすでに高い値で始まっているという事実
+図6に示すように、母集団の初期化プロセスに起因する可能性があります。
+洗練された方法を使用していることは直感に反しているように思われるかもしれません
+ランダム検索方法でも達成できる結果を取得しますが、
+[2]の著者は、以前に多くの人がいる大きな検索スペースで議論しました
+次元の内訳は、目前のタスクとは無関係です。ランダム検索は次のようになります。
+より洗練された方法と同じくらい効果的です。この問題は、
+空間の中立性、つまり検索空間の隣接領域のアーキテクチャ
+いくつかのコンポーネントで異なる場合がありますが、異なる精度の値にはなりません
+彼らの隣人から[15]。中立的な探索空間のもう1つの強力な指標
+多くの高品質の個人が初期化で生成されるという事実です
+図4に示すように、進化はそれらの改善にわずかな役割を果たします。
+
+図5.累積数o検証精度がより高いfアーキテクチャ
+マクロ検索スペースのCITおよびCORデータセットのしきい値。
+
+図5は、検証された評価済みアーキテクチャの数を示しています
+マクロ検索空間でのCITおよびCORの精度は0.7を超えています。 0.7
+この値はほぼ最高の精度を表すため、しきい値が設定されました
+マクロ検索スペースのCITの値。図に示されているパターン
+両方の検索スペースのすべてのデータセットで一貫しています。
+それはEAが
+他の2つよりも速く探索空間のより良い領域に収束する傾向があります
+したがって、より高品質のアーキテクチャを評価します。そのような傾向は
+EAの選択圧（トーナメントの選択によって駆動される）によって説明されます
+プロセス）、これにより、アルゴリズムは突然変異に対して適切な個人を優先します
+と評価。
+
+GNNのパラメータサイズはデータセットに依存します（構造が
+ニューラルネットワークの構造はグラフに従います）そしてアーキテクチャの選択について。
+表5は、peを示しています。GPUを超えた生成されたアーキテクチャの割合
+
+02004006008001000Iterations0200400600800＃Archs w / Val。スコア> 0.7CITRLRSEA02004006008001000IterationsCORRLRSEAグラフニューラルネットワークでのニューラルアーキテクチャ検索
+
+13
+
+図6.両方の検索でのEAの初期母集団検証精度の分布
+スペース。
+
+各データセットと検索方法によるメモリ。6EAは一貫して検索です
+生成されたアーキテクチャの割合が最も少ない方法
+GPUメモリとしては大きく、最大値は16％ですが、RLは81％に達します
+すべてのアーキテクチャが大きすぎます。これは、Realet。の発見を裏付けています。 al。
+[16]進化的アルゴリズムはそれほど複雑ではないが、
+RLと同等のパフォーマンスを発揮するアーキテクチャ。
+
+6結論と今後の作業
+
+GNNは、予測タスクで最先端のパフォーマンスを実現できます。
+ネットワーク。ただし、それらの設計と最適化は現在手作りであり、
+エラーを起こしやすい。このペーパーでは、2つのNASの結果を比較しました検索方法–
+強化学習手法と進化的アルゴリズム–ランダムに
+GNNのアーキテクチャとハイパーパラメータを検索するタスクで検索します。
+3つの方法で同様のGNNアーキテクチャが実現しました
+7つのデータセットと2つのar-のセットを検討すると、精度の点で結果が得られます。
+ランダム検索が最速の方法である、chitectureレイヤー検索スペース
+続いて、進化的アルゴリズムと強化学習が続きます。 Architec-
+EAによって生成されたチュールはGPUメモリに収まる傾向がありますが、他の方法は
+最大80％のケースで特大のアーキテクチャを生成します。これは、EA gen-
+と同様の精度値を達成しながら、より複雑でない構造を生成します
+Realらの発見を裏付ける他の方法。 al。 [16]画像用。
+
+一般に、結果は、これに無関係な次元があることを示しています
+定義された検索スペースでのタスク。これには、より詳細な調査が必要になります。
+
+6最小のデータセット（CITおよびCOR）はtに存在しません誰もいないので彼はテーブル
+
+これらのデータセット用に生成されたアーキテクチャのうち、GPUメモリを超えました。
+
+CITCORMEDCSCMPPHOPHY0.00.20.40.60.81.0検証スコアmacromicro14
+
+Nunes、MおよびPappa、G。L.
+
+表5.GPUメモリを超えて生成されたアーキテクチャの割合と
+したがって、データセットと検索方法によって評価されませんでした
+
+平均マックス
+％
+
+％
+
+CS
+
+0.60±0.89
+EA
+2.0
+3.20±0.84
+MED RL
+4.0 4.0
+2.80±0.84
+RS
+4.0 4.0
+EA
+4.60±1.52
+6.0
+RL10.20±2.59
+14.0
+11.0
+9.60±1.52
+RS
+EA13.60±1.8216.0
+56.0
+PHY RL41.80±9.44
+48.0
+RS
+47.80±0.45
+14.0
+EA11.60±2.61
+CMP RL47.00±20.9481.0
+41.0
+9.0
+24.0
+14.0
+
+38.40±1.67
+4.60±2.70
+PHO RL20.80±3.42
+11.80±1.48
+
+RS
+EA
+
+RS
+
+これらの各スペース。さらに、この空間の中立性、すなわち、
+ネイバーソリューションは異なるアーキテクチャを提示しますが、ac-の結果は非常に似ています。
+教区副牧師は検索をさらに難しくします。今後の仕事として、もっとやりたいと思っています
+識別するための検索スペースの次元の詳細な調査
+th検索に関係がない可能性があるもの、および新しい検索方法を提案するもの
+これには、これらの中立領域を回避しようとするメカニズムが含まれる場合があります。
+
+参考文献
+
+1. Badrinarayanan、V.、Kendall、A.、Cipolla、R。：Segnet：深い畳み込み
+画像セグメンテーションのためのエンコーダ-デコーダアーキテクチャ。 TPAMI’17 39（12）、2481–
+2495（2017）
+
+2. Bergstra、J.、Bengio、Y .:ハイパーパラメータ最適化のランダム検索。
+
+JMLR’12 13（2月）、281〜305（2012）
+
+3. Bruna、J.、Zaremba、W.、Szlam、A.、LeCun、Y .:スペクトルネットワークおよびローカル
+グラフ上の接続されたネットワーク。 In：Bengio、Y.、LeCun、Y。（eds。）ICLR’14（2014）
+4. Cai、H.、Chen、T.、Zhang、W.、Yu、Y.、Wang、J .:効率的なアーキテクチャ検索
+
+ネットワーク変換。で：AAAI’18（2018）
+
+5. De ﬀ errard、M.、Bresson、X.、Vandergheynst、P .:畳み込みニューラルネットワーク
+高速ローカライズされたスペクトルフィルタリングを使用したグラフ。で：リー、D.D。、杉山、M。、フォン
+Luxburg、U.、Guyon、I.、Garnett、R。（eds。）NeurIPS’16。 pp。3837–3845（2016）
+6. Eiben、A.、Smith、J。：Evoの紹介lutionaryコンピューティング。スプリンガー（2015）
+7. Elshawi、R.、Maher、M.、Sakr、S。：自動機械学習：最先端
+
+オープンチャレンジ。 arXivプレプリントarXiv：1906.02287（2019）
+
+8. Elsken、T.、Metzen、J.H.、Hutter、F。：ニューラルアーキテクチャ検索：調査。
+
+JMLR’19 20、55：1–55：21（2019）
+
+グラフニューラルネットワークでのニューラルアーキテクチャ検索
+
+15
+
+9. Gao、Y.、Yang、H.、Zhang、P.、Zhou、C.、Hu、Y .:グラフニューラルアーキテクチャ検索。
+
+で：IJCAI’20。 pp。1403–1409（2020）
+
+10. Gori、M.、Monfardini、G.、Scarselli、F .:グラフドメインで学習するための新しいモデル。
+で：議事録。 2005 IEEE International Joint Conference on Neural Networks、
+2005.vol。 2、pp。729–734。 IEEE（2005）
+
+11.ハミルトン、W。、イン、Z。、レスコベック、J .:大規模な帰納的表現学習
+
+12. He、K.、Zhang、X.、Ren、S.、Sun、J .:画像認識のための深い残差学習。
+
+13. Kipf、T.N.、Welling、M .:畳み込みグラフを使用した半教師あり分類
+
+グラフ。で：NIPS ’17（2017）
+
+In：CVPR’16。 pp。770–778（2016）
+
+networks。で：ICLR’17（2017）
+
+14. Liu、W.、Anguelov、D.、Erhan、D.、Szegedy、C.、Reed、S.、Fu、C.Y.、Berg、A.C。：Ssd：
+
+シングルショットマルチボックス検出器。 In：ECCV’16。 pp。21–37。スプリンガー（2016）
+
+15. Pimenta、C.G.、de S´a、A.G.、Ochoa、G.、Pappa、G.L .:の適応的景観分析
+自動機械学習検索スペース。 In：EvoCOP’20。 pp。114–130。スプリンガー
+（2020）
+
+16. Real、E.、Aggarwal、A.、Huang、Y.、Le、Q.V .:画像分類器の経年変化
+
+アーキテクチャ検索。で：AAAI’19（2019）
+
+17. Scarselli、F.、Gori、M.、Tsoi、A.C.、Hagenbuchner、M.、Monfardini、G .:グラフ
+
+ニューラルネットワークモデル。 IEEE TNN’09（2009）
+
+18. Sen、P.、Namata、G.、Bilgic、M.、Getoor、L.、Galligher、B.、Eliassi-Rad、T。：Collec-
+
+ネットワークデータの分類。 AIマガジン29（3）、93–93（2008）
+
+19. Shchur、O.、Mumme、M.、Bojchevski、A.、G¨unnemann、S .:グラフニューラルの落とし穴
+
+ネットワーク評価。 arXivプレプリントarXiv：1811.05868（2018）
+
+20. Velickovic、P.、Cucurull、G.、Casanova、A.、Romero、A.、Li`o、P.、Bengio、Y .:グラフ
+
+21. Wu、Z.、Pan、S.、Chen、F.、Long、G.、Zhang、C.、Yu、P.S .:包括的な調査
+
+注意ネットワーク。で：ICLR’18（2018）
+
+グラフニューラルネットワーク上。 CoRR（2019）
+
+In：ICLR’19。 OpenReview.net（2019）
+
+22. Xu、K.、Hu、W.、Leskovec、J.、Jegelka、S。：グラフニューラルネットワークはどれほど強力ですか？
+
+23. Zhang、M.、Cui、Z.、Neumann、M.、Chen、Y .:エンドツーエンドのディープラーニングアーキテクチャ-
+
+グラフ分類のための構造。で：AAAI’18（2018）
+
+24. Zhang、Z.、Cui、P.、Zhu、W。：グラフでの深層学習：調査。 TKDE’20 pp。1–1
+
+（2020）
+
+25. Zhou、K.、Song、Q.、Huang、X.、Hu、X。：Auto-gnn：ニューラルアーキテクチャの検索
+
+グラフニューラルネットワーク。 arXivプレプリントarXiv：1909.03184（2019）
+
+26. Zoph、B.、Vasudevan、V.、Shlens、J.、Le、Q.V .:転送可能なアーキテクチャの学習
+
+スケーラブルな画像認識のため。で：CVPR’2018（2018）"
